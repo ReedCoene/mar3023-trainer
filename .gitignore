@@ -1,0 +1,16 @@
+# Build/work artifacts & raw extracted course material — keep OUT of the public repo
+_work/
+_extracted/
+_source/
+_pdf/
+node_modules/
+.claude/
+
+# Original copyrighted course files (never publish these)
+*.zip
+*.pdf
+*.pptx
+*.docx
+
+.DS_Store
+Thumbs.db
