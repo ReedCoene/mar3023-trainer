@@ -165,17 +165,22 @@ function renderLearn(main, chId){
   // question pairing
   const used=new Set();
   const stripHtml=s=>s.replace(/<[^>]+>/g," ");
+  const STOP=new Set("the a an of to and or for in on with by is are as it its their our your you they we how this that these those into be can will may more most not but they're you're which what when does do using use other key each within over also both per via just very".split(" "));
+  function topicWords(str,minLen){ return [...new Set((stripHtml(str).toLowerCase().match(/[a-z][a-z\-]{2,}/g)||[]))].filter(w=>w.length>=minLen && !STOP.has(w)); }
   function pairQ(sec){
-    const text=(sec.h+" "+(sec.items?sec.items.slice(0,3).join(" "):sec.text||""));
-    const words=[...new Set((stripHtml(text).toLowerCase().match(/[a-z][a-z\-]{4,}/g)||[]))];
-    let best=null,bestN=1;
+    const hwords=topicWords(sec.h,3);                                   // heading = the topic (weighted heavily)
+    const iwords=topicWords((sec.items||[]).slice(0,4).join(" "),5);    // a few specific item terms
+    let best=null,bestN=0;
     for(const q of qsForChapter(ch.id)){
       if(used.has(q)) continue;
-      const qt=stripHtml(q.q).toLowerCase();
-      let n=0; for(const w of words) if(qt.includes(w)) n++;
+      const qt=stripHtml(q.q+" "+q.choices.join(" ")).toLowerCase();
+      let n=0;
+      hwords.forEach(w=>{ if(qt.includes(w)) n+=3; });                  // a heading-word hit is worth 3
+      iwords.forEach(w=>{ if(qt.includes(w)) n+=1; });
       if(n>bestN){bestN=n;best=q;}
     }
-    if(best){used.add(best);return best;}
+    // only pair when the match is genuinely on-topic (≈ at least one heading word). Otherwise show nothing.
+    if(best && bestN>=3){ used.add(best); return best; }
     return null;
   }
 

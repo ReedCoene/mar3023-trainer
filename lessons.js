@@ -48,11 +48,11 @@ const LESSONS = {
       "STP is the strategic backbone connecting Ch 1 to Ch 9."
     ]},
     { h:"Four Business Orientations (evolution over time)", items:[
-      "<b>Production orientation</b> — focus on making/producing; assume products sell themselves (early era, scarce supply).",
-      "<b>Sales orientation</b> — focus on aggressive selling/promotion to move whatever is produced.",
-      "<b>Marketing orientation</b> — focus on identifying & satisfying customer needs, <i>led by the marketing department</i>.",
-      "<b>Market orientation</b> — the <b>entire organization</b> (every department) focuses on creating customer value and acting on market intelligence.",
-      "<b>CRM</b> (Customer Relationship Management) = building long-term, value-laden relationships. <b>Societal Marketing Concept</b> = satisfy customers <i>and</i> preserve society's long-run well-being."
+      "<b>Production orientation</b> — focus on making/producing; assume products sell themselves (scarce-supply era). <i>Example:</i> early Henry Ford — \"any color you want, as long as it's black\" — all about efficient output.",
+      "<b>Sales orientation</b> — push hard to sell whatever is produced. <i>Example:</i> telemarketers or timeshare reps using aggressive tactics regardless of fit.",
+      "<b>Marketing orientation</b> — identify & satisfy customer needs, but <i>led by the marketing department</i>. <i>Example:</i> a firm running customer research before designing a product.",
+      "<b>Market orientation</b> — the <b>entire organization</b> (every department) focuses on customer value. <i>Example:</i> Amazon's company-wide \"customer obsession.\"",
+      "<b>CRM</b> (Customer Relationship Management) = building long-term, value-laden relationships (e.g., Starbucks Rewards). <b>Societal Marketing Concept</b> = satisfy customers <i>and</i> preserve society's long-run well-being (e.g., Patagonia)."
     ]}
   ],
 
