@@ -11,6 +11,18 @@ const pick = arr => arr[rint(0,arr.length-1)];
 const shuffle = arr => { const a=[...arr]; for(let i=a.length-1;i>0;i--){const j=rint(0,i);[a[i],a[j]]=[a[j],a[i]];} return a; };
 const money = n => "$"+n.toLocaleString("en-US");
 const pct = (n,d=1) => (n).toFixed(d)+"%";
+// render a 2x2 (or NxM) framework grid from {title, corner, colLabels[], rowLabels[], cells[][]}
+function matrixHTML(m){
+  let h=`<div class="matrixbox"><div class="matrix-title">${m.title||"Framework grid"}</div><table class="matrix"><tr><td class="m-corner">${m.corner||""}</td>`;
+  m.colLabels.forEach(c=>h+=`<th class="m-col">${c}</th>`);
+  h+=`</tr>`;
+  m.rowLabels.forEach((r,i)=>{
+    h+=`<tr><th class="m-row">${r}</th>`;
+    (m.cells[i]||[]).forEach(cell=>h+=`<td class="m-cell">${cell}</td>`);
+    h+=`</tr>`;
+  });
+  return h+`</table></div>`;
+}
 
 /* ---------- progress (localStorage) ---------- */
 const STORE = "mar3023_progress_v1";
@@ -177,6 +189,7 @@ function renderLearn(main, chId){
       s.appendChild(ul);
     }
     if(sec.text) s.appendChild(el("p",null,sec.text));
+    if(sec.matrix) s.insertAdjacentHTML("beforeend", matrixHTML(sec.matrix));
     const pq=pairQ(sec);
     if(pq) s.appendChild(renderInlineQ(pq,{label:"📝 How this gets tested:"}));
     main.appendChild(s);

@@ -125,12 +125,15 @@ const LESSONS = {
     ]},
     { h:"The Ethical–Legal Matrix (a favorite question type)", items:[
       "Every action sits on two axes: <b>Ethical/Unethical</b> × <b>Legal/Illegal</b> → four quadrants.",
-      "<b>Legal & Ethical</b> — fine (most business).",
-      "<b>Legal but Unethical</b> — allowed by law but morally questionable (e.g., laying off staff just to boost executive bonuses; using someone's trauma for entertainment without consent).",
-      "<b>Illegal but (arguably) Ethical</b> — breaking a law for a moral reason.",
-      "<b>Illegal & Unethical</b> — the worst (e.g., deliberately misleading investors).",
-      "Read the scenario for BOTH dimensions; many questions hinge on spotting 'legal but unethical.'"
-    ]},
+      "Read the scenario for BOTH dimensions independently; many questions hinge on spotting <b>'legal but unethical.'</b>"
+    ], matrix:{
+      title:"Ethical–Legal Matrix",
+      corner:"", colLabels:["Legal","Illegal"], rowLabels:["Ethical","Unethical"],
+      cells:[
+        ["✅ Ideal — normal good business","Breaking a law for a moral reason (rare; e.g., civil disobedience)"],
+        ["⚠️ The classic trap — allowed by law but morally wrong (layoffs just to boost bonuses)","❌ Worst case — e.g., deliberately misleading investors with false reports"]
+      ]
+    }},
     { h:"Why Attention to Ethics Has Risen", items:[
       "Diverse societal value systems.",
       "Increased <b>public scrutiny</b> (tools like CSR-rating sites expose company behavior).",
@@ -286,11 +289,16 @@ const LESSONS = {
     ]},
     { h:"Marketing Information System (MIS) & Data Types", items:[
       "An <b>MIS</b> is an integrated, ongoing decision-support system.",
-      "Data is classified two ways: <b>Secondary vs. Primary</b> AND <b>Internal vs. External</b>.",
-      "<b>Secondary</b> = already exists; <b>Primary</b> = collected new for this problem. <b>Internal</b> = from inside the firm; <b>External</b> = from outside.",
-      "Government census data the firm pulls = <b>External, Secondary</b>. A gym surveying its own members for the first time = <b>Primary, Internal</b>.",
+      "Data is classified on two axes: <b>Secondary vs. Primary</b> (does it already exist, or is it collected new for this problem?) AND <b>Internal vs. External</b> (from inside or outside the firm?).",
       "<b>Syndicated</b> firms gather data and sell reports to many organizations (secondary/external). <b>Big data</b> & Nielsen panels are examples."
-    ]},
+    ], matrix:{
+      title:"MIS Data Classification",
+      corner:"", colLabels:["Internal (inside firm)","External (outside firm)"], rowLabels:["Secondary (already exists)","Primary (collected new)"],
+      cells:[
+        ["Your own past sales reports & records","Census data, syndicated/industry reports"],
+        ["New data gathered within the firm (survey your own members)","New field surveys/experiments on outside consumers"]
+      ]
+    }},
     { h:"Three Forms of Research", items:[
       "<b>Exploratory</b> — <i>discover/define</i> the problem & ideas. Methods: Observation, <b>Consumer Ethnography</b> (observe behavior in a natural setting), <b>Focus Groups</b> (small group, informal discussion), <b>Depth Interviews</b> (one-on-one, adaptive questioning).",
       "<b>Descriptive</b> — a <i>snapshot</i> describing the current market. Methods: Observation (personal/electronic) and <b>Surveys</b> (mail, phone, personal, web) — e.g., a cross-sectional survey of 1,000 customers.",
@@ -331,12 +339,20 @@ const LESSONS = {
       "If two segments react differently to the same action, you can (and should) treat them separately."
     ]},
     { h:"Segmentation Bases (the 2×2)", items:[
-      "Cross <b>General vs. Product-Specific</b> with <b>Objective vs. Subjective</b>:",
-      "<b>Objective + General → Demographics/SES</b> (age, sex, ethnicity, income, region, education).",
-      "<b>Objective + Product-Specific → Past Purchase</b> (heavy-half usage, brand loyalty).",
-      "<b>Subjective + General → Psychographics</b> (AIO/lifestyle).",
-      "<b>Subjective + Product-Specific → Brand Ratings & Importance Weights (MAM).</b>",
-      "<b>Product-usage / loyalty types:</b> <b>Brand loyal</b> (one brand consistently), <b>Split loyal</b> (alternates 2 brands), <b>Variety seeker</b> (many brands)."
+      "The four ways to assign customers to segments come from crossing <b>General vs. Product-Specific</b> with <b>Objective vs. Subjective</b>. This is the 2×2 you saw in the quiz:"
+    ], matrix:{
+      title:"The Four Segmentation Bases",
+      corner:"", colLabels:["General","Product-Specific"], rowLabels:["Objective","Subjective"],
+      cells:[
+        ["<b>Demographics / SES</b><br>age, sex, ethnicity, income, region","<b>Past Purchase</b><br>heavy-half usage, brand loyalty"],
+        ["<b>Psychographics</b><br>AIO / lifestyle","<b>Brand Ratings & Importance Weights</b><br>(the multi-attribute model)"]
+      ]
+    }},
+    { h:"Product-Usage & Loyalty Types", items:[
+      "<b>Brand loyal</b> — buys one brand consistently (L L L L L).",
+      "<b>Split loyal</b> — alternates between two brands (L D L D D L).",
+      "<b>Variety seeker</b> — spreads across many brands (L S D P S).",
+      "<b>Heavy half</b> — the ~20% of buyers who account for ~80% of volume (the 80/20 rule)."
     ]},
     { h:"Indexing", items:[
       "Compares a <b>segment</b> to the overall <b>population</b> on a behavior — i.e., targeting efficiency.",
