@@ -1198,7 +1198,7 @@ const TESTBANK=[
    "socio-cultural",
    "moderate"
   ],
-  "a": 0,
+  "a": 1,
   "why": "Seg 4, Noteshell p 5. January 19 Lecture. 42:40. Routine since Amit consistently orders the same thing. Given the context of this scenario, Amit didn’t give this decision any thought. Limited/moderate problem solving would indicate that Amit gave some thought to this decision while extended implies a high level of involvement in the decision. Also see p 136 of the book.",
   "ref": ""
  },
@@ -1318,7 +1318,7 @@ const TESTBANK=[
    "place",
    "promotion"
   ],
-  "a": 1,
+  "a": 3,
   "why": "Book, Chapter 1, page 10. Place refers to the means of getting the product to the consumer. A vending machine can be a “place” to distribute a product.",
   "ref": ""
  },
@@ -1333,7 +1333,7 @@ const TESTBANK=[
    "Micro",
    "None of the answers are correct"
   ],
-  "a": 1,
+  "a": 2,
   "why": "Seg 2. January 11 part 1. Correct answer: A company has full control over the internal factors of their business. This includes Top management, personnel and other departments. Companies have full control over who they hire, how their company is organized, how they are budgeted and compensated and much more. Incorrect answers: Although some companies can slightly influence Macro factors, it is minimal. Instead, it is",
   "ref": ""
  },
@@ -1393,7 +1393,7 @@ const TESTBANK=[
    "Industrial",
    "Variety-Seeking"
   ],
-  "a": 1,
+  "a": 3,
   "why": "Seg 5. January 23 Lecture, part 2, 30:49 Correct answer: An industrial organizational buyer is a buyer that buys individual parts and puts them together to create a whole product that is then sold to consumers. In this case, the car bumper is a part that Toyota is putting together to make a whole car to sell. Incorrect answers: A reseller is an organizational buyer that buys a product from a manufacturer, does not ch",
   "ref": ""
  },
@@ -1438,7 +1438,7 @@ const TESTBANK=[
    "Demand Forecasting",
    "Segmentation"
   ],
-  "a": 1,
+  "a": 3,
   "why": "Seg 7. 2/4/2025, Part 1, 14:00 Correct answer: The answer is “Demand Forecasting”. Demand Forecasting is using market research to determine how many consumers are interested in using your product or service in the future. In essence, your consumers demand for the product or service. This enables companies to plan out their supply or production of the product or service. In this case Kaitlyn wants to use market resear",
   "ref": ""
  },
@@ -1483,7 +1483,7 @@ const TESTBANK=[
    "Regulatory",
    "Economic"
   ],
-  "a": 0,
+  "a": 2,
   "why": "Seg 2. 1/16/2025, part 2, 21:48 Correct answer: The answer is “Social” because this change in pizza topping preference may be a result of cultural or demographic changes. More Japanese people could be moving to New York City and bring their culture and eating habits with them resulting in increased demand for traditionally Japanese pizza toppings. Incorrect answers: “Economic” trends are associated with changes in in",
   "ref": ""
  },
@@ -1618,7 +1618,7 @@ const TESTBANK=[
    "Organizational buyers require a larger decision-making unit",
    "Direct consumers require a larger decision-making unit than organizational buyers"
   ],
-  "a": 1,
+  "a": 3,
   "why": "Segment 5, January 28, Part 2, 11:48 Correct answer: Organizational buyers require a larger decision-making unit because they often have hundreds of buyers that report to a lot of people and involve many different groups. Example used in class: Walmart. Incorrect answers: Organizational buyers make decisions that often affect very few people, this is false because organizational buyers affect thousands of people with",
   "ref": ""
  },
@@ -1678,7 +1678,7 @@ const TESTBANK=[
    "New environmental laws",
    "Competing businesses offering comparable products"
   ],
-  "a": 0,
+  "a": 4,
   "why": "Seg #2. 1/16, part #1, 44:33 Correct answer: Competing Businesses offering comparable products is correct and it is a micro economic factor because it directly impacts your company. Incorrect answers: Growing trend towards sustainable products has to do with social factors which is a macro trend, climate change is a natural factor which is on the macro level, environmental laws have to do with regulatory which is a m",
   "ref": ""
  },
@@ -1693,7 +1693,7 @@ const TESTBANK=[
    "A business ignores environmental regulations and dumps toxic waste",
    "A retailer sells counterfeit goods as authentic brands"
   ],
-  "a": 0,
+  "a": 1,
   "why": "Correct: A company lays off hundreds of employees to increase executive bonuses. This is legal because companies have the right to restructure their workforce, but many consider it unethical because it prioritizes executive compensation over employees' livelihoods. Incorrect: A business ignores environmental regulations and dumps toxic waste. This is both illegal and unethical because violating environmental laws can",
   "ref": ""
  },
