@@ -13,9 +13,17 @@ const LESSONS = {
       "<b>Drucker:</b> \"The purpose of a business is to create and keep a customer.\" · <b>Kotler:</b> marketing is \"the art of creating genuine customer value… helping your customer become better off.\"",
       "Two parties are needed, each with something the other values, able to communicate and deliver."
     ]},
+    { h:"Needs, Wants & What Makes Marketing Happen", items:[
+      "<b>Need</b> = feeling deprived of a basic necessity (food, clothing, shelter). <b>Want</b> = a need shaped by your knowledge, culture & personality. Marketing serves both.",
+      "<b>Four requirements for an exchange/marketing to occur:</b> (1) two+ parties with <b>unsatisfied needs</b>; (2) <b>desire & ability</b> to satisfy them (money, authority, time); (3) a <b>way to communicate</b>; (4) <b>something to exchange</b>. <i>Example:</i> you want a meal & can pay; Domino's wants to sell & can make/deliver; dominos.com/phone connects you; money for pizza.",
+      "<b>Market</b> = people with both the <b>desire AND the ability</b> (authority, time, money) to buy a specific offering.",
+      "<b>Target Market</b> = the specific group(s) of customers an organization aims its marketing program at.",
+      "Marketing's two jobs: (1) <b>discover</b> needs/wants, then (2) <b>satisfy</b> them."
+    ]},
     { h:"Customer Value & the 4 Utilities", items:[
       "<b>Customer Value</b> = the unique combination of benefits received by targeted buyers: quality, price, convenience, on-time delivery, and before- & after-sale service.",
       "Lecture formula: <span class='formula'>Customer Value = Perceived Benefits ÷ Price</span> — raise value by adding benefits OR lowering price.",
+      "<b>Three value strategies</b> firms use to win: <b>Best Price</b> (Target — \"Expect More, Pay Less\"), <b>Best Product</b> (Starbucks), <b>Best Service</b> (Nordstrom).",
       "Synonyms for value: <b>Utility</b> and <b>Satisfaction</b>.",
       "<b>Time utility</b> — having it <i>when</i> you want it (24-hr store, fast delivery).",
       "<b>Place utility</b> — having it <i>where</i> you want it (vending machine, gas-station ATM).",
@@ -52,6 +60,8 @@ const LESSONS = {
       "<b>Sales orientation</b> — push hard to sell whatever is produced. <i>Example:</i> telemarketers or timeshare reps using aggressive tactics regardless of fit.",
       "<b>Marketing orientation</b> — identify & satisfy customer needs, but <i>led by the marketing department</i>. <i>Example:</i> a firm running customer research before designing a product.",
       "<b>Market orientation</b> — the <b>entire organization</b> (every department) focuses on customer value. <i>Example:</i> Amazon's company-wide \"customer obsession.\"",
+      "<b>The four eras (the evolution):</b> <b>Production Era</b> (to ~1920s, goods scarce) → <b>Sales Era</b> (1920s–1960s, overproduction → more salespeople) → <b>Marketing Concept Era</b> (satisfy needs while meeting company goals) → <b>Customer Relationship Era</b> (1980s–today, AI/AR/VR enhance relationships).",
+      "<b>Customer Experience</b> = customers' internal response to <i>all</i> aspects of the firm — through <b>direct</b> contacts (buying, using, getting service) and <b>indirect</b> contacts (word-of-mouth, reviews, news).",
       "<b>CRM</b> (Customer Relationship Management) = building long-term, value-laden relationships (e.g., Starbucks Rewards). <b>Societal Marketing Concept</b> = satisfy customers <i>and</i> preserve society's long-run well-being (e.g., Patagonia)."
     ]}
   ],
@@ -101,12 +111,16 @@ const LESSONS = {
     { h:"MACRO 4 — Regulatory (memorize acts, years & purpose)", items:[
       "<b>Protecting COMPETITION:</b> <b>Sherman Antitrust Act (1890)</b> — prevents monopolies; <b>Robinson-Patman Act (1936)</b> — prevents price discrimination among businesses; <b>Lanham Act (1946)</b> — provides trademark protection.",
       "<b>Protecting CONSUMERS:</b> <b>FDA (1906)</b> — food & drug testing/advertising; <b>FTC (1914)</b> — prevents false/misleading advertising; <b>CPSC (1972)</b> — regulates 15,000+ products' sale & manufacture.",
-      "<b>Consumerism</b> = the 1960s grassroots movement to increase consumers' influence, power, and rights vs. institutions. <b>Media</b> also pressures firms by disclosing harmful practices."
+      "<b>Consumer Financial Protection Bureau (CFPB)</b> — handles <b>financial services</b> as a product category; created after the 2008 financial crisis (recently defunded).",
+      "<i>Real examples:</i> Sherman → blocking big mergers (T-Mobile/Sprint); Robinson-Patman → Bumble Bee tuna price-fixing (Walmart sued); Lanham → the Taco Bell vs. Taco John's \"Taco Tuesday\" trademark fight; FTC → Epic/Fortnite's $520M children's-privacy penalty.",
+      "<b>Consumerism</b> = the 1960s grassroots movement to increase consumers' influence, power, and rights vs. institutions (e.g., Consumer Reports). <b>Media</b> also pressures firms by disclosing harmful practices."
     ]},
     { h:"MACRO 5 — Natural", items:[
       "Issues: energy use, global warming/climate change, and <b>green marketing / sustainability</b>.",
+      "<b>Energy:</b> ~2/3 of energy produced is wasted (<b>\"rejected energy\"</b>). The single biggest opportunity is <b>energy storage</b> — cheaply recapturing rejected energy.",
+      "<b>Climate signals:</b> 2024 = warmest year on record; Arctic sea ice ~19% below average; CO₂ now >400 ppm (vs. a historical 180–300 range); rising extreme weather — only geophysical events (earthquakes) aren't increasing.",
       "<b>Green marketing</b> = marketing products/brands/companies with genuine environmental sustainability in mind (directly-beneficial products; sustainable processing/packaging).",
-      "<b>Greenwashing</b> = a negative: <b>inflated or false</b> environmental claims to look sustainable while really chasing profit (e.g., a recyclable claim with no real recyclability)."
+      "<b>Greenwashing</b> = a negative: <b>inflated or false</b> environmental claims to look sustainable while really chasing profit (e.g., Coca-Cola \"Life\"). Prevent it with independent certifications: <b>Energy Star, USDA Organic, WaterSense, Rainforest Alliance, Fairtrade.</b> Beware <b>virtue signaling</b> (caring only about perception)."
     ]},
     { h:"MICRO & INTERNAL Environments", items:[
       "<b>MICRO</b> (immediate, some influence): Customers, <b>Competitors</b>, Stakeholders, Suppliers, Channels. (Note: <b>Competition is treated as MICRO</b>, not macro — common trap.)",
@@ -130,8 +144,8 @@ const LESSONS = {
       title:"Ethical–Legal Matrix",
       corner:"", colLabels:["Legal","Illegal"], rowLabels:["Ethical","Unethical"],
       cells:[
-        ["✅ Ideal — normal good business","Breaking a law for a moral reason (rare; e.g., civil disobedience)"],
-        ["⚠️ The classic trap — allowed by law but morally wrong (layoffs just to boost bonuses)","❌ Worst case — e.g., deliberately misleading investors with false reports"]
+        ["✅ Normal good business","Sci-Hub freeing paywalled science; donating restaurant leftovers despite food-safety rules"],
+        ["⚠️ The classic trap — legal but morally wrong: TikTok's harmful algorithm, Amazon steamrolling rivals, layoffs just to boost bonuses","❌ Worst case: Theranos wire fraud, selling recalled baby products, Red Bull 'gives you wings' false-ad suit"]
       ]
     }},
     { h:"Why Attention to Ethics Has Risen", items:[
@@ -153,14 +167,19 @@ const LESSONS = {
       "<b>Fake reviews</b> — astroturfing & sockpuppets.",
       "<b>Product placement</b> — products woven into shows/movies; the dilemma is <b>hidden persuasive intent</b> blurring ad vs. content.",
       "<b>Native advertising</b> — paid content disguised to look like normal editorial (e.g., a 'Presented by Brand' article).",
-      "<b>Permission-based marketing</b> (opt-in) and <b>data privacy / data sharing</b>.",
-      "<b>Whistle-blowers</b> = employees who report their employer's unethical/illegal actions."
+      "<b>Permission-based marketing</b> (opt-in) and <b>data privacy / data sharing</b> (e.g., BetterHelp selling user info).",
+      "<b>Whistle-blowers</b> = employees who report their employer's unethical/illegal actions.",
+      "<b>The common thread across ALL of these issues is DECEPTION.</b>",
+      "<b>Does being ethical pay?</b> Yes — ethical firms tend to command higher prices. But <b>bragging</b> about being trustworthy backfires; show it through <b>deeds, not words.</b>"
     ]},
     { h:"Corporate Social Responsibility (3 widening levels)", items:[
       "<b>Profit Responsibility</b> — maximize profit for owners (Friedman view). Example: TOMS ending 'buy-one-give-one' because it wasn't profitable.",
       "<b>Stakeholder Responsibility</b> — obligations to everyone who affects/is affected by the firm (employees, suppliers, customers, community).",
       "<b>Societal Responsibility</b> — obligations to society/environment at large; includes <b>green marketing</b>, <b>cause marketing</b>, and the <b>Triple Bottom Line</b>.",
-      "<b>Cause marketing</b> = tying purchases to a social cause (e.g., Warby Parker 'buy a pair, give a pair'; Starbucks donating per latte). Don't confuse with green marketing (environmental) or greenwashing (false claims)."
+      "Memory aid: <b>Profit → People</b> (stakeholder) <b>→ Planet</b> (societal).",
+      "<b>Cause marketing</b> = tying purchases to a social cause (Warby Parker & Bombas 'buy one, give one' — note TOMS' version <i>didn't</i> work financially). Don't confuse with green marketing (environmental) or greenwashing (false claims).",
+      "<b>Social Entrepreneurship</b> = the cause/charity comes <b>first</b>, profit second (a step beyond cause marketing).",
+      "<b>Pinkwashing</b> = the cause-marketing cousin of greenwashing — <b>overstating</b> a social-cause contribution (e.g., KFC \"Buckets for the Cure\" / Campbell's pink cans donating far less than implied)."
     ]},
     { h:"The Social Audit (5 steps, in order)", items:[
       "1. <b>Recognition</b> of social responsibility.",
@@ -177,7 +196,8 @@ const LESSONS = {
     { h:"What Shapes Consumer Decisions", items:[
       "<b>Influences:</b> the Marketing Mix, Psychological factors, Socio-Cultural factors, and <b>Situational</b> factors (e.g., shopping hungry/tired after class = situational).",
       "Decision making is: <b>Goal-directed, Boundedly-rational, of Varied involvement, Selective, and Adaptive.</b>",
-      "<b>Bounded rationality:</b> people can't process everything, so they simplify and 'satisfice' rather than optimize."
+      "<b>Bounded rationality:</b> people can't process everything, so they simplify and 'satisfice' rather than optimize.",
+      "<b>Choice (decision) overload</b> = too many options → frustration; people <b>defer or avoid</b> choosing. <b>Nudge theory</b> fixes this with a smart <b>default option</b> that's best for most while still allowing choice (e.g., opt-out <b>organ-donor</b> defaults)."
     ]},
     { h:"Decision-Making Unit (DMU) — the household roles", items:[
       "<b>Information Gatherer</b> — collects/researches options.",
@@ -193,7 +213,8 @@ const LESSONS = {
       "3. <b>Evaluation of Alternatives</b> — compare a consideration set on criteria (often via the multi-attribute model).",
       "4. <b>Purchase Decision</b>.",
       "5. <b>Post-Purchase Behavior</b> — satisfaction/dissonance.",
-      "<b>Feedback</b> loops back: realizing a chosen solution didn't work (e.g., the Febreze didn't fix the smell) is the feedback phase, sending you back to search."
+      "<b>Feedback</b> loops back: realizing a chosen solution didn't work (e.g., the Febreze didn't fix the smell) is the feedback phase, sending you back to search.",
+      "<b>Brand sets</b> narrow during search: all brands → <b>awareness set</b> → <b>consideration (evoked) set</b> → <b>choice set</b>. Two reject piles: the <b>inert set</b> (brands you're indifferent to) and the <b>inept set</b> (brands you actively reject)."
     ]},
     { h:"The Multi-Attribute Model (MAM)", items:[
       "Assumptions: a <b>consideration set</b> of brands described by the <b>same attributes</b>; the consumer holds <b>beliefs</b> (ratings) about each brand on each attribute; and can weight each attribute's <b>importance</b>.",
@@ -214,12 +235,14 @@ const LESSONS = {
     { h:"Satisfaction & Net Promoter Score", items:[
       "Satisfaction compares <b>Expectations (E, before)</b> with <b>Perceived Performance (P, after)</b>:",
       "<b>P < E → Dissatisfaction · P = E → Satisfaction · P > E → Delight.</b>",
+      "This is <b>expectancy-disconfirmation theory</b> — the size of the gap between expectations and performance sets your satisfaction level; delight (P>E) bakes in loyalty.",
       "<b>NPS:</b> 'How likely (0–10) are you to recommend us?' <b>Detractors 0–6, Passives 7–8, Promoters 9–10.</b>",
       "<span class='formula'>NPS = %Promoters − %Detractors</span> (passives ignored). Positive NPS = generally satisfying customers.",
       "Managing satisfaction: measurement, service after the sale, 800-number/website, a Chief Customer Officer."
     ]},
     { h:"Symbolic Consumption & Perception", items:[
       "<b>Symbolic consumer behavior</b> = buying/using products for the <b>meaning</b> they convey about identity, status, or group affiliation ('we are what we wear/drink/drive'; a luxury watch to signal success).",
+      "<b>Product constellation</b> = the <i>group</i> of products someone buys that together signal who they are.",
       "Also: image management, <b>hedonic (experiential) consumption</b>, and product enthusiasts (hobbies, collecting).",
       "<b>Reference groups:</b> <b>associative/membership</b> (you belong), <b>aspiration</b> (you want to join), <b>dissociative</b> (you avoid).",
       "<b>Perception:</b> <b>stimulus discrimination</b> = noticing differences between similar products (tasting which chocolate is which); <b>stimulus generalization</b> = treating similar stimuli alike.",
@@ -247,7 +270,7 @@ const LESSONS = {
       "<b>More formal</b> decision process.",
       "<b>Larger Decision-Making Unit</b> — often many people/buyers.",
       "<b>More specific criteria</b>.",
-      "Greater role of <b>Relationship Marketing</b>.",
+      "Greater role of <b>Relationship Marketing</b> — incl. <b>supplier development</b> (a big buyer actively trains/develops its suppliers to make better products).",
       "Primary buying objective for firms: help the firm <b>increase profitability</b>."
     ]},
     { h:"The Buying Center (organizational DMU)", items:[
@@ -267,7 +290,8 @@ const LESSONS = {
       "<b>Value analysis</b> = understand how the buyer perceives value (benefits vs. costs <i>from their view</i>) and find cost savings; often position on <b>TLC</b>, not just purchase price.",
       "<b>Four types of cost:</b> <b>Initial purchase</b>, <b>Switching</b> (one-time costs to change over — e.g., new ingredient bags for a new machine), <b>Operating</b> (ongoing power/consumables), <b>Life-cycle</b>.",
       "<span class='formula'>TLC = Purchase price + (annual/recurring costs × planning horizon)</span>",
-      "Compute each option's TLC over the same horizon; the <b>lower</b> TLC wins (mind replacement intervals — e.g., a filter replaced every 2 yrs over 10 yrs = 5 buys)."
+      "Compute each option's TLC over the same horizon; the <b>lower</b> TLC wins (mind replacement intervals — e.g., a filter replaced every 2 yrs over 10 yrs = 5 buys).",
+      "<b>Razors-and-blades model:</b> sell the main product cheap, then profit on proprietary add-ons (cheap printer, pricey ink — \"black ink is the most expensive liquid\"). TLC reveals the true cost."
     ]},
     { h:"Vendor Analysis", items:[
       "A <b>formal multi-attribute model</b> for choosing suppliers.",
@@ -300,7 +324,8 @@ const LESSONS = {
       ]
     }},
     { h:"Three Forms of Research", items:[
-      "<b>Exploratory</b> — <i>discover/define</i> the problem & ideas. Methods: Observation, <b>Consumer Ethnography</b> (observe behavior in a natural setting), <b>Focus Groups</b> (small group, informal discussion), <b>Depth Interviews</b> (one-on-one, adaptive questioning).",
+      "<b>Exploratory</b> — <i>discover/define</i> the problem & ideas. Methods: Observation, <b>Consumer Ethnography</b> (observe behavior in a natural setting), <b>Focus Groups</b> (6–12 people + a moderator), <b>Depth Interviews</b> (one-on-one, adaptive questioning).",
+      "<b>Laddering</b> (a depth-interview technique) = repeatedly asking <b>\"why?\"</b> to connect product attributes up to the deeper, terminal needs they satisfy.",
       "<b>Descriptive</b> — a <i>snapshot</i> describing the current market. Methods: Observation (personal/electronic) and <b>Surveys</b> (mail, phone, personal, web) — e.g., a cross-sectional survey of 1,000 customers.",
       "<b>Causal</b> — establish <i>cause & effect</i>. Method: <b>Experiments</b> — Laboratory and Field (Test Marketing).",
       "Focus group vs. depth interview vs. ethnography are all <b>exploratory</b> — distinguish by group(focus) / one-on-one(depth) / natural observation(ethnography)."
@@ -314,6 +339,7 @@ const LESSONS = {
     { h:"Causal Research — the Keys", items:[
       "Three keys: <b>Manipulate</b> the independent variable(s), <b>Control</b> all extraneous variables, and <b>Measure</b> response on the dependent variable(s).",
       "<b>IV</b> = the cause you change (price, ad version). <b>DV</b> = the result you measure (sales, satisfaction).",
+      "<b>Lab vs. Field experiments:</b> a <b>laboratory</b> experiment maximizes <b>internal validity</b> (tight control → confident the IV caused the effect); a <b>field</b> experiment / test market maximizes <b>external validity</b> (real behavior → generalizes to the population). You want both.",
       "<b>Correlation ≠ causation</b> — ice-cream sales and shark attacks rise together (both driven by summer), with no causal link between them.",
       "<b>Test Marketing</b> considerations: <b>Cost, Competition</b> (rivals can sabotage your test with promotions), <b>Timing, Repurchase Rate, Fine-tuning</b>. Scanner-panel household data tracks <b>Trial, Repeat, Frequency, Volume</b>."
     ]}
@@ -351,8 +377,9 @@ const LESSONS = {
     { h:"Product-Usage & Loyalty Types", items:[
       "<b>Brand loyal</b> — buys one brand consistently (L L L L L).",
       "<b>Split loyal</b> — alternates between two brands (L D L D D L).",
+      "<b>Shifting loyal</b> — loyal to one brand, then <b>switches</b> and becomes loyal to another (Dunkin' → now only Starbucks).",
       "<b>Variety seeker</b> — spreads across many brands (L S D P S).",
-      "<b>Heavy half</b> — the ~20% of buyers who account for ~80% of volume (the 80/20 rule)."
+      "<b>Heavy half</b> — the ~20% of buyers who account for ~80% of volume (the 80/20 / Pareto rule)."
     ]},
     { h:"Indexing", items:[
       "Compares a <b>segment</b> to the overall <b>population</b> on a behavior — i.e., targeting efficiency.",
@@ -378,7 +405,8 @@ const LESSONS = {
       "<b>Perceptual map</b> = displays brands on two key dimensions (e.g., price × quality); place a new brand in the gap nearest the target/ideal point.",
       "<b>Points of Parity (POP)</b> = features similar to competitors (table stakes). <b>Points of Difference (POD)</b> = unique, desirable, differentiating features.",
       "<b>Approaches to positioning:</b> product feature, product benefit, <b>user category</b> (defining the type of person who uses it — iPhone/Mountain Dew), against a competitor (head-to-head), against a product category, and specific use.",
-      "<b>Head-to-head positioning</b> = compete directly on similar attributes in the same market. <b>Cannibalization</b> = your own products stealing each other's sales (Ann Taylor vs. its LOFT stores)."
+      "<b>Head-to-head positioning</b> = compete directly on similar attributes in the same market. <b>Cannibalization</b> = your own products stealing each other's sales (Ann Taylor vs. its LOFT stores).",
+      "<b>Positioning statement</b> = a concise statement of (1) who the <b>target customers</b> are, (2) what <b>needs</b> the product fills, and (3) <b>why</b> it's the best option vs. competitors/substitutes."
     ]}
   ]
 };
