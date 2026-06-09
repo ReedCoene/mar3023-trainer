@@ -167,7 +167,8 @@ function renderLearn(main, chId){
     return null;
   }
 
-  ch.sections.forEach(sec=>{
+  const lessonSecs = (typeof LESSONS!=="undefined" && LESSONS[ch.id]) ? LESSONS[ch.id] : ch.sections;
+  lessonSecs.forEach(sec=>{
     const s = el("div","lesson-sec");
     s.appendChild(el("h2",null,sec.h));
     if(sec.items){
