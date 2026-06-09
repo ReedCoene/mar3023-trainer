@@ -105,7 +105,29 @@ const FACTS = [
   ["ch9","Index formula & meaning","(% in segment ÷ % in population) × 100; >100 over-indexes (attractive)."],
   ["ch9","Positioning approaches (6)","Product feature, Product benefit, User category, Against a brand, Against a category, Specific use."],
   ["ch9","Majority fallacy","Blindly chasing the largest segment (everyone competes there)."],
-  ["ch9","POP vs POD","Points of Parity = same as rivals; Points of Difference = unique advantage."]
+  ["ch9","POP vs POD","Points of Parity = same as rivals; Points of Difference = unique advantage."],
+  // ---- 2025-26 lecture-note additions ----
+  ["ch1","4 requirements for marketing to occur","Two+ parties with unmet needs; desire & ability to satisfy; a way to communicate; something to exchange."],
+  ["ch1","Need vs Want","Need = deprived of a basic necessity; Want = a need shaped by knowledge, culture & personality."],
+  ["ch1","Three value strategies (+ brands)","Best Price (Target), Best Product (Starbucks), Best Service (Nordstrom)."],
+  ["ch1","The four eras","Production (to 1920s) → Sales (1920s–60s) → Marketing Concept → Customer Relationship (1980s+)."],
+  ["ch1","Customer experience: direct vs indirect","Direct = buying/using/getting service; Indirect = word-of-mouth, reviews, news."],
+  ["ch3","CFPB","Consumer Financial Protection Bureau — financial services as a product category; born from the 2008 crisis."],
+  ["ch3","Rejected energy & biggest opportunity","~2/3 of energy is wasted ('rejected energy'); the biggest opportunity is energy storage."],
+  ["ch4","Pinkwashing","Overstating a social-cause contribution (the cause-marketing version of greenwashing)."],
+  ["ch4","Social entrepreneurship","The cause/charity comes FIRST, profit second."],
+  ["ch4","Common thread across ethics issues","Deception."],
+  ["ch4","Profit / People / Planet","Profit → People (stakeholder) → Planet (societal) responsibility."],
+  ["ch5","Choice overload + nudge","Too many options → defer/avoid; nudge theory uses a smart default (organ-donor) while keeping choice."],
+  ["ch5","Inert vs inept set","Inert = brands you're indifferent to; Inept = brands you reject. (Consideration set = the ones you weigh.)"],
+  ["ch5","Expectancy-disconfirmation theory","The gap between expectations and performance sets satisfaction; P>E = delight/loyalty."],
+  ["ch5","Product constellation","The group of products someone buys that together signal their identity."],
+  ["ch6","Razors-and-blades model","Cheap main product, expensive proprietary add-ons (cheap printer, pricey ink)."],
+  ["ch6","Supplier development","A big buyer trains/develops its suppliers to make better products."],
+  ["ch8","Laddering","Depth-interview technique: keep asking 'why?' to reach the terminal needs."],
+  ["ch8","Lab vs field validity","Lab = internal validity (control); Field/test market = external validity (generalizes)."],
+  ["ch9","Shifting loyal","Loyal to one brand, then switches and stays loyal to another (Dunkin'→Starbucks)."],
+  ["ch9","Positioning statement","Who the target is + what needs are met + why the brand is the best option."]
 ];
 
 /* ---------- QUESTION ARCHETYPES (pattern trainer) ----------

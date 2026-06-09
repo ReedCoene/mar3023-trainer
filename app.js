@@ -165,7 +165,7 @@ function renderLearn(main, chId){
   // question pairing
   const used=new Set();
   const stripHtml=s=>s.replace(/<[^>]+>/g," ");
-  const STOP=new Set("the a an of to and or for in on with by is are as it its their our your you they we how this that these those into be can will may more most not but they're you're which what when does do using use other key each within over also both per via just very".split(" "));
+  const STOP=new Set("the a an of to and or for in on with by is are as it its their our your you they we how this that these those into be can will may more most not but they're you're which what when does do using use other key each within over also both per via just very macro micro sector sectors marketing business four three five two basics detail favorite memorize know what's".split(" "));
   function topicWords(str,minLen){ return [...new Set((stripHtml(str).toLowerCase().match(/[a-z][a-z\-]{2,}/g)||[]))].filter(w=>w.length>=minLen && !STOP.has(w)); }
   function pairQ(sec){
     const hwords=topicWords(sec.h,3);                                   // heading = the topic (weighted heavily)
@@ -173,7 +173,8 @@ function renderLearn(main, chId){
     let best=null,bestN=0;
     for(const q of qsForChapter(ch.id)){
       if(used.has(q)) continue;
-      const qt=stripHtml(q.q+" "+q.choices.join(" ")).toLowerCase();
+      // match on the stem + the CORRECT answer only (distractor choices cause off-topic noise)
+      const qt=stripHtml(q.q+" "+(q.choices[q.a]||"")).toLowerCase();
       let n=0;
       hwords.forEach(w=>{ if(qt.includes(w)) n+=3; });                  // a heading-word hit is worth 3
       iwords.forEach(w=>{ if(qt.includes(w)) n+=1; });
