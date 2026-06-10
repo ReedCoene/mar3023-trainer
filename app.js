@@ -58,12 +58,12 @@ function refLabel(q){
 }
 
 /* ---------- navigation ---------- */
-const VIEWS = ["dashboard","learn","cards","facts","quiz","drills","cram"];
+const VIEWS = ["dashboard","learn","gotchas","cards","facts","quiz","drills","cram"];
 function go(view, arg){
   if(quizIntv){ clearInterval(quizIntv); quizIntv=null; }
   $$(".nav-btn").forEach(b=>b.classList.toggle("active", b.dataset.view===view));
   const main = $("#main"); main.innerHTML="";
-  ({dashboard:renderDashboard, learn:renderLearn, cards:renderCards, facts:renderFacts,
+  ({dashboard:renderDashboard, learn:renderLearn, gotchas:renderGotchas, cards:renderCards, facts:renderFacts,
     quiz:renderQuiz, drills:renderDrills, cram:renderCram}[view])(main, arg);
   window.scrollTo(0,0);
 }
@@ -792,6 +792,78 @@ function nextDrill(stage){
 /* ============================================================
    CRAM SHEET
    ============================================================ */
+/* ============================================================
+   GOTCHAS — high-frequency patterns + niche concepts in one place
+   ============================================================ */
+function renderGotchas(main){
+  main.appendChild(el("h1","page-h","🎯 Gotchas & High-Yield Patterns"));
+  main.appendChild(el("p","sub","The tricky, frequently-tested, and 'random' stuff your classmates warned about — consolidated for the final push."));
+  function sec(title, html){ const s=el("div","lesson-sec"); s.innerHTML="<h2>"+title+"</h2>"+html; main.appendChild(s); }
+
+  sec("🧑‍🤝‍🧑 DMU / Buying-Center Roles <span class='gtag'>VERY COMMON</span>",
+    `<table class="dtable"><tr><th>Role</th><th>Trigger words in the scenario</th></tr>
+     <tr><td>Information Gatherer</td><td>researches, looks up, collects info, reads reviews</td></tr>
+     <tr><td>Influencer</td><td>recommends, advises, "should pick X", technical input, voices an opinion</td></tr>
+     <tr><td>Decider / Decision Maker</td><td>decides, chooses, final say / authority</td></tr>
+     <tr><td>Purchaser / Buyer (Purchasing Agent)</td><td>buys, pays, places the order, signs the contract</td></tr>
+     <tr><td>User</td><td>uses it, will use, on the production line</td></tr>
+     <tr><td>Gatekeeper <i>(org only)</i></td><td>screens, controls what reaches the boss, front-desk, assistant</td></tr></table>
+     <ul><li><b>Trap 1:</b> relaying info ≠ influencing → that's still just the <b>Gatherer</b>.</li>
+     <li><b>Trap 2:</b> the Decider ≠ the Purchaser (one <i>chooses</i>, one <i>pays</i>).</li>
+     <li><b>Trap 3:</b> one person = multiple roles → answers are often combos ("I, III & IV"). Tag <i>every</i> role each person plays.</li></ul>`);
+
+  sec("🧰 The 4 Utilities — how to tell them apart",
+    `<ul><li><b>Form</b> = the product is <b>made / transformed / customized</b> (manufacturing, HelloFresh pre-portioning, custom boots).</li>
+     <li><b>Place</b> = available <b>WHERE</b> you are (vending machine, ATM at a gas station, convenient location).</li>
+     <li><b>Time</b> = available <b>WHEN</b> you want it (24-hr store, fast delivery, prepay & skip the line).</li>
+     <li><b>Possession</b> = made <b>easy to OBTAIN / PAY for</b> (credit, financing, layaway, delivery).</li></ul>
+     <p class="tip">Ask: Made it? = Form · Where? = Place · When/fast? = Time · Easy to buy/own? = Possession.</p>`);
+
+  sec("🎯 Segmentation & Market-Product Strategies",
+    `<ul><li>Markets are <b>heterogeneous</b> (varied needs) → you segment into <b>homogeneous</b> clusters. Markets <i>evolve toward heterogeneity</i> over time.</li></ul>
+     <table class="dtable"><tr><th>Offer…</th><th>…to…</th><th>= Strategy</th></tr>
+     <tr><td>one product</td><td>one segment</td><td>Concentration (niche)</td></tr>
+     <tr><td>one product</td><td>multiple segments</td><td>same offering to several groups</td></tr>
+     <tr><td>multiple products</td><td>multiple segments</td><td><b>Multisegment</b> (Gap's brands; P&G's Luvs vs Pampers)</td></tr>
+     <tr><td>a custom product</td><td>each individual</td><td><b>Mass Customization</b> (Custom Foot, Nike By You)</td></tr></table>
+     <ul><li><b>4 criteria:</b> Measurability, Reachability, Profitability, <b>Differential Response</b> (the key).</li>
+     <li><b>Majority fallacy</b> = blindly chasing the largest segment. <b>80/20:</b> ~80% of sales from ~20% of customers (heavy half).</li></ul>`);
+
+  sec("🎂 Generations — birth years & nicknames",
+    `<table class="dtable"><tr><th>Generation</th><th class="r">Born</th><th>Nickname</th></tr>
+     <tr><td>Baby Boomers</td><td class="r">1946–1964</td><td>the post-WWII "boom"</td></tr>
+     <tr><td>Gen X</td><td class="r">1965–1980</td><td><b>the "baby BUST"</b> (birth rates fell)</td></tr>
+     <tr><td>Millennials (Gen Y)</td><td class="r">1981–1996</td><td><b>"echo boom" / "baby boomlet"</b></td></tr>
+     <tr><td>Gen Z</td><td class="r">1997–~2012</td><td>—</td></tr></table>
+     <p class="tip">Boom → Bust (X) → Echo-boom (Millennials). Gen Z & Millennials pay more for sustainable/ethical brands.</p>`);
+
+  sec("⚖️ Niche Ethics Concepts (the ones nobody studies)",
+    `<ul>
+     <li><b>Astroturfing</b> = faking <i>grassroots</i> support — a company manufactures fake "consumer" enthusiasm/reviews so paid promotion looks organic. (Named after AstroTurf = fake grass.)</li>
+     <li><b>Sockpuppets</b> = fake online identities one person/company uses to post those fake reviews/comments.</li>
+     <li><b>Native advertising</b> = a paid ad <i>disguised</i> as normal editorial content (a "Presented by Brand" article).</li>
+     <li><b>Product placement</b> = paying to feature a product in shows/movies; the dilemma is <i>hidden persuasive intent</i>.</li>
+     <li><b>Greenwashing</b> = false/exaggerated <i>environmental</i> claims. <b>Pinkwashing</b> = overstated <i>cause/charity</i> contribution (e.g., token breast-cancer donations).</li>
+     <li><b>Cause marketing</b> = tying purchases to a charitable cause (Warby Parker). <b>Social entrepreneurship</b> = cause first, profit second.</li>
+     <li><b>Caveat emptor</b> = "let the buyer beware" (the OLD doctrine, before consumer protection).</li>
+     <li><b>Consumer Bill of Rights</b> (Kennedy, 1962): right to <b>safety, be informed, choose, be heard</b>. (Rooted in <b>moral idealism</b>.)</li>
+     <li><b>Economic espionage</b> = clandestine collection of a competitor's trade secrets (trespassing, hacking, dumpster-diving) — but NOT just violating a noncompete.</li>
+     <li><b>Whistle-blower</b> = an employee who reports their employer's wrongdoing.</li></ul>`);
+
+  sec("⚡ Other 'Random' Facts He Likes",
+    `<ul>
+     <li><b>Fastest-growing US ethnicities:</b> Hispanic/Latino (~17%, largest) & Asian-American.</li>
+     <li><b>Multi-screen:</b> Meshing (related, ~14%) · Stacking (unrelated, ~22%) · <b>Shifting</b> (sequential, ~65% = biggest opportunity).</li>
+     <li><b>Three screens of advertising:</b> TV, Computer, Mobile (+ possible tablet).</li>
+     <li><b>NPS:</b> Promoters 9–10, Passives 7–8, Detractors 0–6; NPS = %P − %D.</li>
+     <li><b>Satisfaction:</b> P&lt;E sad, P=E ok, P&gt;E delight. <b>Cognitive dissonance</b> = buyer's remorse.</li>
+     <li><b>Macro lifestyle trends:</b> Fantasy Adventure, Being Alive, 99 Lives, Cashing Out.</li>
+     <li><b>Acts:</b> Sherman→monopolies · Robinson-Patman→price discrimination · Lanham→trademarks · FTC→false ads · FDA→food/drug · CPSC→product safety.</li>
+     <li><b>Income:</b> Gross → Disposable (after tax) → Discretionary (after necessities).</li></ul>`);
+
+  const q=el("button","btn","Drill the Facts deck →"); q.onclick=()=>go("facts"); main.appendChild(q);
+}
+
 function renderCram(main){
   main.appendChild(el("h1","page-h","⚡ Cram Sheet"));
   main.appendChild(el("p","sub","Everything compressed. Read top-to-bottom the morning of the exam."));
