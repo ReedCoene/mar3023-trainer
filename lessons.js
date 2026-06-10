@@ -206,6 +206,7 @@ const LESSONS = {
   /* ===================== CHAPTER 5 ===================== */
   ch5:[
     { h:"What Shapes Consumer Decisions", items:[
+      "<b>Consumer behavior</b> = the actions a person takes in <b>purchasing and using</b> products and services, <i>including the mental and social processes</i> that come before and after those actions.",
       "<b>Four influences on consumer decisions:</b> the <b>Marketing Mix</b> (the 4 P's); <b>Psychological</b> (memory, perception, motivation, attitudes); <b>Socio-Cultural</b> (family, friends, culture, reference groups); and <b>Situational</b> (the context — e.g., shopping hungry/tired after class).",
       "<b>The 5 situational influences</b> (watch for the 'all of these except' question): <b>Purchase task</b> (the reason — a gift vs. for yourself), <b>Social surroundings</b> (who else is present), <b>Physical surroundings</b> (décor, music, lighting), <b>Temporal effects</b> (time of day / time available / season), <b>Antecedent states</b> (your mood/condition going in — hungry, tired, anxious). <b>Trap:</b> 'consumer involvement' is NOT a situational influence.",
       "Decision making is: <b>Goal-directed</b> (aimed at a need/goal), <b>Boundedly-rational</b> (rational within our mental limits), of <b>Varied involvement</b> (low→high effort), <b>Selective</b> (we attend to some things, ignore others), and <b>Adaptive</b> (we switch strategies depending on the situation).",
@@ -261,6 +262,7 @@ const LESSONS = {
       "<b>Product constellation</b> = the <i>group</i> of products someone buys that together signal who they are.",
       "Also: image management, <b>hedonic (experiential) consumption</b>, and product enthusiasts (hobbies, collecting).",
       "<b>Reference groups:</b> <b>associative/membership</b> (you belong), <b>aspiration</b> (you want to join), <b>dissociative</b> (you avoid).",
+      "<b>Word of mouth (WOM)</b> = consumers sharing opinions about products — a powerful socio-cultural influence. <b>Negative WOM</b> (rumors, bad reviews) spreads fast and is very hard to control (e.g., the false 'Febreze harms pets' rumor). <b>Opinion leaders</b> are influential people whose WOM sways others.",
       "<b>Perception:</b> <b>stimulus discrimination</b> = noticing differences between similar products (tasting which chocolate is which); <b>stimulus generalization</b> = treating similar stimuli alike.",
       "<b>Selective perception</b> filters what gets through: <b>selective exposure</b> (what we let in), <b>selective attention</b> (what we notice), <b>selective comprehension</b> (interpreting info to fit our existing attitudes/beliefs), and <b>selective retention</b> (what we remember).",
       "<b>Personality traits</b> (e.g., extroversion, assertiveness) also shape buying."
@@ -333,7 +335,9 @@ const LESSONS = {
     ]},
     { h:"The Five-Step Research Approach", items:[
       "1. Define the problem. 2. <b>Develop the research plan</b>. 3. Collect information. 4. Develop findings. 5. Take marketing actions.",
-      "Questions sometimes ask which <b>step number</b> a task is — know the order."
+      "<b>Step 1 (define the problem)</b> includes setting <b>research objectives</b> (specific, <i>measurable</i> goals the research must achieve) AND identifying <b>constraints</b> (the restrictions on possible solutions — most commonly <b>limited time and money</b>).",
+      "<b>Step 4 (develop findings)</b> = analyzing the data and summarizing/presenting the insights to decision-makers (this is the step where you 'present to executives').",
+      "Questions sometimes ask which <b>step number</b> a task is — know the order. To <b>identify/define</b> a problem, the right tool is <b>marketing research</b> itself."
     ]},
     { h:"Marketing Information System (MIS) & Data Types", items:[
       "An <b>MIS</b> is an integrated, ongoing decision-support system.",
