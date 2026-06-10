@@ -127,7 +127,15 @@ const FACTS = [
   ["ch8","Laddering","Depth-interview technique: keep asking 'why?' to reach the terminal needs."],
   ["ch8","Lab vs field validity","Lab = internal validity (control); Field/test market = external validity (generalizes)."],
   ["ch9","Shifting loyal","Loyal to one brand, then switches and stays loyal to another (Dunkin'→Starbucks)."],
-  ["ch9","Positioning statement","Who the target is + what needs are met + why the brand is the best option."]
+  ["ch9","Positioning statement","Who the target is + what needs are met + why the brand is the best option."],
+  // ---- exam-day 'gotchas' ----
+  ["ch3","Generational birth years","Boomers 1946–64; Gen X 1965–80; Millennials 1981–96; Gen Z 1997–2012."],
+  ["ch3","Which generation = the 'baby bust'?","Generation X (1965–1980) — birth rates fell after the boom."],
+  ["ch3","Millennials' nickname","'Echo boom' / 'baby boomlet' (the boomers' children)."],
+  ["ch4","Astroturfing","Faking grassroots support — making company/paid promotion look like real consumer enthusiasm (via sockpuppets = fake identities)."],
+  ["ch1","Tell the 4 utilities apart","Form = made/customized; Place = WHERE; Time = WHEN/speed; Possession = easy to obtain/pay (credit, delivery)."],
+  ["ch1","Cognitive dissonance","Post-purchase doubt / buyer's remorse (e.g., seeing it cheaper right after buying)."],
+  ["ch9","Mass customization vs Multisegment","Mass customization = a CUSTOM product per person (segment of one). Multisegment = DIFFERENT existing products for different groups."]
 ];
 
 /* ---------- QUESTION ARCHETYPES (pattern trainer) ----------

@@ -29,7 +29,8 @@ const LESSONS = {
       "<b>Time utility</b> — having it <i>when</i> you want it (24-hr store, fast delivery).",
       "<b>Place utility</b> — having it <i>where</i> you want it (vending machine, gas-station ATM).",
       "<b>Possession utility</b> — making ownership/use easy (financing, layaway, delivery).",
-      "<b>Form utility</b> — producing the product/its form (turning raw goods into a finished item; offering music as vinyl/CD/stream)."
+      "<b>Form utility</b> — producing the product/its form (turning raw goods into a finished item; offering music as vinyl/CD/stream).",
+      "<b>How to tell the 4 utilities apart:</b> <b>Form</b> = the product is <i>made / transformed / customized</i>; <b>Place</b> = available <i>where</i> you are; <b>Time</b> = available <i>when</i> you want it (store hours, fast delivery, skip-the-line); <b>Possession</b> = made <i>easy to obtain or pay for</i> (credit, financing, layaway, delivery)."
     ]},
     { h:"Exchange", items:[
       "<b>Exchange</b> = the trade of things of value between a buyer and a seller so that <b>each is better off</b> after the exchange.",
@@ -94,7 +95,7 @@ const LESSONS = {
       "<b>Micro-culture (subculture)</b> = a subset that differs from the mainstream, sharing beliefs, values, behavior, history, and a language/symbol system (e.g., a vegan community sharing recipes & vocabulary).",
       "<b>Racial/ethnic subcultures:</b> Hispanic/Latino ≈ 17% (largest), African-American ≈ 13.2%, Asian-American ≈ 5.6%. Hispanic/Latino and Asian-American are the <b>fastest-growing</b>.",
       "<b>Demographic trends:</b> age distribution & generational cohorts; geographic shifts (population moving from rural areas — but more to <b>suburbs and exurbs</b> than into the city core); household composition (changing marital trends, fewer traditional households).",
-      "<b>Generational cohorts</b> (oldest→youngest): Silent Generation, <b>Baby Boomers</b>, <b>Gen X</b>, <b>Millennials</b>, <b>Gen Z</b>. Gen Z & Millennials are the most willing to pay more for sustainable/ethical brands.",
+      "<b>Generational cohorts — birth years & nicknames (Cooke loves these 'gotchas'):</b> <b>Baby Boomers</b> 1946–1964 (post-WWII boom); <b>Gen X</b> 1965–1980 = the <b>'baby bust'</b> (birth rates fell after the boom); <b>Millennials / Gen Y</b> 1981–1996 = the <b>'echo boom' / 'baby boomlet'</b> (the boomers' kids); <b>Gen Z</b> 1997–~2012. Gen Z & Millennials are most willing to pay more for sustainable/ethical brands.",
       "<b>Exurbs</b> = remote suburbs beyond the regular suburbs."
     ]},
     { h:"MACRO 2 — Economic", items:[
@@ -169,7 +170,7 @@ const LESSONS = {
       "<b>These are the ONLY two moral philosophies in this course.</b> If you see options like <i>moral relativism, solipsism, hedonism, the Golden Rule</i> — they're real terms but <b>distractors</b> here, never the answer. \"Which moral philosophy?\" is always Idealism or Utilitarianism."
     ]},
     { h:"Current Ethics Topics", items:[
-      "<b>Fake reviews</b> — astroturfing & sockpuppets.",
+      "<b>Fake reviews</b> — <b>astroturfing</b> = faking grassroots support (making paid/company promotion look like genuine consumer enthusiasm), often using <b>sockpuppets</b> (fake online identities).",
       "<b>Product placement</b> — products woven into shows/movies; the dilemma is <b>hidden persuasive intent</b> blurring ad vs. content.",
       "<b>Native advertising</b> — paid content disguised to look like normal editorial (e.g., a 'Presented by Brand' article).",
       "<b>Permission-based marketing</b> (opt-in) and <b>data privacy / data sharing</b> (e.g., BetterHelp selling user info).",
