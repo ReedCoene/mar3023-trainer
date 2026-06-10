@@ -218,7 +218,8 @@ const LESSONS = {
       "<b>Decision Maker</b> — makes the final call.",
       "<b>Purchaser</b> — actually buys it.",
       "<b>User</b> — consumes/uses it.",
-      "One person can hold several roles; watch the wording (relaying info ≠ influencing)."
+      "<b>Trigger words → role:</b> 'researches / looks up / collects info' = <b>Gatherer</b> · 'recommends / advises / voices an opinion / says they should pick X' = <b>Influencer</b> · 'decides / makes the final call / chooses' = <b>Decision Maker</b> · 'buys / pays / places the order' = <b>Purchaser</b> · 'uses / will use it' = <b>User</b>.",
+      "<b>Traps:</b> (1) merely <i>relaying</i> the info you found is NOT influencing — that's still just the Gatherer. (2) The decider ≠ the buyer (one chooses, the other pays). (3) <b>One person can hold several roles</b> — answers are often combos (e.g., 'I, III, & IV')."
     ]},
     { h:"Decision-Making Process (DMP) — 5 stages + feedback", items:[
       "1. <b>Problem Recognition</b> — sensing a need/gap.",
@@ -295,7 +296,7 @@ const LESSONS = {
       "<b>Buyers (Purchasing Agent)</b> — formally select the vendor and place the order.",
       "<b>Deciders</b> — have final authority on the choice.",
       "<b>Gatekeepers</b> — control the <b>flow of information</b> (and access) into the buying center (e.g., an assistant deciding what reaches the CEO).",
-      "Match roles to wording: 'signs the contract/places the order' = Purchasing Agent; 'controls what info gets through' = Gatekeeper.",
+      "<b>Trigger words → role:</b> 'will use it / on the production line' = <b>User</b> · 'gives technical input / recommends / advocates a choice' = <b>Influencer</b> · 'controls info flow / screens access / front-desk or assistant' = <b>Gatekeeper</b> · 'has final authority / decides' = <b>Decider</b> · 'signs the contract / places the order / has purchasing authority' = <b>Buyer (Purchasing Agent)</b>. One person can hold several roles.",
       "<b>Large retailers/resellers</b> (7-Eleven, Safeway, Target) often use a <b>buying committee</b> — a group that evaluates and approves which new products to stock."
     ]},
     { h:"Buyclasses (3)", items:[
