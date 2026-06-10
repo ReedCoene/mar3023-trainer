@@ -204,8 +204,8 @@ const LESSONS = {
   /* ===================== CHAPTER 5 ===================== */
   ch5:[
     { h:"What Shapes Consumer Decisions", items:[
-      "<b>Influences:</b> the Marketing Mix, Psychological factors, Socio-Cultural factors, and <b>Situational</b> factors (e.g., shopping hungry/tired after class = situational).",
-      "Decision making is: <b>Goal-directed, Boundedly-rational, of Varied involvement, Selective, and Adaptive.</b>",
+      "<b>Four influences on consumer decisions:</b> the <b>Marketing Mix</b> (the 4 P's); <b>Psychological</b> (memory, perception, motivation, attitudes); <b>Socio-Cultural</b> (family, friends, culture, reference groups); and <b>Situational</b> (the context — e.g., shopping hungry/tired after class).",
+      "Decision making is: <b>Goal-directed</b> (aimed at a need/goal), <b>Boundedly-rational</b> (rational within our mental limits), of <b>Varied involvement</b> (low→high effort), <b>Selective</b> (we attend to some things, ignore others), and <b>Adaptive</b> (we switch strategies depending on the situation).",
       "<b>Bounded rationality:</b> people can't process everything, so they simplify and 'satisfice' rather than optimize.",
       "<b>Choice (decision) overload</b> = too many options → frustration; people <b>defer or avoid</b> choosing. <b>Nudge theory</b> fixes this with a smart <b>default option</b> that's best for most while still allowing choice (e.g., opt-out <b>organ-donor</b> defaults)."
     ]},
@@ -322,7 +322,7 @@ const LESSONS = {
   ch8:[
     { h:"What Marketing Research Is & Its Uses", items:[
       "<b>Marketing Research</b> = the set of activities that provide information for marketing decision making.",
-      "<b>Uses:</b> <b>Demand Forecasting</b> (estimate future sales to plan inventory/production), <b>Segmentation</b>, <b>Market Tracking</b>, <b>New Product Testing</b>, <b>Ad Pretesting</b> (e.g., A/B testing two ad versions).",
+      "<b>Uses:</b> <b>Demand Forecasting</b> (estimate future sales to plan inventory), <b>Segmentation</b> (find groups & their needs), <b>Market Tracking</b> (monitor a <i>current</i> product's performance over time — e.g., Nielsen), <b>New Product Testing</b> (gauge reaction to a new idea), <b>Ad Pretesting</b> (test which ad performs best — A/B testing).",
       "Pick the use by what's being estimated: future sales = demand forecasting; which ad performs better = ad pretesting; testing the product itself = new product testing."
     ]},
     { h:"The Five-Step Research Approach", items:[
@@ -425,7 +425,7 @@ const LESSONS = {
       "<b>Product positioning</b> = the location a brand occupies in the consumer's mind (on a <b>perceptual map</b>) relative to competitors.",
       "<b>Perceptual map</b> = displays brands on two key dimensions (e.g., price × quality); place a new brand in the gap nearest the target/ideal point.",
       "<b>Points of Parity (POP)</b> = features similar to competitors (table stakes). <b>Points of Difference (POD)</b> = unique, desirable, differentiating features.",
-      "<b>Approaches to positioning:</b> product feature, product benefit, <b>user category</b> (defining the type of person who uses it — iPhone/Mountain Dew), against a competitor (head-to-head), against a product category, and specific use.",
+      "<b>Six approaches to positioning:</b> <b>product feature</b> (a specific attribute — Goldfish 'cheddar'); <b>product benefit</b> (what you get — Frontline kills fleas & ticks); <b>user category</b> (the type of person who uses it — BMW for fast drivers); <b>against a competitor</b> (Samsung vs. Apple); <b>against a product category</b> (7Up the 'uncola'); and <b>specific use</b> (NyQuil for night, DayQuil for day).",
       "<b>Two positioning strategies:</b> <b>head-to-head</b> (compete directly on the same attributes in the same market) vs. <b>differentiation positioning</b> (seek a <i>less-competitive</i> niche / emphasize different attributes). <b>Cannibalization</b> = your own products stealing each other's sales (Ann Taylor vs. its LOFT stores).",
       "<b>Positioning statement</b> = a concise statement of (1) who the <b>target customers</b> are, (2) what <b>needs</b> the product fills, and (3) <b>why</b> it's the best option vs. competitors/substitutes."
     ]}
