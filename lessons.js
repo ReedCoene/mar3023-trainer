@@ -361,7 +361,7 @@ const LESSONS = {
     { h:"Descriptive Research — Key Factors & Errors", items:[
       "Key factors: <b>Population, Sample, Response Rate, Representativeness, Error (Bias).</b>",
       "<b>Response rate</b> = the share of contacted people who actually respond.",
-      "<b>Three types of survey error:</b> <b>Sampling</b> (unrepresentative sample — e.g., only surveying your similar friends), <b>Interviewer</b>, and <b>Questionnaire Design</b>.",
+      "<b>Three types of survey error</b> — sort by what causes it: <b>Sampling</b> = <i>WHO</i> you asked is unrepresentative (only surveying your similar friends). <b>Interviewer</b> = the <i>PERSON</i> asking sways answers (their tone/smile leads the respondent, or people give 'socially desirable' answers to look good — e.g., overstating how much they recycle). <b>Questionnaire Design</b> = the <i>QUESTIONS</i> are written badly (leading/loaded: \"Don't you agree our great product is best?\"; double-barreled; or confusing wording).",
       "<b>Measures of consumer memory</b> (easiest→hardest, highest→lowest scores): <b>Recognition</b> ('Did you see the Chevy ad?') → <b>Cued Recall</b> ('Which trucks did you see?') → <b>Free Recall</b> ('What brands did you see?').",
       "<b>Question types:</b> <b>open-ended</b> questions invite a free written answer ('Why do you smoke cigarettes?'); <b>closed-ended</b> questions give fixed choices or scales.",
       "<b>Neuromarketing</b> = studying the <b>brain's</b> response to marketing stimuli (eye-tracking, fMRI, biometrics)."
