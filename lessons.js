@@ -108,7 +108,8 @@ const LESSONS = {
       "<b>Multi-screen behavior:</b> <b>Meshing</b> = simultaneous use for <i>related</i> content (~14%); <b>Stacking</b> = simultaneous use for <i>unrelated</i> content (~22%); <b>Shifting</b> = moving sequentially between devices — the <b>biggest opportunity (~65%)</b>.",
       "Other forces: interactivity → big data, micro-targeting, personalized ads; increased automation; the <b>sharing / 1099 economy</b> (~53M Americans are 1099 workers); the <b>Internet of Things</b> (connected devices)."
     ]},
-    { h:"MACRO 4 — Regulatory (memorize acts, years & purpose)", items:[
+    { h:"MACRO 4 — Regulatory (know each act's PURPOSE)", items:[
+      "<b>What's actually tested:</b> matching a scenario to the right act (e.g., \"a firm buys all rivals\" → Sherman). The <i>years</i> are listed for context but were NOT asked in any practice question — don't burn time memorizing them.",
       "<b>Protecting COMPETITION:</b> <b>Sherman Antitrust Act (1890)</b> — prevents monopolies; <b>Robinson-Patman Act (1936)</b> — prevents price discrimination among businesses; <b>Lanham Act (1946)</b> — provides trademark protection.",
       "<b>Protecting CONSUMERS:</b> <b>FDA (1906)</b> — food & drug testing/advertising; <b>FTC (1914)</b> — prevents false/misleading advertising; <b>CPSC (1972)</b> — regulates 15,000+ products' sale & manufacture.",
       "<b>Consumer Financial Protection Bureau (CFPB)</b> — handles <b>financial services</b> as a product category; created after the 2008 financial crisis (recently defunded).",
