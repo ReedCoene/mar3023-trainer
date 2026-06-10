@@ -261,8 +261,8 @@ const LESSONS = {
       "<b>Personality traits</b> (e.g., extroversion, assertiveness) also shape buying."
     ]},
     { h:"Understanding the Active-Recreation Consumer", items:[
-      "<b>Macro lifestyle trends:</b> Fantasy Adventure, Being Alive, <b>99 Lives</b> (overcommitted/time-stressed), <b>Cashing Out</b> (simplifying, cutting work to refocus on life).",
-      "<b>Leisure trends:</b> Aging Boomers, Hybrid Sports, Cross-Participation.",
+      "<b>Macro lifestyle trends (all four):</b> <b>Fantasy Adventure</b> = craving escape, novelty & exotic experiences ('roads unknown'); <b>Being Alive</b> = focus on health, wellness & longevity as a way of life; <b>99 Lives</b> = too fast a pace / too little time, juggling many roles (overcommitted & time-stressed); <b>Cashing Out</b> = questioning career satisfaction and opting for simpler living.",
+      "<b>Leisure trends (micro):</b> <b>Aging Boomers</b> = older adults seeking more active pursuits (e.g., the RV boom); <b>Hybrid Sports</b> = mashing two sports together (chess-boxing, foot-tennis); <b>Cross-Participation</b> = doing related activities (a hiker is also likely a camper).",
       "<b>Four types of time use:</b> <b>Contracted</b> (paid work), <b>Committed</b> (household care/chores), <b>Personal</b> (self-maintenance), <b>Free</b> (discretionary/leisure — watching TV, reading for fun).",
       "<b>Peak Experience</b> = a high point, rich and fulfilling. <b>'Flow'</b> = total absorption, mastery, and oneness with the activity."
     ]}
