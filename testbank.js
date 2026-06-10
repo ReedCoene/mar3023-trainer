@@ -258,21 +258,6 @@ const TESTBANK=[
   "ref": "L7A 12:00, N24"
  },
  {
-  "ch": "ch9",
-  "src": "L",
-  "q": "Miles is trying to figure out where White Buffalo, the business he manages in Downtown Gainesville, stands in comparison to his competitors. White Buffalo is considered to be inexpensive, but slightly resembling a club more than the average. Based on the image below, where would White Buffalo land on the perceptual map and who is its closest competitor?",
-  "choices": [
-   "Location 5; MacDinton’s",
-   "Location 2; MacDinton’s",
-   "Location 4; DFT",
-   "Location 3; JJ’s",
-   "Location 1; The Range"
-  ],
-  "a": 4,
-  "why": "White Buffalo is described as inexpensive, therefore it would skew toward the left, near “CHEAP”. Additionally, it is described as more of a club-like atmosphere. This means that it would be slightly over the halfway line. Thus, placing it at Location 1. Since it is placed there, we can determine that the Range is the nearest competitor in price and atmosphere.",
-  "ref": "L7B 39:19, N30"
- },
- {
   "ch": "ch8",
   "src": "L",
   "q": "Sabrina is a researcher at Mad Men Marketing, a Market Research Firm. Their client, Kale Yeah, has had trouble selling their newest flavor of Kale Chips, Sour Cream & Onion. They’ve asked Sabrina to discover and define the problem with this flavor by gathering small groups of real consumers together to test the flavor and collectively discuss their opinions about what could be improved. Sabrina needs to conduct ________ research in the form of ________.",
@@ -646,21 +631,6 @@ const TESTBANK=[
   "a": 2,
   "why": "As discussed in lecture, watching TV and reading for entertainment are both forms of free time use.",
   "ref": "L6A 9:30, N19"
- },
- {
-  "ch": "ch9",
-  "src": "L",
-  "q": "The perceptual map below shows various clothing brands. You are starting a new clothing brand and want to sell clothes that are high quality and at a higher price point than most other brands in the market. Based on the perceptual map, where would you likely position your brand?",
-  "choices": [
-   "Location D",
-   "Location A",
-   "Location C",
-   "Location B",
-   "Location E"
-  ],
-  "a": 3,
-  "why": "The correct answer is Location B because you want to sell clothes that are generally higher quality and more expensive, and Location B is the only location in that quadrant. This positioning will result in your brand competing most heavily with Zara and Coach.",
-  "ref": "L7B 55:30, N30"
  },
  {
   "ch": "ch1",
