@@ -205,6 +205,7 @@ const LESSONS = {
   ch5:[
     { h:"What Shapes Consumer Decisions", items:[
       "<b>Four influences on consumer decisions:</b> the <b>Marketing Mix</b> (the 4 P's); <b>Psychological</b> (memory, perception, motivation, attitudes); <b>Socio-Cultural</b> (family, friends, culture, reference groups); and <b>Situational</b> (the context — e.g., shopping hungry/tired after class).",
+      "<b>The 5 situational influences</b> (watch for the 'all of these except' question): <b>Purchase task</b> (the reason — a gift vs. for yourself), <b>Social surroundings</b> (who else is present), <b>Physical surroundings</b> (décor, music, lighting), <b>Temporal effects</b> (time of day / time available / season), <b>Antecedent states</b> (your mood/condition going in — hungry, tired, anxious). <b>Trap:</b> 'consumer involvement' is NOT a situational influence.",
       "Decision making is: <b>Goal-directed</b> (aimed at a need/goal), <b>Boundedly-rational</b> (rational within our mental limits), of <b>Varied involvement</b> (low→high effort), <b>Selective</b> (we attend to some things, ignore others), and <b>Adaptive</b> (we switch strategies depending on the situation).",
       "<b>Bounded rationality:</b> people can't process everything, so they simplify and 'satisfice' rather than optimize.",
       "<b>Choice (decision) overload</b> = too many options → frustration; people <b>defer or avoid</b> choosing. <b>Nudge theory</b> fixes this with a smart <b>default option</b> that's best for most while still allowing choice (e.g., opt-out <b>organ-donor</b> defaults)."
