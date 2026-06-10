@@ -10,6 +10,7 @@ const LESSONS = {
       "<b>AMA (2007/2013):</b> marketing is the activity, set of institutions, and processes for creating, communicating, delivering, and exchanging offerings that have value for customers, clients, partners, and society at large.",
       "<b>Textbook:</b> the activity for creating, communicating, delivering, and exchanging offerings that benefit an organization, its customers, its stakeholders, and society at large.",
       "Marketing is broader than — and <b>not the same as</b> — selling, advertising, or public relations. Those are individual tools <i>within</i> marketing.",
+      "A typical organization has several <b>departments</b> — marketing, manufacturing/operations, finance, HR, R&D, accounting — that marketing works <i>with</i>. (Trap: <b>shareholders/owners are NOT a department.</b>)",
       "<b>Drucker:</b> \"The purpose of a business is to create and keep a customer.\" · <b>Kotler:</b> marketing is \"the art of creating genuine customer value… helping your customer become better off.\"",
       "Two parties are needed, each with something the other values, able to communicate and deliver."
     ]},
@@ -116,7 +117,7 @@ const LESSONS = {
       "<b>Consumer Financial Protection Bureau (CFPB)</b> — handles <b>financial services</b> as a product category; created after the 2008 financial crisis (recently defunded).",
       "<i>Real examples:</i> Sherman → blocking big mergers (T-Mobile/Sprint); Robinson-Patman → Bumble Bee tuna price-fixing (Walmart sued); Lanham → the Taco Bell vs. Taco John's \"Taco Tuesday\" trademark fight; FTC → Epic/Fortnite's $520M children's-privacy penalty.",
       "<b>Consumerism</b> = the 1960s grassroots movement to increase consumers' influence, power, and rights vs. institutions (e.g., Consumer Reports). <b>Media</b> also pressures firms by disclosing harmful practices.",
-      "<b>Self-regulation</b> = an industry policing itself instead of waiting for government. Key <b>weakness</b>: nonmember firms aren't bound by it, and trade associations often lack real enforcement power."
+      "<b>Self-regulation</b> = an industry policing itself instead of waiting for government. Key <b>weaknesses</b>: <b>noncompliance by members</b> (no real teeth to force them to follow the rules), and often the absence of an industry association with strong enough enforcement power."
     ]},
     { h:"MACRO 5 — Natural", items:[
       "Issues: energy use, global warming/climate change, and <b>green marketing / sustainability</b>.",
@@ -292,7 +293,8 @@ const LESSONS = {
       "<b>Buyers (Purchasing Agent)</b> — formally select the vendor and place the order.",
       "<b>Deciders</b> — have final authority on the choice.",
       "<b>Gatekeepers</b> — control the <b>flow of information</b> (and access) into the buying center (e.g., an assistant deciding what reaches the CEO).",
-      "Match roles to wording: 'signs the contract/places the order' = Purchasing Agent; 'controls what info gets through' = Gatekeeper."
+      "Match roles to wording: 'signs the contract/places the order' = Purchasing Agent; 'controls what info gets through' = Gatekeeper.",
+      "<b>Large retailers/resellers</b> (7-Eleven, Safeway, Target) often use a <b>buying committee</b> — a group that evaluates and approves which new products to stock."
     ]},
     { h:"Buyclasses (3)", items:[
       "<b>New Buy</b> — first-time purchase; most complex, biggest buying center, most research (e.g., a hospital's first MRI).",
