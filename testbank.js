@@ -813,7 +813,7 @@ const TESTBANK=[
   "ref": "p. 137"
  },
  {
-  "ch": "ch3",
+  "ch": "ch6",
   "src": "T",
   "q": "Which type of firm is in the industrial market?",
   "choices": [
@@ -858,7 +858,7 @@ const TESTBANK=[
   "ref": "p. 132"
  },
  {
-  "ch": "ch3",
+  "ch": "ch1",
   "src": "T",
   "q": "All of these are departments within a typical organization except which?",
   "choices": [
@@ -978,7 +978,7 @@ const TESTBANK=[
   "ref": "pg"
  },
  {
-  "ch": "ch3",
+  "ch": "ch6",
   "src": "T",
   "q": "What type of contract is prevalent in organizational buyer-seller relationships?",
   "choices": [
@@ -1038,7 +1038,7 @@ const TESTBANK=[
   "ref": ""
  },
  {
-  "ch": "ch3",
+  "ch": "ch4",
   "src": "T",
   "q": "Procter & Gamble has developed a successful brand campaign in partnership with UNICEF that includes the Pampers 1 Pack = 1 Vaccine initiative, which has protected 300 million women and their babies against maternal and neonatal tetanus. This is an example of",
   "choices": [
@@ -1083,7 +1083,7 @@ const TESTBANK=[
   "ref": ""
  },
  {
-  "ch": "ch1",
+  "ch": "ch4",
   "src": "T",
   "q": "The________ codified the ethics of exchange between buyers and sellers, including the rights to safety, to be informed, to choose, and to be heard.",
   "choices": [
@@ -1278,7 +1278,7 @@ const TESTBANK=[
   "ref": ""
  },
  {
-  "ch": "ch5",
+  "ch": "ch9",
   "src": "T",
   "q": "“For World Wide Web users who enjoy books, Amazon.com is a retail bookseller that provides instant access to over 1.1 million books as well as a combination of extraordinary convenience and low prices” is a ________ statement for Amazon.",
   "choices": [
@@ -1338,7 +1338,7 @@ const TESTBANK=[
   "ref": ""
  },
  {
-  "ch": "ch5",
+  "ch": "ch6",
   "src": "T",
   "q": "Daniyal Inc. is a shoe manufacturer. They sell shoes to retailers who in turn sell directly to consumers. Despite this, to help forecast future demand, Daniyal Inc. still pays close attention to what types of shoes consumers are interested in. What concept is the reason for this?",
   "choices": [
@@ -1353,7 +1353,7 @@ const TESTBANK=[
   "ref": ""
  },
  {
-  "ch": "ch3",
+  "ch": "ch9",
   "src": "T",
   "q": "Reflect on the “Four Categories of Measures” 2X2 table. What would be an example that would belong in the objective and product class specific box?",
   "choices": [
@@ -1428,7 +1428,7 @@ const TESTBANK=[
   "ref": ""
  },
  {
-  "ch": "ch3",
+  "ch": "ch8",
   "src": "T",
   "q": "Kaitlyn owns a dance studio and is offering a new swing dance class. She conducts market research to figure out how many people are interested in attending this class and therefore how many class sessions she should organize. What is Kaitlyn using this market research for?",
   "choices": [
@@ -1623,7 +1623,7 @@ const TESTBANK=[
   "ref": ""
  },
  {
-  "ch": "ch1",
+  "ch": "ch4",
   "src": "T",
   "q": "Which of the following is not a reason for increased attention to ethics?",
   "choices": [
