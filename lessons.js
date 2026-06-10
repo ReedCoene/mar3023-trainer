@@ -162,7 +162,8 @@ const LESSONS = {
     { h:"Two Personal Moral Philosophies", items:[
       "<b>Moral Idealism</b> — individual rights & responsibilities are <b>universal, regardless of outcome</b>; do the right thing even if it doesn't maximize good. (Refuses to lie even if lying helped more people.)",
       "<b>Utilitarianism</b> — the <b>greatest good for the greatest number</b>; a cost/benefit trade-off judged by <i>outcomes</i>.",
-      "Tip: 'rights/principles no matter what' = Idealism; 'most people best off' = Utilitarianism."
+      "Tip: 'rights/principles no matter what' = Idealism; 'most people best off' = Utilitarianism.",
+      "<b>These are the ONLY two moral philosophies in this course.</b> If you see options like <i>moral relativism, solipsism, hedonism, the Golden Rule</i> — they're real terms but <b>distractors</b> here, never the answer. \"Which moral philosophy?\" is always Idealism or Utilitarianism."
     ]},
     { h:"Current Ethics Topics", items:[
       "<b>Fake reviews</b> — astroturfing & sockpuppets.",
