@@ -93,6 +93,7 @@ const LESSONS = {
       "<b>Micro-culture (subculture)</b> = a subset that differs from the mainstream, sharing beliefs, values, behavior, history, and a language/symbol system (e.g., a vegan community sharing recipes & vocabulary).",
       "<b>Racial/ethnic subcultures:</b> Hispanic/Latino ≈ 17% (largest), African-American ≈ 13.2%, Asian-American ≈ 5.6%. Hispanic/Latino and Asian-American are the <b>fastest-growing</b>.",
       "<b>Demographic trends:</b> age distribution & generational cohorts; geographic shifts (population moving from rural areas — but more to <b>suburbs and exurbs</b> than into the city core); household composition (changing marital trends, fewer traditional households).",
+      "<b>Generational cohorts</b> (oldest→youngest): Silent Generation, <b>Baby Boomers</b>, <b>Gen X</b>, <b>Millennials</b>, <b>Gen Z</b>. Gen Z & Millennials are the most willing to pay more for sustainable/ethical brands.",
       "<b>Exurbs</b> = remote suburbs beyond the regular suburbs."
     ]},
     { h:"MACRO 2 — Economic", items:[
@@ -114,7 +115,8 @@ const LESSONS = {
       "<b>Protecting CONSUMERS:</b> <b>FDA (1906)</b> — food & drug testing/advertising; <b>FTC (1914)</b> — prevents false/misleading advertising; <b>CPSC (1972)</b> — regulates 15,000+ products' sale & manufacture.",
       "<b>Consumer Financial Protection Bureau (CFPB)</b> — handles <b>financial services</b> as a product category; created after the 2008 financial crisis (recently defunded).",
       "<i>Real examples:</i> Sherman → blocking big mergers (T-Mobile/Sprint); Robinson-Patman → Bumble Bee tuna price-fixing (Walmart sued); Lanham → the Taco Bell vs. Taco John's \"Taco Tuesday\" trademark fight; FTC → Epic/Fortnite's $520M children's-privacy penalty.",
-      "<b>Consumerism</b> = the 1960s grassroots movement to increase consumers' influence, power, and rights vs. institutions (e.g., Consumer Reports). <b>Media</b> also pressures firms by disclosing harmful practices."
+      "<b>Consumerism</b> = the 1960s grassroots movement to increase consumers' influence, power, and rights vs. institutions (e.g., Consumer Reports). <b>Media</b> also pressures firms by disclosing harmful practices.",
+      "<b>Self-regulation</b> = an industry policing itself instead of waiting for government. Key <b>weakness</b>: nonmember firms aren't bound by it, and trade associations often lack real enforcement power."
     ]},
     { h:"MACRO 5 — Natural", items:[
       "Issues: energy use, global warming/climate change, and <b>green marketing / sustainability</b>.",
@@ -174,6 +176,12 @@ const LESSONS = {
       "<b>The common thread across ALL of these issues is DECEPTION.</b>",
       "<b>Does being ethical pay?</b> Yes — ethical firms tend to command higher prices. But <b>bragging</b> about being trustworthy backfires; show it through <b>deeds, not words.</b>"
     ]},
+    { h:"Consumer Rights, Caveat Emptor & Espionage", items:[
+      "<b>Caveat emptor</b> = \"let the buyer beware\" — the old doctrine that the buyer alone is responsible for checking quality. Consumerism shifted protection <i>toward</i> the buyer.",
+      "<b>Consumer Bill of Rights</b> (President Kennedy, 1962) — four rights: the right to <b>safety</b>, to be <b>informed</b>, to <b>choose</b>, and to be <b>heard</b>. (\"What helps consumers be heard?\" → this.)",
+      "<b>Economic espionage</b> = the clandestine collection of a competitor's trade secrets / proprietary information. Includes trespassing, theft, fraud, bribery, electronic hacking, and dumpster-diving — but <b>NOT</b> simply violating a noncompete clause (that's a contract issue, not espionage).",
+      "<b>Whistle-blowers</b>, codes of ethics, and a personal <b>moral compass</b> all help people act ethically when laws/codes don't give a clear answer."
+    ]},
     { h:"Corporate Social Responsibility (3 widening levels)", items:[
       "<b>Profit Responsibility</b> — maximize profit for owners (Friedman view). Example: TOMS ending 'buy-one-give-one' because it wasn't profitable.",
       "<b>Stakeholder Responsibility</b> — obligations to everyone who affects/is affected by the firm (employees, suppliers, customers, community).",
@@ -221,7 +229,8 @@ const LESSONS = {
     { h:"The Multi-Attribute Model (MAM)", items:[
       "Assumptions: a <b>consideration set</b> of brands described by the <b>same attributes</b>; the consumer holds <b>beliefs</b> (ratings) about each brand on each attribute; and can weight each attribute's <b>importance</b>.",
       "<span class='formula'>Value(brand) = Σ (belief × importance) across all attributes</span>",
-      "Highest total = predicted choice. <b>Changing importance weights</b> can flip which brand wins — the basis of benefit segmentation and message strategy."
+      "Highest total = predicted choice.",
+      "<b>Three ways a marketer can use the MAM to influence a choice:</b> (1) change a <b>belief</b> about how your brand rates on an attribute; (2) change the <b>importance weight</b> of an attribute; (3) <b>add a new attribute</b> (e.g., be the only brand with a certification). Toyota adding 'self-parking' = adding a new attribute."
     ]},
     { h:"Involvement", items:[
       "<b>Low → Routine</b> problem solving (habit; e.g., always ordering the same item).",
@@ -248,6 +257,7 @@ const LESSONS = {
       "Also: image management, <b>hedonic (experiential) consumption</b>, and product enthusiasts (hobbies, collecting).",
       "<b>Reference groups:</b> <b>associative/membership</b> (you belong), <b>aspiration</b> (you want to join), <b>dissociative</b> (you avoid).",
       "<b>Perception:</b> <b>stimulus discrimination</b> = noticing differences between similar products (tasting which chocolate is which); <b>stimulus generalization</b> = treating similar stimuli alike.",
+      "<b>Selective perception</b> filters what gets through: <b>selective exposure</b> (what we let in), <b>selective attention</b> (what we notice), <b>selective comprehension</b> (interpreting info to fit our existing attitudes/beliefs), and <b>selective retention</b> (what we remember).",
       "<b>Personality traits</b> (e.g., extroversion, assertiveness) also shape buying."
     ]},
     { h:"Understanding the Active-Recreation Consumer", items:[
@@ -299,6 +309,12 @@ const LESSONS = {
       "A <b>formal multi-attribute model</b> for choosing suppliers.",
       "Rate each vendor on each criterion and weight by importance (e.g., Product Quality 40%, Delivery 25%, Reliability 20%, Price 15%).",
       "<span class='formula'>Vendor Score = Σ (rating × weight)</span> → choose the highest. (Weights are %, so multiply by w/100.)"
+    ]},
+    { h:"Other B2B Concepts", items:[
+      "<b>Reciprocity</b> = two firms agreeing to buy from each other (\"you buy from me, I'll buy from you\"). Often legal, but it can obscure the true price of products.",
+      "<b>Reverse auction</b> = ONE buyer, MANY sellers bidding against each other — driving the price <b>down</b> for the buyer (the opposite of a traditional auction).",
+      "<b>E-marketplaces</b> = online trading communities that connect many B2B buyers and sellers (e.g., Buzzsaw for construction).",
+      "<b>Long-term contracts</b> are common in organizational buyer-seller relationships — a reflection of relationship marketing."
     ]}
   ],
 
@@ -336,7 +352,9 @@ const LESSONS = {
       "Key factors: <b>Population, Sample, Response Rate, Representativeness, Error (Bias).</b>",
       "<b>Response rate</b> = the share of contacted people who actually respond.",
       "<b>Three types of survey error:</b> <b>Sampling</b> (unrepresentative sample — e.g., only surveying your similar friends), <b>Interviewer</b>, and <b>Questionnaire Design</b>.",
-      "<b>Measures of consumer memory</b> (easiest→hardest, highest→lowest scores): <b>Recognition</b> ('Did you see the Chevy ad?') → <b>Cued Recall</b> ('Which trucks did you see?') → <b>Free Recall</b> ('What brands did you see?')."
+      "<b>Measures of consumer memory</b> (easiest→hardest, highest→lowest scores): <b>Recognition</b> ('Did you see the Chevy ad?') → <b>Cued Recall</b> ('Which trucks did you see?') → <b>Free Recall</b> ('What brands did you see?').",
+      "<b>Question types:</b> <b>open-ended</b> questions invite a free written answer ('Why do you smoke cigarettes?'); <b>closed-ended</b> questions give fixed choices or scales.",
+      "<b>Neuromarketing</b> = studying the <b>brain's</b> response to marketing stimuli (eye-tracking, fMRI, biometrics)."
     ]},
     { h:"Causal Research — the Keys", items:[
       "Three keys: <b>Manipulate</b> the independent variable(s), <b>Control</b> all extraneous variables, and <b>Measure</b> response on the dependent variable(s).",
@@ -400,6 +418,7 @@ const LESSONS = {
       "<b>Multisegment</b> — separate offers for multiple segments (Gap's distinct brands).",
       "<b>Mass Customization</b> — tailor to individuals at scale.",
       "Other considerations: expected <b>Size & Growth, Competition, Cost, Compatibility.</b>",
+      "<b>Market-product grid</b> = a framework that maps market <b>segments</b> (rows) against <b>products/offerings</b> (columns) to decide which segment-product combinations to target.",
       "<b>Majority Fallacy</b> = blindly chasing the <b>largest</b> segment (where competition is fiercest)."
     ]},
     { h:"Positioning", items:[
@@ -407,7 +426,7 @@ const LESSONS = {
       "<b>Perceptual map</b> = displays brands on two key dimensions (e.g., price × quality); place a new brand in the gap nearest the target/ideal point.",
       "<b>Points of Parity (POP)</b> = features similar to competitors (table stakes). <b>Points of Difference (POD)</b> = unique, desirable, differentiating features.",
       "<b>Approaches to positioning:</b> product feature, product benefit, <b>user category</b> (defining the type of person who uses it — iPhone/Mountain Dew), against a competitor (head-to-head), against a product category, and specific use.",
-      "<b>Head-to-head positioning</b> = compete directly on similar attributes in the same market. <b>Cannibalization</b> = your own products stealing each other's sales (Ann Taylor vs. its LOFT stores).",
+      "<b>Two positioning strategies:</b> <b>head-to-head</b> (compete directly on the same attributes in the same market) vs. <b>differentiation positioning</b> (seek a <i>less-competitive</i> niche / emphasize different attributes). <b>Cannibalization</b> = your own products stealing each other's sales (Ann Taylor vs. its LOFT stores).",
       "<b>Positioning statement</b> = a concise statement of (1) who the <b>target customers</b> are, (2) what <b>needs</b> the product fills, and (3) <b>why</b> it's the best option vs. competitors/substitutes."
     ]}
   ]
