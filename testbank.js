@@ -808,7 +808,7 @@ const TESTBANK=[
    "temporal effects",
    "antecedent states"
   ],
-  "a": 1,
+  "a": 0,
   "why": "Five situational influences have an impact on a consumer's purchase decision process: purchase task, social surroundings, physical surroundings, temporal effects, and antecedent states.",
   "ref": "p. 137"
  },
@@ -868,7 +868,7 @@ const TESTBANK=[
    "human resources",
    "finance"
   ],
-  "a": 2,
+  "a": 1,
   "why": "Figure 1-2 shows the key people, groups, and forces outside the organization that influence its marketing activities. The marketing department is one of several departments in a typical organization. Other departments include human resources, information technology, finance, manufacturing, and research and development (R&D). Shareholders exist outside the organization.",
   "ref": "p. 6"
  },
@@ -1033,7 +1033,7 @@ const TESTBANK=[
    "antecedent states",
    "physical surroundings"
   ],
-  "a": 1,
+  "a": 0,
   "why": "Five situational influences have an impact on a consumer's purchase decision process: purchase task, social surroundings, physical surroundings, temporal effects, and antecedent states.",
   "ref": ""
  },
@@ -1063,7 +1063,7 @@ const TESTBANK=[
    "electronic hacking",
    "searching a competitor's trash"
   ],
-  "a": 3,
+  "a": 1,
   "why": "Economic espionage is the clandestine collection of trade secrets or proprietary information about a company's competitors. Espionage activities include illegal trespassing, theft, fraud, misrepresentation, electronic hacking, the search of a competitor's trash, and violations of written and implicit employment agreements with noncompete clauses. Giving and receiving bribes and kickbacks are another form of unethical",
   "ref": ""
  },
@@ -1123,7 +1123,7 @@ const TESTBANK=[
    "Fake reviews",
    "Native advertising"
   ],
-  "a": 1,
+  "a": 2,
   "why": "Seg 3. January 19 Lecture part 1. Correct answer: Products that appear in TV shows, movies, etc., are used as part of a product placement strategy. See the slides titled Current Topics in Marketing. The example used in class for product placement was Taco Bell in the show: Wednesday. Incorrect answers: Fake reviews are reviews for a product that are not created by an actual user by a competitor or a robot. Native adv",
   "ref": ""
  },
@@ -1273,7 +1273,7 @@ const TESTBANK=[
    "technological",
    "competitive"
   ],
-  "a": 0,
+  "a": 1,
   "why": "Book, chapter 3, p 94. Government regulation like the law mentioned here is considered one of the uncontrollable environmental forces that include social, technological, economic, competitive, and regulatory forces.",
   "ref": ""
  },
@@ -1348,7 +1348,7 @@ const TESTBANK=[
    "Relationship Marketing",
    "Reselling"
   ],
-  "a": 0,
+  "a": 2,
   "why": "Seg 5. January 23 Lecture, part 2, 37:42 Correct Answer: A manufacturer that does not sell directly to consumers but still pays attention to consumer preferences is doing so because of derived demand. Derived demand is the concept that demand comes from downstream sources, and even though a manufacturer does not sell directly to consumers they must still understand consumer preferences to produce a desirable product.",
   "ref": ""
  },
@@ -1363,7 +1363,7 @@ const TESTBANK=[
    "The shoes that you bought last week",
    "The average income of your local town"
   ],
-  "a": 0,
+  "a": 3,
   "why": "Seg 6, January 30 Lecture, part 2, 2:10 Correct answer: The objective and product class box represent past purchases. So, the key word in this phrase is “last week” which represents a past purchase. Incorrect answers: The average income of your local town would be considered demographic information, so in the “general and objective” box. Your friend’s liking of gourmet cooking would be in the activities, interests, a",
   "ref": ""
  },
@@ -1513,7 +1513,7 @@ const TESTBANK=[
    "bribery",
    "trespassing"
   ],
-  "a": 1,
+  "a": 2,
   "why": "Economic espionage is the clandestine collection of trade secrets or proprietary information about a company's competitors and includes illegal trespassing, theft, fraud, misrepresentation, electronic hacking, the search of a competitor's trash, and violations of written and implicit employment agreements with noncompete clauses. Giving and receiving bribes and kickbacks are another form of unethical competitive busi",
   "ref": ""
  },
