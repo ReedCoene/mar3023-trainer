@@ -39,6 +39,10 @@ function bump(path, n=1){
 function qid(q){ let h=0,s=q.q||""; for(let i=0;i<s.length;i++){ h=(h*31+s.charCodeAt(i))|0; } return "q"+(h>>>0).toString(36); }
 function isFlagged(q){ return !!(progress.flagged && progress.flagged[qid(q)]); }
 function toggleFlag(q){ progress.flagged=progress.flagged||{}; const id=qid(q); if(progress.flagged[id]) delete progress.flagged[id]; else progress.flagged[id]=1; saveProgress(); return !!progress.flagged[id]; }
+/* ---------- weak spots (auto-tracked misses) ---------- */
+function isMissed(q){ return !!(progress.missed && progress.missed[qid(q)]); }
+function markMissed(q){ progress.missed=progress.missed||{}; progress.missed[qid(q)]=1; saveProgress(); }
+function clearMissed(q){ if(progress.missed && progress.missed[qid(q)]){ delete progress.missed[qid(q)]; saveProgress(); } }
 function flagBtn(q){
   const mk=()=>isFlagged(q)?"⚑ Flagged":"⚐ Flag";
   const b=el("button","flagbtn"+(isFlagged(q)?" on":""), mk());
@@ -129,6 +133,13 @@ function renderDashboard(main){
   note.innerHTML = `<b>Computational record:</b> ${dCorrect}/${dSeen} correct.
     The 7 computational types on Exam 1 are: Market Share, Multi-Attribute Model, NPS, Value Analysis/TLC, Vendor Analysis, Indexing, and Benefit Segmentation.`;
   main.appendChild(note);
+
+  const wcount=ALLQ.filter(isMissed).length;
+  if(wcount){
+    const wb=el("button","btn weakbtn","🩹 Review your "+wcount+" weak spot"+(wcount>1?"s":"")+" →");
+    wb.onclick=()=>go("quiz",{mode:"weak"});
+    main.appendChild(wb);
+  }
 }
 
 /* ============================================================
@@ -348,8 +359,8 @@ function renderInlineQ(q, opts={}){
     const b=el("button","choice",c);
     b.onclick=()=>{ if(answered)return; answered=true;
       const correct=i===q.a;
-      if(correct) b.classList.add("right");
-      else { b.classList.add("wrong"); $$(".choice",cwrap).forEach((bb,k)=>{ if(order[k].i===q.a) bb.classList.add("right"); }); }
+      if(correct){ b.classList.add("right"); clearMissed(q); }
+      else { markMissed(q); b.classList.add("wrong"); $$(".choice",cwrap).forEach((bb,k)=>{ if(order[k].i===q.a) bb.classList.add("right"); }); }
       $$(".choice",cwrap).forEach(bb=>bb.classList.add("locked"));
       const exp=el("div","explain "+(correct?"ok":"no")); exp.innerHTML=`<b>${correct?"Correct ✓":"Answer"}</b> — ${q.why}`;
       wrap.appendChild(exp);
@@ -372,6 +383,17 @@ function renderQuiz(main, cfg){
   if(!cfg){ // chooser
     main.appendChild(el("h1","page-h","Practice Quiz"));
     main.appendChild(el("p","sub","Pick a mode. Every question has an explanation so wrong answers still teach you."));
+
+    // featured: YOUR WEAK SPOTS (auto-tracked misses)
+    const wc=ALLQ.filter(isMissed).length;
+    if(wc){
+      const wf=el("button","quiz-feature weak");
+      wf.innerHTML=`<div class="feat-badge red">🩹 YOUR WEAK SPOTS</div>
+        <h3>Redo the ${wc} question${wc>1?"s":""} you've missed</h3>
+        <p>Auto-collected from every quiz & lesson. Answer one correctly and it drops off the list.</p>`;
+      wf.onclick=()=>go("quiz",{mode:"weak"});
+      main.appendChild(wf);
+    }
 
     // featured: timed exam simulator
     const ft=el("button","quiz-feature timed");
@@ -446,6 +468,7 @@ function renderQuiz(main, cfg){
   else if(cfg.mode==="lecture") quizSet=shuffle(ALLQ.filter(q=>q.src==="L"));
   else if(cfg.mode==="pattern") quizSet=shuffle(REALQ.filter(q=>archetypeOf(q)===cfg.pattern));
   else if(cfg.mode==="flagged") quizSet=shuffle(ALLQ.filter(isFlagged));
+  else if(cfg.mode==="weak") quizSet=shuffle(ALLQ.filter(isMissed));
   else if(cfg.mode==="timed") quizSet=shuffle(ALLQ).slice(0,cfg.n||40);
   else quizSet=shuffle(ALLQ).slice(0,cfg.n||20);
   quizPos=0; quizScore=0; quizMissed=[];
@@ -504,8 +527,8 @@ function drawQuiz(main){
       if(answered)return; answered=true;
       bump("quiz."+q.ch+".seen");
       const correct = i===q.a;
-      if(correct){ quizScore++; bump("quiz."+q.ch+".correct"); b.classList.add("right"); }
-      else { quizMissed.push(q); b.classList.add("wrong");
+      if(correct){ quizScore++; bump("quiz."+q.ch+".correct"); b.classList.add("right"); clearMissed(q); }
+      else { quizMissed.push(q); markMissed(q); b.classList.add("wrong");
         $$(".choice",choicesWrap).forEach((bb,k)=>{ if(order[k].i===q.a) bb.classList.add("right"); });
       }
       $$(".choice",choicesWrap).forEach(bb=>bb.classList.add("locked"));

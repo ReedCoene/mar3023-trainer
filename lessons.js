@@ -226,6 +226,7 @@ const LESSONS = {
       "4. <b>Purchase Decision</b>.",
       "5. <b>Post-Purchase Behavior</b> — satisfaction/dissonance.",
       "<b>Feedback</b> loops back: realizing a chosen solution didn't work (e.g., the Febreze didn't fix the smell) is the feedback phase, sending you back to search.",
+      "<b>Cognitive dissonance</b> = post-purchase doubt / 'buyer's remorse' — second-guessing your choice after buying (e.g., seeing the same laptop $200 cheaper the next day). Firms reduce it with reassurance, warranties, and follow-up.",
       "<b>Brand sets</b> narrow during search: all brands → <b>awareness set</b> → <b>consideration (evoked) set</b> → <b>choice set</b>. Two reject piles: the <b>inert set</b> (brands you're indifferent to) and the <b>inept set</b> (brands you actively reject)."
     ]},
     { h:"The Multi-Attribute Model (MAM)", items:[
@@ -422,6 +423,7 @@ const LESSONS = {
       "<b>Mass Customization</b> — tailor to individuals at scale.",
       "Other considerations: expected <b>Size & Growth, Competition, Cost, Compatibility.</b>",
       "<b>Market-product grid</b> = a framework that maps market <b>segments</b> (rows) against <b>products/offerings</b> (columns) to decide which segment-product combinations to target.",
+      "<b>Market-product strategies (the combinations):</b> <b>one product / one segment</b> = Concentration (niche); <b>one product / multiple segments</b> = sell the <i>same</i> offering to several groups; <b>multiple products / multiple segments</b> = Multisegment (a <i>different</i> product for each group, e.g., Gap's brands); <b>mass customization</b> = a custom product for <i>each individual</i> — a 'segment of one' (Custom Foot's made-to-order boots; Nike By You).",
       "<b>Majority Fallacy</b> = blindly chasing the <b>largest</b> segment (where competition is fiercest)."
     ]},
     { h:"Positioning", items:[
