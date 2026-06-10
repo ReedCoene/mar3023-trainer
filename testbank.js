@@ -50,7 +50,7 @@ const TESTBANK=[
  {
   "ch": "ch5",
   "src": "L",
-  "q": "Lily and Jessica want to attend a Taylor Swift concert. Lily researches various seat locations and packages and then conveys that information to Jessica. Jessica tells Lily to purchase floor seats. Lily ultimately purchases the floor seats. At the concert, Lily and Jessica are thrilled as they sing along to every song and are amazed by the spectacular performance and vibrant atmosphere. In this scenario, which role(s) does Lily take in the decision-making unit for purchasing the Taylor Swift concert tickets?",
+  "q": "Lily and Jessica want to attend a Taylor Swift concert. Lily researches various seat locations and packages and then conveys that information to Jessica. Jessica tells Lily to purchase floor seats. Lily ultimately purchases the floor seats. At the concert, Lily and Jessica are thrilled as they sing along to every song and are amazed by the spectacular performance and vibrant atmosphere. In this scenario, which role(s) does Lily take in the decision-making unit for purchasing the Taylor Swift concert tickets?<br>I. User<br>II. Influencer<br>III. Information Gatherer<br>IV. Purchaser<br>V. Decision Maker",
   "choices": [
    "I & III",
    "I, II, & IV",
