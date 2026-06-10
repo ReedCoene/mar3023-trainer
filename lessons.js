@@ -430,6 +430,7 @@ const LESSONS = {
       "Other considerations: expected <b>Size & Growth, Competition, Cost, Compatibility.</b>",
       "<b>Market-product grid</b> = a framework that maps market <b>segments</b> (rows) against <b>products/offerings</b> (columns) to decide which segment-product combinations to target.",
       "<b>Market-product strategies (the combinations):</b> <b>one product / one segment</b> = Concentration (niche); <b>one product / multiple segments</b> = sell the <i>same</i> offering to several groups; <b>multiple products / multiple segments</b> = Multisegment (a <i>different</i> product for each group, e.g., Gap's brands); <b>mass customization</b> = a custom product for <i>each individual</i> — a 'segment of one' (Custom Foot's made-to-order boots; Nike By You).",
+      "<b>Don't confuse Mass Marketing with 'one product / multiple segments':</b> Mass Marketing <i>ignores</i> segments — one product + one message to the <b>whole market as a single group</b> (Colgate 'for everyone, no specific group'). 'One product / multiple segments' means you <i>recognized</i> distinct segments and serve them the same product. The dividing line = <b>did you segment at all?</b>",
       "<b>Majority Fallacy</b> = blindly chasing the <b>largest</b> segment (where competition is fiercest)."
     ]},
     { h:"Positioning", items:[
