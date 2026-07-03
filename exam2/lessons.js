@@ -267,7 +267,7 @@ const LESSONS = {
       "• <b>Outlined</b> — a flexible checklist of points.",
       "<b>Adaptive selling</b> (need-satisfaction / marketing orientation) — determine the customer's needs/perceptions, then tailor the solution; \"listen more than you talk.\""
     ]},
-    { h:"Salesforce Management & Workload (COMPUTATIONAL)", items:[
+    { h:"Ch 21 · Salesforce Management & Workload (COMPUTATIONAL)", items:[
       "<b>Sales plan:</b> set objectives → make-or-buy → <b>organize the salesforce</b> → size it.",
       "<b>Organize by:</b> <b>Region</b>, <b>Product Line</b> (different reps for different product lines — Boeing splits by line of jets), or <b>Type of Account</b>.",
       "<span class='formula'>NS = (NC × CF × CL) ÷ AST</span> — # salespeople = (# customers × call frequency/yr × call length) ÷ annual selling time per rep.",
@@ -275,7 +275,7 @@ const LESSONS = {
       "<b>Worked:</b> (15,000 × 20 × 0.5) ÷ 1,200 = 150,000/1,200 = <b>125</b> salespeople.",
       "<b>Compensation:</b> Salary, Straight Commission, or Combination (salary + commission/bonus)."
     ]},
-    { h:"Evaluating Salespeople (COMPUTATIONAL)", items:[
+    { h:"Ch 21 · Evaluating Salespeople (COMPUTATIONAL)", items:[
       "<span class='formula'>Conversion Rate = # sales ÷ # calls</span>",
       "<span class='formula'>Quota Ratio = $ actual sales ÷ $ sales goal</span> (≥ 1.0 = met/beat quota).",
       "<b>Worked:</b> 13 sales / 67 calls = <b>19.4%</b> conversion; $78,000 / $75,000 = <b>1.04</b> quota ratio.",
