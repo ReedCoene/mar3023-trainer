@@ -3,7 +3,7 @@
    src:L=lecture  T=textbook.  Each: {ch,src,q,choices[],a:correctIndex,why,ref} */
 const TESTBANK=[
  {
-  "ch": "ch12",
+  "ch": "ch18",
   "src": "T",
   "q": "New Balance recently spent $13 million for time on television and space in selected magazines to promote its athletic shoes. What form of marketing communication did it use?",
   "choices": [
@@ -168,7 +168,7 @@ const TESTBANK=[
   "ref": "p. 340"
  },
  {
-  "ch": "ch11",
+  "ch": "ch10",
   "src": "L",
   "q": "A new product “Candy Vault” has entered the market. This product allows you to stock it with candy, then it uses a combination of voice and facial recognition to identify the Halloween trick-or-treaters who approach it. Then, if they are one of the approved neighbors, it will open and offer them a piece of candy. But if not, it will open to display a scary face accompanied with screams and will take the trick-or-treater’s scared photo, to post on social media. Most people are skeptical about this new technology and don’t want to purchase. But Woody is a Harvard grad and very venturesome. He’s done enough research and thinks that it would really benefit him and so wants to purchase it even though he would be one of the first to buy. Woody and people like him are considered which stage of adopters?",
   "choices": [
@@ -828,7 +828,7 @@ const TESTBANK=[
   "ref": "p. 509"
  },
  {
-  "ch": "ch20",
+  "ch": "ch19",
   "src": "L",
   "q": "Dawson sees an advertisement for a new video camera. The ad contains a blurry photo of a nature scene with one circular portion of the image that is clear and focused. The ad has a tagline that says “For better videos, the choice is clear.” After looking at the ad, Dawson realizes that the ad is trying to convey the quality of focus and clarity that this new video camera provides compared to other video cameras. What kind of stimuli did this advertisement contain?",
   "choices": [
@@ -873,7 +873,7 @@ const TESTBANK=[
   "ref": "L11B 41:39, N53"
  },
  {
-  "ch": "ch19",
+  "ch": "ch12",
   "src": "L",
   "q": "Management at a hotel recently invested a lot more time, money, and resources into improving their breakfast, including adding more options. They thought that consumers cared a great deal about their breakfasts. However, the change backfired by taking resources away from the hotel’s room service, which customers in fact cared about more. This resulted in many guests making complaints about the poor room service, never even mentioning the breakfast. This situation best illustrates a____________.",
   "choices": [
@@ -933,7 +933,7 @@ const TESTBANK=[
   "ref": "p. 289"
  },
  {
-  "ch": "ch18",
+  "ch": "ch10",
   "src": "L",
   "q": "While walking through the Plaza of the Americas, you are stopped by an up-and-coming business interested in your feedback on their new product. Their product is named “Calcu-Gator,” a calculator designed specifically for gator business students. They show you the calculator and its features and demonstrate how it can perform complex calculations quickly. You consider how it compares to your current calculator and other calculators that you have used, and whether the benefits are worth the added price. What stage of the adoption process are you currently in for the Calcu-Gator?",
   "choices": [
@@ -1068,7 +1068,7 @@ const TESTBANK=[
   "ref": "p. 320"
  },
  {
-  "ch": "ch11",
+  "ch": "ch20",
   "src": "L",
   "q": "Cora works for TrailBlaze, a company that manufactures high-quality outdoor gear. She regularly visits retail stores to train their sales staff on the features and benefits of TrailBlaze products. During her visits, she demonstrates how to showcase the products effectively and provides tips on engaging customers. What position does Cora hold at TrailBlaze?",
   "choices": [
@@ -1078,7 +1078,7 @@ const TESTBANK=[
    "manufacturing sales representative",
    "buyer"
   ],
-  "a": 2,
+  "a": 3,
   "why": "Cora is a vector sales representative because she works for the manufacturing company but her job consists of going to retail stores to show employees how best to sell the manufacturers products. Her job is to get those products out of the retail store after they buy from the manufacturer. Her job is analogous to that of Laurie in the Reebok video shown in class.",
   "ref": "L16A 29:05, N60"
  },
@@ -1113,7 +1113,7 @@ const TESTBANK=[
   "ref": "p. 310"
  },
  {
-  "ch": "ch10",
+  "ch": "ch11",
   "src": "L",
   "q": "In July 2022, Hua Cheng launched a butterfly hairclip line. The product quickly gained attention from customers, generating high sales and profit. Nonetheless, only 8 months later, consumers are no longer excited about the product and its sales are gone, never to return. What type of product is this butterfly hairclip?",
   "choices": [
@@ -1128,7 +1128,7 @@ const TESTBANK=[
   "ref": "L9B 24:33, N38"
  },
  {
-  "ch": "ch19",
+  "ch": "ch12",
   "src": "L",
   "q": "After a hurricane, Maya lost her internet service and needed to file a claim with her service provider. It took her a week to get the claim filed due to the company's slow response times. Additionally, she has been frustrated by the long wait for a technician to come to her home for the repair. According to the RATER model, which dimension of service quality is Maya unhappy with?",
   "choices": [
@@ -1218,7 +1218,7 @@ const TESTBANK=[
   "ref": "p. 336"
  },
  {
-  "ch": "ch10",
+  "ch": "ch11",
   "src": "L",
   "q": "Jack just received a new wine opener as a gift from a friend. He is excited because it plays the song “Red, red wine” when in use and is crafted to look like Neil Diamond, the author of the song and Jack’s favorite musician. It naturally also has a sharp corkscrew for piercing and extracting corks. Like most openers, it also has a bottle cap opener for opening bottles of beer and soda, except this one is in Diamond’s mouth. Based on our discussion in lecture, which of the following answers regarding the benefits of Jack’s new gift is most true?",
   "choices": [
@@ -1278,7 +1278,7 @@ const TESTBANK=[
   "ref": "p. 608"
  },
  {
-  "ch": "ch18",
+  "ch": "ch10",
   "src": "L",
   "q": "Which of the following does NOT describe a factor influencing the rate of diffusion?",
   "choices": [
@@ -1293,7 +1293,7 @@ const TESTBANK=[
   "ref": "L11B 44:13, N44"
  },
  {
-  "ch": "ch19",
+  "ch": "ch12",
   "src": "L",
   "q": "Emma wants to get her nails done at a new salon. She is concerned because, unlike buying nail polish, the quality of the service depends on both the nail technician's skills and Emma’s ability to describe to the tech the sort of look that she wants. Which characteristic of services is Emma concerned about, and what step can help overcome her concern?",
   "choices": [
@@ -1383,7 +1383,7 @@ const TESTBANK=[
   "ref": "L10A 17:40, N40"
  },
  {
-  "ch": "ch18",
+  "ch": "ch10",
   "src": "L",
   "q": "A ginger ale brand created a new “chill can.” When consumers pull the tab to open the can, it starts a process in the can’s liner that will perfectly chill the soda in 90 seconds. Unfortunately, some consumers drink the soda immediately after opening and are disappointed to find that it is still warm. What level of innovation does the chill can represent?",
   "choices": [
@@ -1458,7 +1458,7 @@ const TESTBANK=[
   "ref": "p. 303"
  },
  {
-  "ch": "ch20",
+  "ch": "ch18",
   "src": "L",
   "q": "Tommy is a salesperson attempting to sell candy bars door to door. One day he knocks on Cooper’s door and attempts to explain the benefits of his chocolate bars. Cooper is convinced and he buys an entire box. What role in the communications process is Tommy playing and what actions is Cooper doing in this process?",
   "choices": [
@@ -1503,7 +1503,7 @@ const TESTBANK=[
   "ref": "L15B 41:52, N59"
  },
  {
-  "ch": "ch19",
+  "ch": "ch12",
   "src": "L",
   "q": "On her work break, Sarah decided to make a trip to Burger King to grab a quick bite. Sarah ordered her burger; however, she ordered it without tomatoes because she simply does not like eating tomatoes. When she got her burger, there was a tomato slice on it, which she complained about to the server. The server immediately apologized and brought out a new burger that did not have any tomatoes. What kind of service failure recovery strategy did Burger King use in this situation?",
   "choices": [
@@ -1533,7 +1533,7 @@ const TESTBANK=[
   "ref": "p. 281"
  },
  {
-  "ch": "ch20",
+  "ch": "ch18",
   "src": "L",
   "q": "Samsung’s marketing team wants to create a top-notch message strategy to help differentiate them from their biggest competitors, Apple, and Motorola. They determined the four main attributes of phones, the customer ratings (1=poor to 10=excellent) and the importance level of each attribute (1=not important to 10=very important). Using the multi-attribute model, which strategy would allow Samsung to develop the greatest advantage relative to its competitors, assuming that each change is maximally effective? Attribute Apple Samsung Motorola Importance Battery Life 8 7 6 6 Security 9 6 5 9 Cost 6 8 8 8 Speed 8 6 5 7",
   "choices": [
@@ -1608,7 +1608,7 @@ const TESTBANK=[
   "ref": "L15A 40:47, N57"
  },
  {
-  "ch": "ch20",
+  "ch": "ch18",
   "src": "L",
   "q": "Ro-Jo absolutely adored the new Wicked movie that came out recently because he loves Ariana Grande’s singing. He tells all his friends that they “need to” go watch the movie and that it is an absolute masterpiece. 9/10 of his friends go watch the movie in theaters within 10 days of Ro-Jo’s recommendation because he is a(n) _________ and ___________ source.",
   "choices": [
@@ -1638,7 +1638,7 @@ const TESTBANK=[
   "ref": "L16B 9:20, N61"
  },
  {
-  "ch": "ch18",
+  "ch": "ch10",
   "src": "L",
   "q": "NewGames executives sat down to discuss how best to develop new business. They specifically want any new product to target consumers beyond their small market of younger gamers. Which aspect of new product development does their meeting best represent?",
   "choices": [
@@ -1743,7 +1743,7 @@ const TESTBANK=[
   "ref": "17B 08:15, N61"
  },
  {
-  "ch": "ch12",
+  "ch": "ch18",
   "src": "T",
   "q": "A small film company is releasing a documentary about the efforts of a group dedicated to saving endangered species. However, the company has few resources to promote the film. Which promotion element should it employ?",
   "choices": [
@@ -1758,7 +1758,7 @@ const TESTBANK=[
   "ref": "p. 505"
  },
  {
-  "ch": "ch20",
+  "ch": "ch12",
   "src": "L",
   "q": "Pear Phones has stringent requirements for its customer service specialists in its stores, whom they dub Virtuosos, in order to ensure customers’ expectations for service are met. However, many Virtuosos lack the required expertise to solve customers’ problems, despite the knowledge and careful design that go into their service standards. In the Extended GAP Model, what kind of gap does Pear’s difficulty serving their customers represent?",
   "choices": [
@@ -1848,7 +1848,7 @@ const TESTBANK=[
   "ref": ""
  },
  {
-  "ch": "ch20",
+  "ch": "ch12",
   "src": "L",
   "q": "Ethan is a personal trainer at a gym in Gainesville. He makes sure to take extra care with customer interactions to ensure his clients leave each session happy and satisfied with their workout. If they are feeling fatigued, he’ll have them take a break then come back when rested. And he provides expert instruction and emotional support when the workout gets hard. Which of the four “I”s of services does Ethan’s behavior best represent?",
   "choices": [
@@ -1893,7 +1893,7 @@ const TESTBANK=[
   "ref": "p. 509"
  },
  {
-  "ch": "ch19",
+  "ch": "ch10",
   "src": "L",
   "q": "When ChatGPT became popular, Grandma Allyson and Grandpa Mike decided to try using it to help write emails and look up recipes. However, they quickly became frustrated trying to understand how to type prompts, adjust settings, and interpret the chatbot’s response. Their struggle caused them, and many of their friends, to avoid downloading and using the app altogether. This example best illustrates how a higher level of _______ can delay how quickly a product spreads through the market.",
   "choices": [
@@ -1984,7 +1984,7 @@ const TESTBANK=[
   "ref": "L16B 36:13, N58"
  },
  {
-  "ch": "ch18",
+  "ch": "ch11",
   "src": "L",
   "q": "Spooky Costumes is a clothing rental company that offers unique, high quality, Halloween costumes for rent. In their ads, they showcase a cute little ghost holding a pumpkin flying around and saying their marketing lines. They put just the little pumpkin on all of their costumes to signify the clothing pieces were made by Spooky costumes and distinguish them from those of their competitors. Respectively, Spooky Costumes, the Ghost, and the Pumpkin, are examples of which brand elements? (Choose the most specific terms possible.)",
   "choices": [
@@ -2044,7 +2044,7 @@ const TESTBANK=[
   "ref": "p. 575"
  },
  {
-  "ch": "ch10",
+  "ch": "ch11",
   "src": "L",
   "q": "Electric kick scooters are rapidly being adopted by commuters in major cities over the last five to six years. Consumers adopt scooters readily because they are easy to use, being just like the human powered scooters we rode as children. Sales are rising quickly, profits are increasing, and new competitors are entering the market. What sort of product are these scooters and what is their current phase in the product life cycle?",
   "choices": [
@@ -2284,7 +2284,7 @@ const TESTBANK=[
   "ref": "p. 530"
  },
  {
-  "ch": "ch10",
+  "ch": "ch11",
   "src": "L",
   "q": "ASUS is a computer hardware company that offers laptops for travel (Vivobook), other laptops for design work (ProArt), and still others designed for gaming (ROG). Each of these groups contains multiple series and models with different configurations and price points. Collectively, the laptops across all of these uses and categories illustrate which concept in product strategy for ASUS?",
   "choices": [
@@ -2404,7 +2404,7 @@ const TESTBANK=[
   "ref": "p. 610"
  },
  {
-  "ch": "ch18",
+  "ch": "ch20",
   "src": "T",
   "q": "Anita was sent to Japan to negotiate a contract for her American company. When arriving for the meeting, she was told not to shake hands with the customer, but instead to bow and hand her business card using both hands. This occurs during the________ stage of personal selling process.",
   "choices": [
@@ -2449,7 +2449,7 @@ const TESTBANK=[
   "ref": "p. 283"
  },
  {
-  "ch": "ch19",
+  "ch": "ch10",
   "src": "L",
   "q": "While grabbing lunch at the Reitz Union, you're approached by a startup promoting their new app called “Gator Planner,” designed to help UF students organize class schedules, club meetings, and football tailgates. They ask you questions like “Would you use this app weekly?” and “What features would be most helpful to you?” What new product development process is being used?",
   "choices": [
@@ -2704,7 +2704,7 @@ const TESTBANK=[
   "ref": ""
  },
  {
-  "ch": "ch12",
+  "ch": "ch20",
   "src": "T",
   "q": "TransWave International is a company that markets patented electronic sensors as an early warning device for locating potential problems with buried pipelines. TransWave sends an environmental expert, a safety engineer, a legal representative to explain new regulations enacted by the U.S. Office of Pipeline Safety, and an experienced pipeline expert when it meets with a prospect. This is an example of how TransWave uses",
   "choices": [

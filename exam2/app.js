@@ -177,22 +177,26 @@ function renderLearn(main, chId){
   const used=new Set();
   const stripHtml=s=>s.replace(/<[^>]+>/g," ");
   const STOP=new Set("the a an of to and or for in on with by is are as it its their our your you they we how this that these those into be can will may more most not but they're you're which what when does do using use other key each within over also both per via just very macro micro sector sectors marketing business four three five two basics detail favorite memorize know what's".split(" "));
-  function topicWords(str,minLen){ return [...new Set((stripHtml(str).toLowerCase().match(/[a-z][a-z\-]{2,}/g)||[]))].filter(w=>w.length>=minLen && !STOP.has(w)); }
+  // generic marketing nouns are too common to prove a topic match — they must NOT drive pairing
+  const GENERIC=new Set("product products benefit benefits service services customer customers company companies brand brands branded feature features marketing sales consumer consumers business businesses market markets goods good idea ideas offer offering offerings buy buyer buyers purchase purchases price prices pricing promotion promotional strategy strategies quality store stores retail people staff".split(" "));
+  function distinctWords(str,minLen){ return [...new Set((stripHtml(str).toLowerCase().match(/[a-z][a-z\-]{2,}/g)||[]))].filter(w=>w.length>=minLen && !STOP.has(w) && !GENERIC.has(w)); }
   function pairQ(sec){
-    const hwords=topicWords(sec.h,3);                                   // heading = the topic (weighted heavily)
-    const iwords=topicWords((sec.items||[]).slice(0,4).join(" "),5);    // a few specific item terms
-    let best=null,bestN=0;
+    const hwords=distinctWords(sec.h,4);                                // heading = the topic
+    const allItems=(sec.items||[]).join(" ");
+    const strong=distinctWords(allItems,6);                             // strong, specific concept terms
+    const weak=distinctWords(allItems,4).filter(w=>w.length<6 && !strong.includes(w));
+    let best=null,bestScore=-1;
     for(const q of qsForChapter(ch.id)){
       if(used.has(q)) continue;
       // match on the stem + the CORRECT answer only (distractor choices cause off-topic noise)
-      const qt=stripHtml(q.q+" "+(q.choices[q.a]||"")).toLowerCase();
-      let n=0;
-      hwords.forEach(w=>{ if(qt.includes(w)) n+=3; });                  // a heading-word hit is worth 3
-      iwords.forEach(w=>{ if(qt.includes(w)) n+=1; });
-      if(n>bestN){bestN=n;best=q;}
+      const qt=" "+stripHtml(q.q+" "+(q.choices[q.a]||"")).toLowerCase().replace(/[^a-z\- ]/g," ").replace(/\s+/g," ")+" ";
+      const has=w=>qt.includes(" "+w+" ")||qt.includes(" "+w+"s ")||qt.includes(" "+w.replace(/s$/,"")+" ");
+      const hHit=hwords.filter(has).length, sHit=strong.filter(has).length, wHit=weak.filter(has).length;
+      if(hHit===0 && sHit===0) continue;                               // REQUIRE a heading or strong concept word — no generic-word matches
+      const score=hHit*3 + sHit*2 + wHit;
+      if(score>bestScore){ bestScore=score; best=q; }
     }
-    // only pair when the match is genuinely on-topic (≈ at least one heading word). Otherwise show nothing.
-    if(best && bestN>=3){ used.add(best); return best; }
+    if(best){ used.add(best); return best; }
     return null;
   }
 
