@@ -3226,7 +3226,7 @@ const TESTBANK=[
   "ref": ""
  },
  {
-  "ch": "ch10",
+  "ch": "ch19",
   "src": "T",
   "q": "DriveFree is a new electric car company that creates self-driving cars. They create an infomercial to tell customers all about their product. Since this is a company offering a new product, what advertising goal should the DriveFree first focus on?",
   "choices": [
@@ -4141,7 +4141,7 @@ const TESTBANK=[
   "ref": ""
  },
  {
-  "ch": "ch10",
+  "ch": "ch19",
   "src": "T",
   "q": "Your product, Hot Paws, the heated gloves with different animal prints, has become a market success. Now that it is well into the growth stage and approaching maturity in the product life cycle, your advertising strategy needs to evolve. At this stage, your primary goal is to make existing customers feel confident that they made the right choice in purchasing Hot Paws. Which advertising task should your ads focus on?",
   "choices": [

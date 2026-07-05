@@ -223,7 +223,7 @@ const LESSONS = {
   /* ===================== CH 19 — ADVERTISING & SALES PROMOTION (Seg 12) ===================== */
   ch19:[
     { h:"Goals & Types of Advertising", items:[
-      "<b>5 goals:</b> Inform, Persuade, Sell, Reinforce, Remind. A <b>brand-new</b> product (or category) should <b>Inform</b> first.",
+      "<b>The 5 advertising goals — know what each does (maps to the PLC):</b> <b>Inform</b> = build awareness for a NEW product (Introduction). <b>Persuade</b> = convince buyers yours is best, often comparative (Growth). <b>Reinforce</b> = <i>reassure CURRENT customers they made the right choice</i> / reduce buyer's remorse (Maturity — e.g. Hot Paws telling owners they chose well). <b>Remind</b> = keep a well-known brand top-of-mind (late Maturity). <b>Sell</b> = drive an immediate purchase. A brand-new product → <b>Inform</b> first.",
       "<b>Product advertising types:</b> <b>Pioneering</b> (informational — builds <b>primary</b>/category demand), <b>Competitive</b> (persuasive — builds <b>selective</b>/brand demand; \"preference for a specific brand\" = selective demand), <b>Reminder</b> (keeps the brand top-of-mind).",
       "<b>Institutional advertising</b> promotes the <b>organization's image/idea/values</b>, not a specific product (e.g. an ad about a firm's sustainability commitment).",
       "<b>Ad industry:</b> Full-service agency (one-stop shop) vs Limited-service (specializes in one aspect, e.g. creative or media) vs In-house."
