@@ -1106,7 +1106,7 @@ const TESTBANK=[
    "demarketing the product.",
    "modifying the product characteristics."
   ],
-  "a": 1,
+  "a": 0,
   "why": "With market modification strategies, a company tries to find new customers, increase a product’s use among existing customers, or create new use situations. Finding new uses for a more mature product helps extend the product’s life cycle, as in the case of Mott’s applesauce.",
   "ref": "p. 310"
  },
