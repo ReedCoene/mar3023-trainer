@@ -27,7 +27,9 @@ const LESSONS = {
       "<b>Introduction</b> — build <b>awareness</b>; buyers = <b>Innovators</b> (venturesome, well-educated, first to buy).",
       "<b>Growth</b> — competitors flood in; goal = <b>stress differentiation</b> (comparative advertising); buyers = <b>Early Adopters</b>.",
       "<b>Maturity</b> — sales peak; goal = <b>hold/maintain market share</b>; buyers = <b>Early & Late Majority</b>.",
-      "<b>Decline</b> — sales fall; buyers = <b>Laggards</b>.",
+      "<b>Decline</b> — sales fall; buyers = <b>Laggards</b> (tradition-bound, last to adopt).",
+      "<b>Decline-stage STRATEGIES (know both — either can be the right answer):</b> <b>Harvesting</b> = stop investing and <i>milk</i> the product for its last profits — cut marketing &amp; R&amp;D, keep selling to whoever's left, collect the cash before it dies. <b>Deletion / Divesting</b> = <i>drop</i> the product entirely (discontinue it).",
+      "<b>🔑 THE test pattern:</b> almost every PLC question is <i>identify the stage → match the strategy</i>, and the wrong choices are just the right strategy for a <i>different</i> stage. <b>Introduction → gain awareness · Growth → stress differentiation · Maturity → maintain/hold share · Decline → harvest OR delete.</b> Nail the stage and the answer falls out.",
       "<b>No set length:</b> the time to move through the PLC <b>depends on the product type</b> (consumer products usually shorter than business products).",
       "<b>Extending the PLC (at maturity):</b> Market Penetration, Market Development, Product Modification, Product Repositioning. (Repositioning often <i>reacts to a competitor's position</i> — e.g. New Balance vs Nike/Adidas.)"
     ]},
@@ -44,16 +46,29 @@ const LESSONS = {
       "\"Per capita\" = divide dollars by the number of customers in that territory (or nationally).",
       "<b>Reading the quadrant:</b> <b>High BDI + High CDI</b> → strong brand in a strong market, invest. <b>Low BDI + High CDI</b> → category thrives but your brand lags → <b>research WHY you under-perform</b>. <b>High BDI + Low CDI</b> → you win a weak market, maybe harvest. <b>Low + Low</b> → reduce investment.",
       "<b>Worked example:</b> NY brand/cap = $5.92M/4M = $1.48; national brand/cap = $20M/10M = $2 → BDI = 1.48/2 ×100 = <b>74</b>. NY cat/cap = $53.76M/4M = $13.44; national = $80M/10M = $8 → CDI = 13.44/8 ×100 = <b>168</b>. Low BDI + high CDI → research the reasons."
-    ]},
+    ], matrix:{
+      title:"BDI × CDI — what action to take",
+      corner:"",
+      colLabels:["CDI HIGH (&gt;100)<br>category thrives here","CDI LOW (&lt;100)<br>category is weak here"],
+      rowLabels:["BDI HIGH (&gt;100)<br>your brand thrives","BDI LOW (&lt;100)<br>your brand lags"],
+      cells:[
+        ["<b>✅ Invest &amp; build.</b> Strong brand in a strong market — pour resources in to defend and grow.",
+         "<b>🐄 Maintain / harvest.</b> Your brand wins a category that's weak here — protect the cash cow, don't over-invest."],
+        ["<b>🔎 Research WHY you lag.</b> The category sells great but your brand doesn't — find &amp; fix the reason before investing. <i>(This is where Peet's &amp; Target land.)</i>",
+         "<b>❌ Reduce / pull out.</b> Both your brand and the category are weak here — cut investment or exit."]
+      ]
+    }},
     { h:"Branding & Brand Equity", items:[
       "<b>Brand name / brand mark / trade character / logo / trademark</b> — know the distinctions (name = spoken part; mark = symbol; trade character = a personified mark like the Geico Gecko; trademark = legally protected).",
       "<b>Family branding</b> (one name across products) vs <b>Multiple branding</b> (distinct names) vs <b>Co-branding</b>.",
       "<b>National brands</b> vs <b>Private-label</b> (store) brands; <b>Licensing</b>.",
       "<b>Brand Equity</b> = added value a name gives a product. <b>4 components:</b> Awareness, Associations, Perceived Quality, Loyalty.",
       "<b>Line extension</b> = new variant in the SAME category (new flavor/size). <b>Category extension</b> = brand enters a DIFFERENT category.",
-      "<b>Packaging functions:</b> contain/protect, facilitate use, communicate, fit channel needs. A <b>product manager</b> is also called a <b>brand manager</b>."
+      "<b>Packaging functions:</b> contain/protect, facilitate use, communicate, fit channel needs. A <b>product manager</b> is also called a <b>brand manager</b>.",
+      "<b>Emerging brand concepts:</b> a <b>brand community</b> is when customers build relationships <i>with each other</i> out of shared loyalty to/interest in the same brand (Harley owners; a Trader Joe's superfan group) — it deepens loyalty and turns customers into advocates. Related: <b>consumer–brand relationships</b>."
     ]}
     ,{ h:"🔍 Deep-dive: niche facts & exam traps", items:[
+      "<b>More branding &amp; product terms tested as answer choices:</b> <b>Subbranding</b> = pairing a parent brand with a subordinate one for a specific line (Marriott → Courtyard by Marriott). <b>Consumer products</b> (convenience/shopping/specialty/unsought) vs <b>business / B2B products</b> — bought for a firm's own operations (e.g. <b>support products</b>, supplies), which have <b>derived demand</b> (their demand flows from demand for something else). Real-but-usually-WRONG distractors to recognize: <b>demarketing</b> (deliberately discouraging demand), <b>creeping featurism / feature bloat</b> (piling on features until usability suffers), <b>product constellation</b> (a set of products that together signal a social role).",
       "<b>Consumer product classes (know the buying behavior for each):</b> <b>Convenience</b> = frequent, low price, little effort/shopping (subtypes: <i>staple, impulse, emergency</i>). <b>Shopping</b> = compared on price/quality/style, some effort (appliances, furniture). <b>Specialty</b> = special effort, brand-insistent, few outlets (Rolex, a specific stylist). <b>Unsought</b> = consumer <i>doesn't know about it or doesn't initially want it</i> (thesaurus, life insurance) — very infrequent, awareness is essential.",
       "<b>Branding strategies (don't mix these up):</b> <b>Multiproduct / family branding</b> = ONE brand name on all products (Nike, Samsung); enables <b>line extension</b> (same category, new variant) and <b>brand/category extension</b> (new category). <b>Co-branding</b> = two brands on one product. <b>Multibranding</b> = a DIFFERENT brand name for each product line (Nestlé: KitKat, Nespresso; P&amp;G). <b>Private-label / reseller branding</b> = made for a retailer, sold only there (Walmart Great Value, Costco Kirkland). <b>Mixed</b> = both. <b>Generic</b> = no brand.",
       "<b>Brand equity</b> = the added value a brand name gives beyond function. <b>Advantages:</b> a <b>competitive advantage</b>, a <b>price premium</b>, and easier acceptance of new products (extensions). Built via awareness → associations/perceived quality → loyalty.",
@@ -75,9 +90,10 @@ const LESSONS = {
     ]},
     { h:"New-Product Development Process (7 stages)", items:[
       "<b>1. New-Product Strategy</b> — set the goals a new product should achieve (comes FIRST). Objectives like \"add a service\" or \"extend into a new category\" live here.",
+      "<b>Protocol</b> = a statement written <b>BEFORE development</b> that identifies (a) a well-defined <b>target market</b>, (b) the customer's specific <b>needs/wants/preferences</b>, and (c) exactly what the product <b>will be and do</b> to satisfy them. A missing or vague protocol is a <b>top reason new products fail</b>.",
       "<b>2. Idea Generation</b> — the widest stage; the most ideas exist here.",
       "<b>3. Screening & Evaluation</b> — does it fit the firm's values/mission (feasibility)?",
-      "<b>4. Business Analysis</b> — the <b>financials</b>: cost to procure/manufacture and the price it could sell for.",
+      "<b>4. Business Analysis</b> — the <b>financials + fit</b>: cost to procure/manufacture, the price it could sell for, marketing/product <b>synergies</b> with existing lines, and <b>cannibalization</b> potential (will it steal sales from your OWN products?).",
       "<b>5. Prototype (Development)</b> — build and test a mockup/sample.",
       "<b>6. Market Testing</b> — real people test the product in experiments/surveys (a test market).",
       "<b>7. Commercialization</b> — the product is <b>positioned and launched in full-scale production and sales</b>.",
@@ -98,6 +114,7 @@ const LESSONS = {
       "<b>Match-the-factor questions:</b> address fears = Risk · WOM/observe = Communicability · beat rivals = Relative Advantage · fits current life = Compatibility."
     ]}
     ,{ h:"🔍 Deep-dive: niche facts & exam traps", items:[
+      "<b>Innovation-term distractors:</b> the course's official levels are ONLY <b>continuous → dynamically continuous → discontinuous.</b> ‘Radical,’ ‘disruptive,’ ‘discrete,’ ‘a jump in innovation,’ ‘somewhat continuous’ are decoys — real-sounding, but not the framework's term. <b>Me-too innovation</b> = copying a rival's new product. <b>Viral marketing</b> (spreads by sharing/word-of-mouth) and <b>ambush marketing</b> (marketing around an event you did NOT pay to sponsor) also show up as choices.",
       "<b>Why new products FAIL (marketing reasons — high-yield):</b> (1) insignificant point of difference, (2) incomplete market &amp; product definition <i>before</i> development, (3) too little market attractiveness, (4) poor execution of the marketing mix, (5) poor product quality or a too-sensitive product, (6) bad timing, (7) no economical access to buyers.",
       "<b>Newness is relative:</b> a product can be new to the <b>company</b>, new to the <b>market/world</b>, or a <b>reposition/line extension</b>. The 3 innovation levels map to how much the CONSUMER must learn: <b>Continuous</b> (no new behavior) → <b>Dynamically Continuous</b> (some learning, same basic use — electric toothbrush, AirPods, Face-ID) → <b>Discontinuous</b> (all-new behavior — the first car, the Moon aircraft).",
       "<b>NPD stages — the details:</b> <b>New-product strategy</b> (set goals first) → <b>Idea generation</b> (sources: employees, customers/<b>crowdsourcing</b>, R&amp;D, competitors, suppliers) → <b>Screening &amp; evaluation</b> (fit with mission — internal + external/concept tests) → <b>Business analysis</b> (financials: cost to make + price it can sell for) → <b>Development</b> (build a <b>prototype</b>, lab &amp; safety tests) → <b>Market testing</b> (test markets: <i>standard, controlled, simulated</i>; real consumers try it) → <b>Commercialization</b> (full launch; watch <b>slotting fees</b> and regional rollout).",
@@ -114,7 +131,7 @@ const LESSONS = {
       "<b>Intangibility</b> — can't be physically held/seen before purchase. <b>Fix:</b> add tangible cues — a mascot/spokesperson personifies the service (Geico Gecko, \"Felipe the Flying Squirrel\").",
       "<b>Inconsistency</b> — quality varies by who/when/where. <b>Fix:</b> <b>standardize</b> — training, a consistent process (a makeup masterclass).",
       "<b>Inseparability</b> — produced and consumed at the same time; the provider is part of it. <b>Fix:</b> <b>involve the customer</b> in the service (real-time feedback in a mirror).",
-      "<b>Inventory</b> — you can't stockpile a service; idle capacity is lost (off-peak pricing helps).",
+      "<b>Inventory</b> — you can't stockpile a service; <b>idle production capacity</b> is lost when no one shows up. <b>Fix = capacity / yield management</b>: match demand to capacity via off-peak pricing, overbooking, or dynamic pricing (<b>yield management</b> = any method to lift demand during idle periods).",
       "<b>Trap:</b> a scenario resolving BOTH standardized training AND customer participation = resolving <b>Inconsistency &amp; Inseparability</b>."
     ]},
     { h:"Levels of Service & Classifying Services", items:[
@@ -156,7 +173,7 @@ const LESSONS = {
       "<b>RATER</b> service-quality dimensions: <b>R</b>eliability, <b>A</b>ssurance, <b>T</b>angibles, <b>E</b>mpathy, <b>R</b>esponsiveness. <b>Extended gap model — 4 gaps:</b> Knowledge (mgmt misreads wants) → Standards (specs don't match) → <b>Delivery</b> (staff don't perform set standards) → Communications (promises ≠ delivery).",
       "<b>Disney service recovery matrix</b> = severity × responsibility: low/low = <b>Empathy</b>; low severity + firm's fault = <b>Fix it!</b>; high severity + not their fault = <b>Hero</b>; high/high = <b>Red Carpet</b>.",
       "<b>Keeping customers:</b> <b>Customer contact audit</b> / <b>service blueprint</b> (map every touchpoint; blueprint adds all employee actions and treats service as an ‘experience’). <b>Internal marketing</b> = treating employees as internal customers so they deliver better. <b>CLV</b> = visits × profit/visit × years (profit, not revenue). Tools: frequency marketing, <b>share of wallet</b>, database/CRM, <b>RFM</b> (recency/frequency/monetary).",
-      "<b>Levels of market offering</b> (rising value): Commodity → Good → Service → <b>Experience</b>. The <b>sharing/collaborative economy</b> (Uber, Airbnb) monetizes idle assets. <b>CEM</b> = customer experience management (managing the whole experience within the firm)."
+      "<b>Levels of market offering</b> (rising value): Commodity → Good → Service → <b>Experience</b> (the <b>‘experience economy’</b> — an experience is the most-valued, most-differentiated offering). The <b>sharing/collaborative economy</b> (Uber, Airbnb) monetizes idle assets. <b>CEM</b> = customer experience management (managing the whole experience within the firm)."
     ]}
   ],
 
@@ -233,6 +250,7 @@ const LESSONS = {
       "<b>Why sales promotion has grown:</b> growing retailer power, promotion sensitivity, ad clutter, accountability, short-term focus — spending shifted toward <b>trade</b> promotion over time."
     ]}
     ,{ h:"🔍 Deep-dive: niche facts & exam traps", items:[
+      "<b>Digital advertising details (tested as choices):</b> pricing models — <b>CPM</b> (cost per thousand impressions), <b>CPC</b> (cost per click), <b>CPA</b> (cost per action/acquisition), <b>CPV</b> (cost per view). Targeting — <b>behavioral</b> (based on your past online behavior) vs <b>contextual</b> (matched to the page's content). <b>Programmatic</b> = automated real-time ad buying; <b>SEO / SEM</b> = optimizing or paying (sponsored links) to rank on search queries. <b>UGC</b> (user-generated content) = brand-relevant content consumers make and post <i>publicly</i> — note it is NOT personal e-mails and NOT primarily for commercial profit.",
       "<b>Product advertising — 3 types:</b> <b>Pioneering</b> (introductory — <i>informs</i>, builds PRIMARY/category demand) · <b>Competitive</b> (<i>persuades</i>, builds SELECTIVE/brand demand; comparative ads name rivals) · <b>Reminder</b> (reinforces; for well-established products). ‘Preference for a specific brand’ = selective demand.",
       "<b>Institutional advertising — 4 types (promotes the ORG, not a product):</b> <b>Advocacy</b> (states a position/issue) · <b>Pioneering institutional</b> (announces what the company is/does — Bayer ‘we cure more than headaches’) · <b>Competitive institutional</b> (one product CLASS vs another — dairy's ‘got milk?’) · <b>Reminder institutional</b> (keeps the org's name up — U.S. Army).",
       "<b>Media strengths/weaknesses:</b> <b>TV</b> (huge reach, senses engaged; costly, low selectivity, clutter) · <b>Radio</b> (cheap, targeted; audio-only, short attention) · <b>Magazines</b> (highly targeted, long life; long lead time) · <b>Newspapers</b> (timely, local; short life, poor color) · <b>Internet</b> (interactive, targeted, measurable; privacy/cookie &amp; brand-safety concerns) · <b>Outdoor/billboard</b> (repetition, low cost; very brief message) · <b>Direct mail</b> (highly targeted; ‘junk’ image, high cost/contact).",
