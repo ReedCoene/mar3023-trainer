@@ -18,13 +18,13 @@ const TESTBANK=[
  {
   "ch": "ch20",
   "src": "L",
-  "q": "James, a salesperson for Tesla, is tasked with selling 10 of the newest models of the Tesla by the end of the month. Which of the following people should James try to sell the new Tesla to? been researching various cars to buy to make getting to work easier. vehicle with more space. He wants to buy it before he goes to school in downtown Chicago next month. career on Wall Street. KPMG. She plans to move to a small town in South Florida where she will have a 30-minute commute to work.",
+  "q": "James, a salesperson for Tesla, is tasked with selling 10 of the newest models of the Tesla by the end of the month. Which of the following people should James try to sell the new Tesla to?",
   "choices": [
-   "Jessica has been working to pay off her student debt after graduating from UF and has",
-   "Sami works as a delivery person for a small florist. The florist needs a new delivery",
-   "Tommy just turned 18 and is researching cars to get for his birthday from his parents.",
-   "Peter recently graduated from UF and is moving to New York City to begin his finance",
-   "Julia recently moved out of Miami after saving her money for 10 years working at"
+   "Jessica has been working to pay off her student debt after graduating from UF and has been researching various cars to buy to make getting to work easier.",
+   "Sami works as a delivery person for a small florist. The florist needs a new delivery vehicle with more space.",
+   "Tommy just turned 18 and is researching cars to get for his birthday from his parents. He wants to buy it before he goes to school in downtown Chicago next month.",
+   "Peter recently graduated from UF and is moving to New York City to begin his finance career on Wall Street.",
+   "Julia recently moved out of Miami after saving her money for 10 years working at KPMG. She plans to move to a small town in South Florida where she will have a 30-minute commute to work."
   ],
   "a": 4,
   "why": "James should try to sell the newest Tesla Model to Julia. She needs a car since her commute to work is much further than before, has saved money for the last 10 years so she can afford a nice car, and has proper authority to purchase since she is buying it for herself. Each of the other options is deficient on at least one of the qualification criteria: Has need/want (Peter, Sami, and Tommy), Has ability to buy (Jessica, Tommy), and has purchase authority (Sami, Tommy).",
@@ -93,13 +93,13 @@ const TESTBANK=[
  {
   "ch": "ch10",
   "src": "L",
-  "q": "Which of these new product introductions is an example of dynamically continuous innovation? allowed messages to be transmitted long distances instantaneously rather than slowly by stagecoach, transforming that industry and the postal service. mappings and even change key behavior based on the force and length of a keypress by using a proprietary scripting language. objects such as towels. They work in the same way as their older, smaller command strips. recent update to their computers allows users to select an animated GIF file in addition to static image files as the background on their lock screen. ride.",
+  "q": "Which of these new product introductions is an example of dynamically continuous innovation?",
   "choices": [
-   "Samuel Morse invented the telegraph in 1838. Once telegraph cables were run, it",
-   "Sony introduced a new programmable keyboard. This allows users to change key",
-   "3M introduced new command strips that are bigger and allow people to hang heavier",
-   "Apple released updates to their operating systems across multiple devices. Their most",
-   "Uber introduced their ride-sharing app which revolutionized the way consumers hire a"
+   "Samuel Morse invented the telegraph in 1838. Once telegraph cables were run, it allowed messages to be transmitted long distances instantaneously rather than slowly by stagecoach, transforming that industry and the postal service.",
+   "Sony introduced a new programmable keyboard. This allows users to change key mappings and even change key behavior based on the force and length of a keypress by using a proprietary scripting language.",
+   "3M introduced new command strips that are bigger and allow people to hang heavier objects such as towels. They work in the same way as their older, smaller command strips.",
+   "Apple released updates to their operating systems across multiple devices. Their most recent update to their computers allows users to select an animated GIF file in addition to static image files as the background on their lock screen.",
+   "Uber introduced their ride-sharing app which revolutionized the way consumers hire a ride."
   ],
   "a": 1,
   "why": "Sony’s programmable keyboard requires users to learn how to change its behavior. But the innovation is not revolutionary – it will only change how some computer users do their tasks. On the other hand, the 3M and Apple innovations require no new learning to use them, so they are continuous. And Uber and the telegraph were radical changes that transformed multiple industries and the way people live, so are considered discontinuous.",
@@ -603,15 +603,15 @@ const TESTBANK=[
  {
   "ch": "ch19",
   "src": "T",
-  "q": "Pretests are which medium best reaches its intended target market. formal contract for that account. whether the advertisement communicates the intended message or to select between alternative versions of the advertisement. realistic purchase conditions to see if they will buy. most closely matches the firm’s goals and objectives.",
+  "q": "Pretests are",
   "choices": [
-   "tests conducted before an advertisement is placed in various media to determine",
-   "sample ad campaigns submitted by competing advertising agencies before receiving a",
-   "tests conducted before an advertisement is placed in any medium to determine",
-   "tests conducted with an advertisement for a product to prospective consumers under",
-   "tests conducted among company personnel to determine which advertising campaign"
+   "tests conducted before an advertisement is placed in various media to determine which medium best reaches its intended target market.",
+   "sample ad campaigns submitted by competing advertising agencies before receiving a formal contract for that account.",
+   "tests conducted before an advertisement is placed in any medium to determine whether the advertisement communicates the intended message or to select between alternative versions of the advertisement.",
+   "tests conducted with an advertisement for a product to prospective consumers under realistic purchase conditions to see if they will buy.",
+   "tests conducted among company personnel to determine which advertising campaign most closely matches the firm’s goals and objectives."
   ],
-  "a": 0,
+  "a": 2,
   "why": "Key term definition—pretests.",
   "ref": "p. 550"
  },
@@ -648,12 +648,12 @@ const TESTBANK=[
  {
   "ch": "ch10",
   "src": "T",
-  "q": "Commercialization is the stage in the new-product development process awareness. a marketing dashboard.",
+  "q": "Commercialization is the stage in the new-product development process",
   "choices": [
    "at which the product is positioned and launched in full-scale production and sales.",
-   "when advertising campaigns are evaluated using Starch scores to identify brand",
+   "when advertising campaigns are evaluated using Starch scores to identify brand awareness.",
    "during which the firm performs its final evaluations of the new product.",
-   "when second-year sales forecasts are compared to actual first-year sales figures using",
+   "when second-year sales forecasts are compared to actual first-year sales figures using a marketing dashboard.",
    "at which the product generates the greatest sales and profits."
   ],
   "a": 0,
@@ -903,13 +903,13 @@ const TESTBANK=[
  {
   "ch": "ch19",
   "src": "L",
-  "q": "Which of the following best illustrates an example of ambiguous stimuli? picture of a child enjoying the product. like an attractive woman’s face. done right” and a tagline saying: Go ahead! Take a crack at that repair yourself. Escape.\" consumers to see.",
+  "q": "Which of the following best illustrates an example of ambiguous stimuli?",
   "choices": [
-   "A cereal box that prominently states it contains 100% whole grains and displays a",
-   "A perfume advertisement with a blurry sunset image that some consumers say looks",
-   "A smartphone repair ad that shows a cracked screen that subtly spells out “Repairs",
-   "A travel company’s advertisement showing a tropical beach with the text \"Find Your",
-   "A car company’s commercial that inserts a frame saying “Fast Car” that is too fast for"
+   "A cereal box that prominently states it contains 100% whole grains and displays a picture of a child enjoying the product.",
+   "A perfume advertisement with a blurry sunset image that some consumers say looks like an attractive woman’s face.",
+   "A smartphone repair ad that shows a cracked screen that subtly spells out “Repairs done right” and a tagline saying: Go ahead! Take a crack at that repair yourself.",
+   "A travel company’s advertisement showing a tropical beach with the text \"Find Your Escape.\"",
+   "A car company’s commercial that inserts a frame saying “Fast Car” that is too fast for consumers to see."
   ],
   "a": 1,
   "why": "The perfume ad best illustrates an ambiguous stimulus in subliminal advertising. Some consumers say it looks like an attractive woman’s face, but other consumers see nothing of the sort. This is unlike the use of embedded stimuli (smartphone repair) or truly subliminal stimuli (the car commercial). The other ads have no noted connection to subliminal persuasion.",
@@ -918,12 +918,12 @@ const TESTBANK=[
  {
   "ch": "ch12",
   "src": "T",
-  "q": "Customer experience management (CEM) is consumer demand. convenience, on-time delivery, and both before-sale and after-sale service at a specific price. communication, and convenience.",
+  "q": "Customer experience management (CEM) is",
   "choices": [
-   "the integration of the service component of the marketing mix with efforts to influence",
-   "the unique combination of benefits received by targeted buyers that include quality,",
+   "the integration of the service component of the marketing mix with efforts to influence consumer demand.",
+   "the unique combination of benefits received by targeted buyers that include quality, convenience, on-time delivery, and both before-sale and after-sale service at a specific price.",
    "the process of managing the entire customer experience within the company.",
-   "the ability of logistics management to satisfy users in terms of time, dependability,",
+   "the ability of logistics management to satisfy users in terms of time, dependability, communication, and convenience.",
    "a cluster of benefits that an organization promises customers to satisfy their needs."
   ],
   "a": 2,
@@ -1008,9 +1008,9 @@ const TESTBANK=[
  {
   "ch": "ch12",
   "src": "T",
-  "q": "Service organizations must manage the availability of the offering, in part so that organization’s industry.",
+  "q": "Service organizations must manage the availability of the offering, in part so that",
   "choices": [
-   "the service experience is consistent with the sharing economy standards of the",
+   "the service experience is consistent with the sharing economy standards of the organization’s industry.",
    "service encounters can identify planning gaps.",
    "marginal costs exceeds marginal revenues.",
    "demand matches capacity over the duration of the demand cycle.",
@@ -1038,12 +1038,12 @@ const TESTBANK=[
  {
   "ch": "ch11",
   "src": "T",
-  "q": "For shopping products, the consumer purchases.",
+  "q": "For shopping products, the consumer",
   "choices": [
    "compares several alternatives on criteria such as price, quality, or style.",
    "purchases the items frequently, conveniently, and with a minimum of effort.",
    "makes a special effort to search out the items and buy them.",
-   "buys the items as a result of buying other consumer products, such as impulse",
+   "buys the items as a result of buying other consumer products, such as impulse purchases.",
    "does not know about the items or knows about them but does not initially buy them."
   ],
   "a": 0,
@@ -1143,11 +1143,11 @@ const TESTBANK=[
  {
   "ch": "ch12",
   "src": "T",
-  "q": "A customer contact audit refers to performance in terms of social responsibility.",
+  "q": "A customer contact audit refers to",
   "choices": [
    "an estimation of demand based on service forecasting techniques.",
    "a flowchart of the points of interaction between a consumer and a service provider.",
-   "a systematic assessment of a service provider’s objectives, strategies, and",
+   "a systematic assessment of a service provider’s objectives, strategies, and performance in terms of social responsibility.",
    "a method of consumer evaluation of service quality and consistency.",
    "the initial contact between a service provider and the ultimate consumer."
   ],
@@ -1263,13 +1263,13 @@ const TESTBANK=[
  {
   "ch": "ch20",
   "src": "T",
-  "q": "A sales engineer is a information, persuades customers to buy, closes sales, and follows up on a customer’s use of a product or service. R&D expenditures. the company. and brings know-how and technical expertise to the selling situation, but often does not actually sell products and services. concentrates on performing promotional activities and introducing new products.",
+  "q": "A sales engineer is a",
   "choices": [
-   "salesperson who identifies prospective customers, provides customers with",
-   "person on the selling team who is responsible for supervising his or her company’s",
-   "salesperson who processes routine orders or reorders for products that are presold by",
-   "salesperson who specializes in identifying, analyzing, and solving customer problems",
-   "member of the sales support team who does not directly solicit orders but rather"
+   "salesperson who identifies prospective customers, provides customers with information, persuades customers to buy, closes sales, and follows up on a customer’s use of a product or service.",
+   "person on the selling team who is responsible for supervising his or her company’s R&D expenditures.",
+   "salesperson who processes routine orders or reorders for products that are presold by the company.",
+   "salesperson who specializes in identifying, analyzing, and solving customer problems and brings know-how and technical expertise to the selling situation, but often does not actually sell products and services.",
+   "member of the sales support team who does not directly solicit orders but rather concentrates on performing promotional activities and introducing new products."
   ],
   "a": 3,
   "why": "Key term definition—sales engineer.",
@@ -1353,9 +1353,9 @@ const TESTBANK=[
  {
   "ch": "ch19",
   "src": "T",
-  "q": "In terms of performance measures important to marketing managers, unique visitors are time period.",
+  "q": "In terms of performance measures important to marketing managers, unique visitors are",
   "choices": [
-   "the total number of pages fans visit on any of a brand’s social media sites in a given",
+   "the total number of pages fans visit on any of a brand’s social media sites in a given time period.",
    "the total number of Facebook page views in one day.",
    "the total number of different visitors to a Facebook page in a given time period.",
    "visitors who post unique comments on a product’s Facebook page.",
@@ -1428,12 +1428,12 @@ const TESTBANK=[
  {
   "ch": "ch18",
   "src": "T",
-  "q": "A channel of communication refers to for developing the IMC program. dislikes, suggestions, and concerns to an organization 24 hours a day, 365 days a year. message. message to a receiver during the communication process.",
+  "q": "A channel of communication refers to",
   "choices": [
-   "an open-ended dialogue between the marketing department and the firm responsible",
-   "a social network-based forum that allows customers to communicate their likes,",
-   "a similar understanding and knowledge that a sender and receiver apply to a",
-   "the means (salesperson, advertising media, or public relations tools) of conveying a",
+   "an open-ended dialogue between the marketing department and the firm responsible for developing the IMC program.",
+   "a social network-based forum that allows customers to communicate their likes, dislikes, suggestions, and concerns to an organization 24 hours a day, 365 days a year.",
+   "a similar understanding and knowledge that a sender and receiver apply to a message.",
+   "the means (salesperson, advertising media, or public relations tools) of conveying a message to a receiver during the communication process.",
    "the selection of either paid or nonpaid forms of information dissemination."
   ],
   "a": 3,
@@ -1683,9 +1683,9 @@ const TESTBANK=[
  {
   "ch": "ch18",
   "src": "L",
-  "q": "In the communication process, why is the field of experience important to effective marketing communication? shared background, culture, and knowledge.",
+  "q": "In the communication process, why is the field of experience important to effective marketing communication?",
   "choices": [
-   "It influences how well the sender and receiver understand the message based on",
+   "It influences how well the sender and receiver understand the message based on shared background, culture, and knowledge.",
    "It identifies the level of marketing experience that a company has.",
    "It ensures that the message is encoded in the correct technical format.",
    "It determines the physical medium used to transmit the message.",
@@ -1803,13 +1803,13 @@ const TESTBANK=[
  {
   "ch": "ch19",
   "src": "T",
-  "q": "Which statement about attitude tests is most accurate? previous exposure to it was through reading, viewing, or listening and how their method of exposure affected their attitudes toward the product. tests. advertising campaign. without any other prompting to determine whether they saw or heard advertising messages. ad’s readers or viewers in an attempt to generate favorable attitudes toward the product.",
+  "q": "Which statement about attitude tests is most accurate?",
   "choices": [
-   "Attitude tests involve showing an ad to respondents and then asking whether their",
-   "Attitude tests involve studies such as controlled experiments and consumer purchase",
-   "Attitude tests ask respondents questions to measure changes in their attitudes after an",
-   "Attitude tests ask respondents, “What ads do you remember seeing yesterday?”",
-   "Attitude tests offer additional product information, product samples, or premiums to an"
+   "Attitude tests involve showing an ad to respondents and then asking whether their previous exposure to it was through reading, viewing, or listening and how their method of exposure affected their attitudes toward the product.",
+   "Attitude tests involve studies such as controlled experiments and consumer purchase tests.",
+   "Attitude tests ask respondents questions to measure changes in their attitudes after an advertising campaign.",
+   "Attitude tests ask respondents, “What ads do you remember seeing yesterday?” without any other prompting to determine whether they saw or heard advertising messages.",
+   "Attitude tests offer additional product information, product samples, or premiums to an ad’s readers or viewers in an attempt to generate favorable attitudes toward the product."
   ],
   "a": 2,
   "why": "Attitude tests involve asking respondents questions to measure changes in their attitudes after an advertising campaign. For example, they might be asked whether they now have a more favorable attitude toward the product advertised. Research indicates that attitudes can be influenced by many factors, including the increasingly popular use of co-creation to develop consumer-generated ads.",
@@ -1833,9 +1833,9 @@ const TESTBANK=[
  {
   "ch": "ch12",
   "src": "T",
-  "q": "Ancillary services pertain to the required to use it.",
+  "q": "Ancillary services pertain to the",
   "choices": [
-   "technical sophistication of the product and hence the amount of understanding",
+   "technical sophistication of the product and hence the amount of understanding required to use it.",
    "degree of service or support required after the sale.",
    "financial, social, and physical aspects used to evaluate a purchase.",
    "means there should be less emphasis on personal selling.",
@@ -2013,12 +2013,12 @@ const TESTBANK=[
  {
   "ch": "ch19",
   "src": "T",
-  "q": "What does the TikTok app use artificial intelligence to do? pages ads",
+  "q": "What does the TikTok app use artificial intelligence to do?",
   "choices": [
-   "to track views, comments, and searches to make suggestions to users’ “For You”",
+   "to track views, comments, and searches to make suggestions to users’ “For You” pages",
    "to allow users to copy, edit, and add filters to their videos",
    "to provide comment prompts to users to help them respond to videos more efficiently",
-   "to track user reactions and comments to provide companies feedback on their TikTok",
+   "to track user reactions and comments to provide companies feedback on their TikTok ads",
    "to provide a library of background music options users can add to their videos"
   ],
   "a": 0,
@@ -2268,12 +2268,12 @@ const TESTBANK=[
  {
   "ch": "ch12",
   "src": "T",
-  "q": "Connected devices and streaming services create addressable advertising, which means advertisers can button. about cohorts of viewers.",
+  "q": "Connected devices and streaming services create addressable advertising, which means advertisers can",
   "choices": [
    "create customized ads to go with specific programs.",
    "show the same ad to all viewers, regardless of the program.",
-   "make short, impactful ads to capture viewers’ attention before they can press the skip",
-   "show different ads to different viewers during the same program based on information",
+   "make short, impactful ads to capture viewers’ attention before they can press the skip button.",
+   "show different ads to different viewers during the same program based on information about cohorts of viewers.",
    "ensure that all viewers of a program see the same ad."
   ],
   "a": 3,
@@ -2313,9 +2313,9 @@ const TESTBANK=[
  {
   "ch": "ch20",
   "src": "L",
-  "q": "During the pre-approach phase of the selling process, which action best demonstrates effective preparation before a B2B sales call? objectives.",
+  "q": "During the pre-approach phase of the selling process, which action best demonstrates effective preparation before a B2B sales call?",
   "choices": [
-   "Researching the prospect’s business, customers, likely needs, and planning call",
+   "Researching the prospect’s business, customers, likely needs, and planning call objectives.",
    "Asking other salespeople what approaches have worked for them.",
    "Reviewing your company’s product catalog and the buyer’s purchase authority.",
    "Asking the customer about their customers and what their needs are.",
@@ -2373,9 +2373,9 @@ const TESTBANK=[
  {
   "ch": "ch19",
   "src": "T",
-  "q": "In terms of performance measures important to marketing managers, visitors are time period.",
+  "q": "In terms of performance measures important to marketing managers, visitors are",
   "choices": [
-   "the total number of pages fans visit on any of a brand’s social media sites in a given",
+   "the total number of pages fans visit on any of a brand’s social media sites in a given time period.",
    "the total number of people who visit a Facebook Page in a given time period.",
    "the total number of product website views on YouTube.",
    "people who post unique comments on a product’s Facebook Page.",
@@ -2688,11 +2688,11 @@ const TESTBANK=[
  {
   "ch": "ch19",
   "src": "T",
-  "q": "Which statement is most accurate to describe influencer marketing? for most products.",
+  "q": "Which statement is most accurate to describe influencer marketing?",
   "choices": [
    "There is rarely any type of compensation involved for influencers.",
    "Most influencer marketing has a political purpose.",
-   "It is limited in scope because businesses have been unable to find suitable influencers",
+   "It is limited in scope because businesses have been unable to find suitable influencers for most products.",
    "Influencer marketing is based on personal influence as a behavioral concept.",
    "Influencer marketing is most effective when used in traditional media."
   ],
@@ -2748,13 +2748,13 @@ const TESTBANK=[
  {
   "ch": "ch12",
   "src": "T",
-  "q": "A customer ordered a salad at one of Disney’s many restaurants and received a sandwich instead. Using Disney’s Service Recovery model, which of the following is most likely to take place due to the severity level of the problem and the responsibility level of Disney? expenses paid by Disney, as the problem severity is high and company responsibility is high. high and the company responsibility is low. is high, and company responsibility is low. the problem severity is low, and the company responsibility is low. free ice cream, as the problem severity is low and company responsibility is high.",
+  "q": "A customer ordered a salad at one of Disney’s many restaurants and received a sandwich instead. Using Disney’s Service Recovery model, which of the following is most likely to take place due to the severity level of the problem and the responsibility level of Disney?",
   "choices": [
-   "Disney rolls out the “Red Carpet” and offers the guest a week at a resort with all",
-   "Disney “Fixes It” and replaces the sandwich with the salad, as the problem severity is",
-   "Disney acts as a “Hero” and provides free tickets to the park, as the problem severity",
-   "Disney shows “Empathy” by saying they are sorry but not doing anything about it as",
-   "Disney “Fixes It” and replaces the sandwich with the salad along with a coupon for a"
+   "Disney rolls out the “Red Carpet” and offers the guest a week at a resort with all expenses paid by Disney, as the problem severity is high and company responsibility is high.",
+   "Disney “Fixes It” and replaces the sandwich with the salad, as the problem severity is high and the company responsibility is low.",
+   "Disney acts as a “Hero” and provides free tickets to the park, as the problem severity is high, and company responsibility is low.",
+   "Disney shows “Empathy” by saying they are sorry but not doing anything about it as the problem severity is low, and the company responsibility is low.",
+   "Disney “Fixes It” and replaces the sandwich with the salad along with a coupon for a free ice cream, as the problem severity is low and company responsibility is high."
   ],
   "a": 1,
   "why": "Segment #10, February 21 st Part 2, 42:19 Correct Answer: Receiving a sandwich instead of a salad is not a severe issue (low severity), and because the Disney restaurant is responsible for this mistake, Disney would “Fix It” to recover their service error. Incorrect Answers: Because the severity is low but the company is fully responsible for the mistake, Hero, Red Carpet, and Empathy would not be appropriate strategies. The other “Fixes It” response states the problem has high severity and low company responsibility, which both are incorrect..",
@@ -2778,12 +2778,12 @@ const TESTBANK=[
  {
   "ch": "ch12",
   "src": "T",
-  "q": "Services are and must be outsourced to another firm. needs in exchange for money or something else of value. needs in exchange for money or something else of value. computer.",
+  "q": "Services are",
   "choices": [
-   "any activity required for the production of a good that cannot be completed in-house",
-   "the tangible activities or benefits that an organization provides to satisfy consumers’",
-   "the intangible activities or benefits that an organization provides to satisfy consumers’",
-   "the activities provided to complement a tangible good, such as technical support for a",
+   "any activity required for the production of a good that cannot be completed in-house and must be outsourced to another firm.",
+   "the tangible activities or benefits that an organization provides to satisfy consumers’ needs in exchange for money or something else of value.",
+   "the intangible activities or benefits that an organization provides to satisfy consumers’ needs in exchange for money or something else of value.",
+   "the activities provided to complement a tangible good, such as technical support for a computer.",
    "the human (nonmechanical) component that is part of the manufacturing process."
   ],
   "a": 2,
@@ -2898,11 +2898,11 @@ const TESTBANK=[
  {
   "ch": "ch20",
   "src": "T",
-  "q": "Which statement describes the major difference between a prospect and a qualified prospect? ability and authority to purchase it. qualified prospects.",
+  "q": "Which statement describes the major difference between a prospect and a qualified prospect?",
   "choices": [
    "A qualified prospect has purchased your product in the past and a prospect has not.",
-   "Qualified prospects have not only the need or desire for your product, but also the",
-   "During the sales presentation, prospects are more likely to raise objections than",
+   "Qualified prospects have not only the need or desire for your product, but also the ability and authority to purchase it.",
+   "During the sales presentation, prospects are more likely to raise objections than qualified prospects.",
    "Prospects are more likely than qualified prospects to become customers.",
    "There are generally more qualified prospects than prospects."
   ],
@@ -2913,13 +2913,13 @@ const TESTBANK=[
  {
   "ch": "ch19",
   "src": "T",
-  "q": "The greatest concern consumers may have regarding the convergence of the real and digital worlds is media initiatives. social media. click-through rates. process.",
+  "q": "The greatest concern consumers may have regarding the convergence of the real and digital worlds is",
   "choices": [
-   "a decreased emphasis on measuring the marketing return on investment for social",
+   "a decreased emphasis on measuring the marketing return on investment for social media initiatives.",
    "the elimination of traditional media; all media will become digital.",
-   "the interference with personal privacy as personal data gets shared within and across",
-   "the proliferation of ads and sponsored stories on social networking sites that reduce",
-   "the absence of digital cash to complete the near field communication transaction"
+   "the interference with personal privacy as personal data gets shared within and across social media.",
+   "the proliferation of ads and sponsored stories on social networking sites that reduce click-through rates.",
+   "the absence of digital cash to complete the near field communication transaction process."
   ],
   "a": 2,
   "why": "Book p594. A significant concern among consumers of social media as a result of the convergence of the real and digital worlds is the interference with personal privacy as personal data gets shared within and across social media.",
@@ -3258,13 +3258,13 @@ const TESTBANK=[
  {
   "ch": "ch18",
   "src": "T",
-  "q": "Disney’s use of an integrated marketing communications program (IMC) to promote group travel to its theme parks is apparent because consistent message. conserve resources. announcements.",
+  "q": "Disney’s use of an integrated marketing communications program (IMC) to promote group travel to its theme parks is apparent because",
   "choices": [
-   "its strategy includes using several types of promotional activities that deliver a",
+   "its strategy includes using several types of promotional activities that deliver a consistent message.",
    "it is more concerned about frequency of attendance than geographic reach.",
-   "it does not want to reach any member of its target audience more than once to",
+   "it does not want to reach any member of its target audience more than once to conserve resources.",
    "if it didn’t, Disney would have to use indirect personal selling.",
-   "IMC is less expensive than other forms of promotion, such as public service"
+   "IMC is less expensive than other forms of promotion, such as public service announcements."
   ],
   "a": 0,
   "why": "Book p501, definition of IMC. Disney employs an integrated marketing communications (IMC) program to encourage groups to visit its theme parks because its strategy calls for a consistent message via advertising, direct marketing, etc.",
@@ -3333,12 +3333,12 @@ const TESTBANK=[
  {
   "ch": "ch11",
   "src": "T",
-  "q": "Which of the following is an example of multiple branding? bottles",
+  "q": "Which of the following is an example of multiple branding?",
   "choices": [
    "Apple uses the same logo on all its technological products",
    "Harley-Davidson designed a special line of Ford Trucks",
    "Nestle has numerous brand names for their products such as Nespresso and KitKat",
-   "Nike puts its brand name on every product it sells whether it is shoes, t-shirts, or water",
+   "Nike puts its brand name on every product it sells whether it is shoes, t-shirts, or water bottles",
    "Publix sells some of its organic products under its own brand, Greenwise"
   ],
   "a": 2,
@@ -3513,13 +3513,13 @@ const TESTBANK=[
  {
   "ch": "ch10",
   "src": "T",
-  "q": "Imagine you are working for a tech company launching a new messaging app designed to revolutionize communication. Considering that the factor of \"communicability\" influences the diffusion rate of innovations, which of the following strategies would best enhance the communicability of your messaging app? the app idea",
+  "q": "Imagine you are working for a tech company launching a new messaging app designed to revolutionize communication. Considering that the factor of \"communicability\" influences the diffusion rate of innovations, which of the following strategies would best enhance the communicability of your messaging app?",
   "choices": [
    "Test the messaging app for smooth functionality on mobile devices",
    "Utilize word-of-mouth marketing campaigns to convey its benefits",
-   "Provide a Q&A section to address concerns about potential viruses from downloading",
+   "Provide a Q&A section to address concerns about potential viruses from downloading the app",
    "Compare the benefits of your messaging app to similar existing apps",
-   "Create a video that recreates the moment the founder came up with such a brilliant"
+   "Create a video that recreates the moment the founder came up with such a brilliant idea"
   ],
   "a": 1,
   "why": "Seg 9. February 15 Lecture, part 2, 38:47 Correct answer: Communicability refers to the extent to which an innovation's benefits are easily understood and communicated to potential adopters. Therefore, Word-of-mouth marketing campaigns would be the best answer. Incorrect answers: Comparing the benefits of your messaging app to similar existing apps would focus on the Relative Advantage factor. The video would be more of an “ego” booster for the founder. Testing the messaging app to see if it works smoothly on a mobile device would focus on the Compatibility factor. Provide a Q&A section to address concerns about potential viruses from downloading the app would focus on the Risk factor.",
@@ -3843,13 +3843,13 @@ const TESTBANK=[
  {
   "ch": "ch18",
   "src": "T",
-  "q": "Which statement regarding the promotional mix is most accurate? department has a goal of its own. elements of the promotional mix. product’s life cycle, product characteristics, the decision stage of the buyer, and the channel of distribution. every promotional decision in order for an IMC campaign to be successful. marketing department who knows best what to do for his or her own specialty.",
+  "q": "Which statement regarding the promotional mix is most accurate?",
   "choices": [
-   "It is not necessary to have a coordinated goal for an IMC campaign provided each",
-   "For maximum impact, funding for promotions should be equally divided among the five",
-   "The promotional mix can be influenced by the target audience, the stage of the",
-   "Regardless of which other elements are selected, advertising must be included in",
-   "Decisions regarding the promotional mix should be left to each manager in the"
+   "It is not necessary to have a coordinated goal for an IMC campaign provided each department has a goal of its own.",
+   "For maximum impact, funding for promotions should be equally divided among the five elements of the promotional mix.",
+   "The promotional mix can be influenced by the target audience, the stage of the product’s life cycle, product characteristics, the decision stage of the buyer, and the channel of distribution.",
+   "Regardless of which other elements are selected, advertising must be included in every promotional decision in order for an IMC campaign to be successful.",
+   "Decisions regarding the promotional mix should be left to each manager in the marketing department who knows best what to do for his or her own specialty."
   ],
   "a": 2,
   "why": "The promotional mix can be influenced by the target audience for the promotion, the stage of the product’s life cycle, the characteristics of the product, the decision stage of the buyer, and even the channel of distribution.",
@@ -3963,13 +3963,13 @@ const TESTBANK=[
  {
   "ch": "ch20",
   "src": "T",
-  "q": "Which statement regarding the preapproach stage with respect to international selling is most accurate? customer is a qualified lead in most countries. consumers. buyer internationally.",
+  "q": "Which statement regarding the preapproach stage with respect to international selling is most accurate?",
   "choices": [
    "The preapproach protocol is standardized in most areas of the world.",
    "Customs are very important in dictating appropriate protocol.",
-   "Pricing or price ranges are presented to the customer in order to determine if the",
-   "The preapproach stage is shorter and less intensive abroad than with domestic",
-   "In most cases, the buyer rather than the seller initiates the contact between seller and"
+   "Pricing or price ranges are presented to the customer in order to determine if the customer is a qualified lead in most countries.",
+   "The preapproach stage is shorter and less intensive abroad than with domestic consumers.",
+   "In most cases, the buyer rather than the seller initiates the contact between seller and buyer internationally."
   ],
   "a": 1,
   "why": "This stage is very important in international selling where customs dictate appropriate protocol.",
@@ -4128,13 +4128,13 @@ const TESTBANK=[
  {
   "ch": "ch19",
   "src": "T",
-  "q": "A snack company is launching a new energy bar and implements two promotional strategies: (1) offering discounts, rebates, and samples directly to consumers through social media and in-store promotions, and (2) providing retailers with trade allowances, dealer contests, and co-op advertising funds to encourage shelf space and prominent displays. Which of the following best describes the primary purpose of these strategies? incentives. create excitement among retailers. strategy encourages retailers to promote and distribute the product (\"push\"). advertising. engagement.",
+  "q": "A snack company is launching a new energy bar and implements two promotional strategies: (1) offering discounts, rebates, and samples directly to consumers through social media and in-store promotions, and (2) providing retailers with trade allowances, dealer contests, and co-op advertising funds to encourage shelf space and prominent displays. Which of the following best describes the primary purpose of these strategies?",
   "choices": [
-   "Both strategies are forms of \"push\" marketing because they involve financial",
-   "Trade promotions, such as dealer contests, are a form of \"pull\" strategy because they",
-   "The first strategy aims to generate consumer demand (\"pull\"), while the second",
-   "The success of these strategies depends solely on how much money is spent on",
-   "The company is only using a \"pull\" strategy because it focuses on consumer"
+   "Both strategies are forms of \"push\" marketing because they involve financial incentives.",
+   "Trade promotions, such as dealer contests, are a form of \"pull\" strategy because they create excitement among retailers.",
+   "The first strategy aims to generate consumer demand (\"pull\"), while the second strategy encourages retailers to promote and distribute the product (\"push\").",
+   "The success of these strategies depends solely on how much money is spent on advertising.",
+   "The company is only using a \"pull\" strategy because it focuses on consumer engagement."
   ],
   "a": 2,
   "why": "March 13 lecture on Sales Promotions",
@@ -4413,13 +4413,13 @@ const TESTBANK=[
  {
   "ch": "ch10",
   "src": "T",
-  "q": "The new-product development process is commercialization. and ends at the functional level. marketing staff meeting. statement and asking them to respond to it in writing. convert them into salable products or services.",
+  "q": "The new-product development process is",
   "choices": [
-   "the three stages an organization goes through from idea generation to",
-   "a formalized protocol for new-product development that begins at the corporate level",
-   "the informal process of brainstorming to generate new-product concepts at a",
-   "the process of presenting cross-functional teams with a written new-product concept",
-   "the seven stages an organization goes through to identify business opportunities and"
+   "the three stages an organization goes through from idea generation to commercialization.",
+   "a formalized protocol for new-product development that begins at the corporate level and ends at the functional level.",
+   "the informal process of brainstorming to generate new-product concepts at a marketing staff meeting.",
+   "the process of presenting cross-functional teams with a written new-product concept statement and asking them to respond to it in writing.",
+   "the seven stages an organization goes through to identify business opportunities and convert them into salable products or services."
   ],
   "a": 1,
   "why": "Key term definition—new-product development process.",
@@ -4548,13 +4548,13 @@ const TESTBANK=[
  {
   "ch": "ch18",
   "src": "T",
-  "q": "Which of the following is an example of the source of the message being independent and personal? will suit their skin tone, find clothes that will match their body type, and help indecisive shoppers make decisions. national publicity in the news. sell her company’s beauty products. have been talking about the various board designs, colors, and features to detract sharks when out in the ocean. customers and 15% off on all other drinks and baked goods.",
+  "q": "Which of the following is an example of the source of the message being independent and personal?",
   "choices": [
-   "Grace’s job is assisting shoppers in the store by helping them find clothing colors that",
-   "With the launch of its new fleet, Air Canada has been getting a lot of international and",
-   "Susanna’s job is to do door-to-door cold calling to meet with potential customers and",
-   "Sarah decides to purchase a new surfboard from Kwiki Kiwi because all her friends",
-   "For its grand opening, Teddy’s Café is planning to give away free coffee to the first 25"
+   "Grace’s job is assisting shoppers in the store by helping them find clothing colors that will suit their skin tone, find clothes that will match their body type, and help indecisive shoppers make decisions.",
+   "With the launch of its new fleet, Air Canada has been getting a lot of international and national publicity in the news.",
+   "Susanna’s job is to do door-to-door cold calling to meet with potential customers and sell her company’s beauty products.",
+   "Sarah decides to purchase a new surfboard from Kwiki Kiwi because all her friends have been talking about the various board designs, colors, and features to detract sharks when out in the ocean.",
+   "For its grand opening, Teddy’s Café is planning to give away free coffee to the first 25 customers and 15% off on all other drinks and baked goods."
   ],
   "a": 3,
   "why": "Seg 11. February 25, Part 2, 26:18. Correct answer: Kwiki Kiwi is correct because Sarah is hearing of a company and its product from an independent source of Kwiki Kiwi which are her friends. This is also a personal source because it comes from a direct connection, her friends. Incorrect answers: Air Canada is incorrect because it describes an independent (publicity from a third party) and impersonal (coming from the news, not direct interaction) source. Teddy’s is incorrect because this describes a marketer controlled (Teddy’s Café owner is creating the promotion) and impersonal (sales promotion) source. Grace and Susanna both describe a marketer controlled personal source, sales people.",
@@ -4743,11 +4743,11 @@ const TESTBANK=[
  {
   "ch": "ch12",
   "src": "T",
-  "q": "How is inventory of services different from that of products? demand for the service. movement.",
+  "q": "How is inventory of services different from that of products?",
   "choices": [
    "Time is less important to customers of services than customers of products.",
-   "Unlike goods providers, the service provider is often unavailable when there is a",
-   "Service inventory costs are related to idle production capacity rather than storage or",
+   "Unlike goods providers, the service provider is often unavailable when there is a demand for the service.",
+   "Service inventory costs are related to idle production capacity rather than storage or movement.",
    "Only service inventory can be reduced through more efficient movement of products.",
    "There are larger costs associated with the handling of service inventory."
   ],
@@ -4773,13 +4773,13 @@ const TESTBANK=[
  {
   "ch": "ch10",
   "src": "T",
-  "q": "A global electronics company just launched a new A.R. headset designed for everyday use. Unlike previous models that required specialized software and high-end gaming PCs, this headset works with standard smartphones, tablets, and common productivity applications. The company hopes this will accelerate adoption among both casual users and professionals. Which factor is most responsible for increasing the likelihood of adoption for this headset? to traditional screens. long-term value. workflows, making adoption easier. understand. headset through word-of-mouth and public demonstrations.",
+  "q": "A global electronics company just launched a new A.R. headset designed for everyday use. Unlike previous models that required specialized software and high-end gaming PCs, this headset works with standard smartphones, tablets, and common productivity applications. The company hopes this will accelerate adoption among both casual users and professionals. Which factor is most responsible for increasing the likelihood of adoption for this headset?",
   "choices": [
-   "Relative Advantage, because the AR headset offers a superior experience compared",
-   "Risk, because users may hesitate to invest in the headset without knowing its",
-   "Compatibility, because it integrates with existing consumer technology and daily",
-   "Complexity, because consumers expect for this new technology to be difficult to",
-   "Observability, because potential customers can easily see the benefits of the AR"
+   "Relative Advantage, because the AR headset offers a superior experience compared to traditional screens.",
+   "Risk, because users may hesitate to invest in the headset without knowing its long-term value.",
+   "Compatibility, because it integrates with existing consumer technology and daily workflows, making adoption easier.",
+   "Complexity, because consumers expect for this new technology to be difficult to understand.",
+   "Observability, because potential customers can easily see the benefits of the AR headset through word-of-mouth and public demonstrations."
   ],
   "a": 2,
   "why": "Seg 9. February 18, part 2, 41:35. Correct answer: Compatibility plays a crucial role in the rate of diffusion because the easier a product fits into consumers' current lifestyles, the faster they will adopt it. In this case, the AR headset does not require users to invest in expensive hardware or learn a completely new system. By working with standard smartphones and productivity apps, it aligns with existing habits and infrastructure, reducing friction in the adoption process and encouraging widespread use. Incorrect answer: Relative Advantage is incorrect because while Relative Advantage can influence adoption, the key factor here is not just a superior experience but how easily the product integrates into consumers' existing technology. Complexity is incorrect because Complexity would slow adoption if the product were difficult to use, but in this case, the AR headset simplifies usage by working with familiar devices. Risk is incorrect because Risk can affect purchasing decisions, but the scenario does not suggest that uncertainty about the headset’s value is the main barrier and it is looking for increased adoption. Observability is incorrect because Observability helps adoption when users can see others using the product, but the primary driver in this case is its seamless compatibility with everyday technology.",
