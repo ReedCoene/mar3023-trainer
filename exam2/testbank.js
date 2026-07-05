@@ -4421,7 +4421,7 @@ const TESTBANK=[
    "the process of presenting cross-functional teams with a written new-product concept statement and asking them to respond to it in writing.",
    "the seven stages an organization goes through to identify business opportunities and convert them into salable products or services."
   ],
-  "a": 1,
+  "a": 4,
   "why": "Key term definition—new-product development process.",
   "ref": ""
  },
