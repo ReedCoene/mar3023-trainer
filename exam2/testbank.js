@@ -1,6 +1,4 @@
-/* AUTO-GENERATED from verified Exam 2 bank (335 Q, hand-verified answers).
-   ch: ch11=Product ch10=NewProduct ch12=Services ch18=IMC ch19=Adv/SalesPromo ch20=PersSelling
-   src:L=lecture  T=textbook.  Each: {ch,src,q,choices[],a:correctIndex,why,ref} */
+/* AUTO-GENERATED from verified Exam 2 bank (335 Q). */
 const TESTBANK=[
  {
   "ch": "ch18",
@@ -65,10 +63,10 @@ const TESTBANK=[
  {
   "ch": "ch11",
   "src": "L",
-  "q": "A pharmaceutical company is looking at its Brand Development Index (BDI) and Category Development Index (CDI) for the state of Georgia to decide if it should remain in the Georgia market. Its brand sales per capita in Georgia are $3 and the category sales per capita in Georgia are $2.25. Its brand sales per capita nationally are $2.75 and the category sales per capita nationally are $2.20. After calculating its BDI and CDI, which decision should the pharmaceutical company make about remaining in the Georgia territory? territory closely.",
+  "q": "A pharmaceutical company is looking at its Brand Development Index (BDI) and Category Development Index (CDI) for the state of Georgia to decide if it should remain in the Georgia market. Its brand sales per capita in Georgia are $3 and the category sales per capita in Georgia are $2.25. Its brand sales per capita nationally are $2.75 and the category sales per capita nationally are $2.20. After calculating its BDI and CDI, which decision should the pharmaceutical company make about remaining in the Georgia territory?",
   "choices": [
    "The Georgia territory has a poor outlook.",
-   "The pharmaceutical company should continue to invest in Georgia but monitor the",
+   "The pharmaceutical company should continue to invest in Georgia but monitor the territory closely.",
    "The pharmaceutical company should wait for next year’s data to make a decision.",
    "The Georgia territory has great potential.",
    "The pharmaceutical company should investigate their poor performance in Georgia."
@@ -185,7 +183,7 @@ const TESTBANK=[
  {
   "ch": "ch18",
   "src": "L",
-  "q": "The marketing team of Lululemon’s Align product line wants the best promotional strategy to compete against its direct competitors, including Nike and Adidas. The team has listed some attributes of leggings, the corresponding importance level, and the customer perceptions of each brand on each attribute (1=poor to 10=outstanding). Based on the multi-attribute model, which strategy would allow Lululemon to gain the biggest relative advantage over its competitors? (Assume that you can change each rating to a 10.) Attribute Lululemon Nike Adidas Importance cost 5 7 6 6 comfort 7 8 6 9 design 7 5 5 5 texture 6 8 6 8",
+  "q": "The marketing team of Lululemon’s Align product line wants the best promotional strategy to compete against its direct competitors, including Nike and Adidas. The team has listed some attributes of leggings, the corresponding importance level, and the customer perceptions of each brand on each attribute (1=poor to 10=outstanding). Based on the multi-attribute model, which strategy would allow Lululemon to gain the biggest relative advantage over its competitors? (Assume that you can change each rating to a 10.) <table class='dtable'><tr><th>Attribute</th><th class='r'>Lululemon</th><th class='r'>Nike</th><th class='r'>Adidas</th><th class='r'>Importance</th></tr><tr><td>Cost</td><td class='r'>5</td><td class='r'>7</td><td class='r'>6</td><td class='r'>6</td></tr><tr><td>Comfort</td><td class='r'>7</td><td class='r'>8</td><td class='r'>6</td><td class='r'>9</td></tr><tr><td>Design</td><td class='r'>7</td><td class='r'>5</td><td class='r'>5</td><td class='r'>5</td></tr><tr><td>Texture</td><td class='r'>6</td><td class='r'>8</td><td class='r'>6</td><td class='r'>8</td></tr></table>",
   "choices": [
    "Increase Lululemon’s rating on design",
    "Increase the importance of comfort",
@@ -800,7 +798,7 @@ const TESTBANK=[
  {
   "ch": "ch12",
   "src": "L",
-  "q": "Marriott International has several tiers of membership. 3 of them are detailed in the table below. What is the customer lifetime value (CLV) for an average Silver Elite member? How much additional profit would be made by converting 10 Silver Elite members to Ambassador Elite status? Elite Platinum Elite Ambassado r Elite Visits / Month 1.3 2.5 4.3 ($) Profit / Visit $60 $80 $100 Average Lifetime (Years) 10 15 25",
+  "q": "Marriott International has several tiers of membership. 3 of them are detailed in the table below. What is the customer lifetime value (CLV) for an average Silver Elite member? How much additional profit would be made by converting 10 Silver Elite members to Ambassador Elite status? <table class='dtable'><tr><th></th><th class='r'>Silver Elite</th><th class='r'>Platinum Elite</th><th class='r'>Ambassador Elite</th></tr><tr><td>Visits / Month</td><td class='r'>1.3</td><td class='r'>2.5</td><td class='r'>4.3</td></tr><tr><td>Profit / Visit</td><td class='r'>$60</td><td class='r'>$80</td><td class='r'>$100</td></tr><tr><td>Avg. Lifetime (yrs)</td><td class='r'>10</td><td class='r'>15</td><td class='r'>25</td></tr></table>",
   "choices": [
    "$7,800; $1,075,000",
    "$9,360; $1,196,400",
@@ -1535,7 +1533,7 @@ const TESTBANK=[
  {
   "ch": "ch18",
   "src": "L",
-  "q": "Samsung’s marketing team wants to create a top-notch message strategy to help differentiate them from their biggest competitors, Apple, and Motorola. They determined the four main attributes of phones, the customer ratings (1=poor to 10=excellent) and the importance level of each attribute (1=not important to 10=very important). Using the multi-attribute model, which strategy would allow Samsung to develop the greatest advantage relative to its competitors, assuming that each change is maximally effective? Attribute Apple Samsung Motorola Importance Battery Life 8 7 6 6 Security 9 6 5 9 Cost 6 8 8 8 Speed 8 6 5 7",
+  "q": "Samsung’s marketing team wants to create a top-notch message strategy to help differentiate them from their biggest competitors, Apple and Motorola. They determined the four main attributes of phones, the customer ratings (1=poor to 10=excellent) and the importance level of each attribute (1=not important to 10=very important). Using the multi-attribute model, which strategy would allow Samsung to develop the greatest advantage relative to its competitors, assuming that each change is maximally effective? <table class='dtable'><tr><th>Attribute</th><th class='r'>Apple</th><th class='r'>Samsung</th><th class='r'>Motorola</th><th class='r'>Importance</th></tr><tr><td>Battery Life</td><td class='r'>8</td><td class='r'>7</td><td class='r'>6</td><td class='r'>6</td></tr><tr><td>Security</td><td class='r'>9</td><td class='r'>6</td><td class='r'>5</td><td class='r'>9</td></tr><tr><td>Cost</td><td class='r'>6</td><td class='r'>8</td><td class='r'>8</td><td class='r'>8</td></tr><tr><td>Speed</td><td class='r'>8</td><td class='r'>6</td><td class='r'>5</td><td class='r'>7</td></tr></table>",
   "choices": [
    "increase the speed rating",
    "increase the security rating",
@@ -1580,7 +1578,7 @@ const TESTBANK=[
  {
   "ch": "ch19",
   "src": "L",
-  "q": "American Airlines uses the following information to calculate Customer Lifetime Value. Jake is currently a Gold member. If American Airlines is able to convert Jake to a Diamond member, how much greater will his Customer Lifetime Value be compared to his current Gold membership? Flights/mont h 1.3 5.2 6.4 Profit/flight $250 $700 $1200 Avg. Lifetime 2 3 5",
+  "q": "American Airlines uses the following information to calculate Customer Lifetime Value. Jake is currently a Gold member. If American Airlines is able to convert Jake to a Diamond member, how much greater will his Customer Lifetime Value be compared to his current Gold membership? <table class='dtable'><tr><th></th><th class='r'>Silver</th><th class='r'>Gold</th><th class='r'>Diamond</th></tr><tr><td>Flights / Month</td><td class='r'>1.3</td><td class='r'>5.2</td><td class='r'>6.4</td></tr><tr><td>Profit / Flight</td><td class='r'>$250</td><td class='r'>$700</td><td class='r'>$1,200</td></tr><tr><td>Avg. Lifetime (yrs)</td><td class='r'>2</td><td class='r'>3</td><td class='r'>5</td></tr></table>",
   "choices": [
    "$460,800",
    "$329,760",
@@ -1910,16 +1908,15 @@ const TESTBANK=[
  {
   "ch": "ch20",
   "src": "L",
-  "q": "The UF Bookstore segments their customers into two groups, Students and Parents, and summarizes their average statistics as follows. Which group has the greatest Customer Lifetime Value and what is that value (rounded to the nearest whole dollar)? Visits per month 4.1 1.3 Profit per visit $8.99 $11.19 Average Lifetime 4.2 years 6.7 years",
+  "q": "The UF Bookstore segments their customers into two groups, Students and Parents, and summarizes their average statistics as follows. Which group has the greatest Customer Lifetime Value and what is that value (rounded to the nearest whole dollar)? <table class='dtable'><tr><th></th><th class='r'>Students</th><th class='r'>Parents</th></tr><tr><td>Visits / Month</td><td class='r'>4.1</td><td class='r'>1.3</td></tr><tr><td>Profit / Visit</td><td class='r'>$8.99</td><td class='r'>$11.19</td></tr><tr><td>Avg. Lifetime</td><td class='r'>4.2 yrs</td><td class='r'>6.7 yrs</td></tr></table>",
   "choices": [
-   "Students Parents",
    "Students, $155",
    "Students, $1,858",
    "Parents, $1,170",
    "Parents, $1,858",
    "Students, $2,032"
   ],
-  "a": 2,
+  "a": 1,
   "why": "CLV for Students= 4.1visits/month*12months/year*$8.99/visit*4.2years= $1857.69 ≈ $1858 CLV for Others= 1.3visits/month*12months/year*$11.19/visit*6.7years= $1169.58 ≈ $1170",
   "ref": "L13B 38:00, N48"
  },
@@ -2076,13 +2073,13 @@ const TESTBANK=[
  {
   "ch": "ch12",
   "src": "T",
-  "q": "To create a service advantage, a car rental agency must create a competitive advantage in the sequence of interactions with the customer. What is one way Hertz uses artificial intelligence to improve the car rental process? chatbots damages preferences and feedback",
+  "q": "To create a service advantage, a car rental agency must create a competitive advantage in the sequence of interactions with the customer. What is one way Hertz uses artificial intelligence to improve the car rental process?",
   "choices": [
-   "to automate the reservation system by replacing customer service representatives with",
+   "to automate the reservation system by replacing customer service representatives with chatbots",
    "to eliminate the need for a reservation system",
    "to automate the bill generation and payment process",
-   "to eliminate the need for customers to report on mileage, gas consumption, and",
-   "to personalize the step of assigning a car to the customer by matching past"
+   "to eliminate the need for customers to report on mileage, gas consumption, and damages",
+   "to personalize the step of assigning a car to the customer by matching past preferences and feedback"
   ],
   "a": 4,
   "why": "Hertz uses artificial intelligence to improve responses to any inquiries when the customer initially contacts the rental company, to streamline the collection of customer information in the registration system, and to personalize car assignments to match past preferences and feedback.",
@@ -2136,7 +2133,7 @@ const TESTBANK=[
  {
   "ch": "ch12",
   "src": "L",
-  "q": "Clothing company Shein wants to improve its image compared to two competitors: Aerie and Urban Outfitters. Research shows Gen Z consumers base their attitudes towards brands on three key attributes: style/design, sustainability, and affordability. The belief scores (1 = poor to 10 = excellent) for each brand and importance weights (1 = not important to 10 = very important) are: Style/Design 3 8 6 4 Sustainability 8 2 3 3 Affordability 6 5 9 6 Which of the following strategies will produce the greatest increase in Shein’s weighted attitude relative to those of its competitors, assuming that the strategy is maximally effective?",
+  "q": "Clothing company Shein wants to improve its image compared to two competitors: Aerie and Urban Outfitters. Research shows Gen Z consumers base their attitudes towards brands on three key attributes: style/design, sustainability, and affordability. The belief scores (1 = poor to 10 = excellent) for each brand and importance weights (1 = not important to 10 = very important) are: <table class='dtable'><tr><th>Attribute</th><th class='r'>Shein</th><th class='r'>Aerie</th><th class='r'>Urban Outfitters</th><th class='r'>Importance</th></tr><tr><td>Style/Design</td><td class='r'>3</td><td class='r'>8</td><td class='r'>6</td><td class='r'>4</td></tr><tr><td>Sustainability</td><td class='r'>8</td><td class='r'>2</td><td class='r'>3</td><td class='r'>3</td></tr><tr><td>Affordability</td><td class='r'>6</td><td class='r'>5</td><td class='r'>9</td><td class='r'>6</td></tr></table> Which of the following strategies will produce the greatest increase in Shein’s weighted attitude relative to those of its competitors, assuming that the strategy is maximally effective?",
   "choices": [
    "Increase the importance of Affordability.",
    "Increase Shein’s Style/Design rating.",
@@ -2226,7 +2223,7 @@ const TESTBANK=[
  {
   "ch": "ch10",
   "src": "L",
-  "q": "Precious Pumpkins is a spooky popular online retailer of pumpkin carving kits that makes its consumers a special promise: that every 1 in 13 pumpkins will come alive on Halloween night. There are 400 million customers in their target market. National category sales are $280 million and national brand sales are $140 million. State # Customers Precious Pumpkin Sales Category Sales Kansas 7 M $4 M $15.0 M Florida 12 M $9 M $10.5 M Idaho 8 M $5 M $19.0 M Tennessee 6 M $4 M $20.5 M Georgia 4 M $7 M $40.0 M What is the BDI and CDI for Precious Pumpkins in Florida? Round each to the nearest integer.",
+  "q": "Precious Pumpkins is a spooky popular online retailer of pumpkin carving kits. There are 400 million customers in their target market. National category sales are $280 million and national brand sales are $140 million. <table class='dtable'><tr><th>State</th><th class='r'># Customers</th><th class='r'>Pumpkin Sales</th><th class='r'>Category Sales</th></tr><tr><td>Kansas</td><td class='r'>7M</td><td class='r'>$4M</td><td class='r'>$15.0M</td></tr><tr><td>Florida</td><td class='r'>12M</td><td class='r'>$9M</td><td class='r'>$10.5M</td></tr><tr><td>Idaho</td><td class='r'>8M</td><td class='r'>$5M</td><td class='r'>$19.0M</td></tr><tr><td>Tennessee</td><td class='r'>6M</td><td class='r'>$4M</td><td class='r'>$20.5M</td></tr><tr><td>Georgia</td><td class='r'>4M</td><td class='r'>$7M</td><td class='r'>$40.0M</td></tr></table> What is the BDI and CDI for Precious Pumpkins in Florida? Round each to the nearest integer.",
   "choices": [
    "119 and 90",
    "102 and 89",
@@ -3051,15 +3048,15 @@ const TESTBANK=[
  {
   "ch": "ch10",
   "src": "T",
-  "q": "John is interested in buying a new boat. He has used a multi-attribute model to evaluate several brands and boat models. He has narrowed down his choice to a Cameron brand yacht. However, given the cost of the boat, he wants to make sure he absolutely loves this boat before purchasing it. What should John do at this point before buying the boat? already.",
+  "q": "John is interested in buying a new boat. He has used a multi-attribute model to evaluate several brands and boat models. He has narrowed down his choice to a Cameron brand yacht. However, given the cost of the boat, he wants to make sure he absolutely loves this boat before purchasing it. What should John do at this point before buying the boat?",
   "choices": [
    "Become more aware of the boat category",
    "Schedule a trial of this boat in his local marina",
    "Evaluate other brands than just Cameron",
-   "Just buy it! John has gone through all the other stages of the adoption process",
+   "Just buy it! John has gone through all the other stages of the adoption process already.",
    "Increase his level of interest in the Cameron brand"
   ],
-  "a": 3,
+  "a": 1,
   "why": "Seg 9. Feb 21 Lecture 24, part 1, 27:30. Correct answer: Trial John needs to TRY the boat before he buys it. John has completed the awareness, interest, and evaluation stages of the adoption process, but he needs to TRIAL the boat before he purchases/adopts the boat. Stages: 1. Awareness 2. Interest 3. Evaluation 4. Trial 5. Adoption",
   "ref": ""
  },
@@ -3381,13 +3378,13 @@ const TESTBANK=[
  {
   "ch": "ch11",
   "src": "T",
-  "q": "Peet’s Coffee is a well-known coffee store chain on the west coast that sells specialty coffee, teas, and pastries. The CEO wants to expand into the Southeastern United States and started by focusing on Florida. A year after launching multiple stores in Florida, the research department calculates its Brand and Category Index in Florida to evaluate whether they should continue their expansion plan. Based on the following data, what action should Peet’s Coffee take? Territory Number of Consumers Category Sales Brand Sales BDI CDI Florida 5M $30M $4M 96 144 USA 60M $250M $50M N/A N/A to how the rest of specialty coffee stores are doing before deciding Floridians may not like specialty coffees as much as other areas of the US stores",
+  "q": "Peet’s Coffee is a well-known coffee store chain on the west coast that sells specialty coffee, teas, and pastries. The CEO wants to expand into the Southeastern United States and started by focusing on Florida. A year after launching multiple stores in Florida, the research department calculates its Brand and Category Development Index in Florida. Based on the following data, what action should Peet’s Coffee take? <table class='dtable'><tr><th>Territory</th><th class='r'># Consumers</th><th class='r'>Category Sales</th><th class='r'>Brand Sales</th><th class='r'>BDI</th><th class='r'>CDI</th></tr><tr><td>Florida</td><td class='r'>5M</td><td class='r'>$30M</td><td class='r'>$4M</td><td class='r'>96</td><td class='r'>144</td></tr><tr><td>USA</td><td class='r'>60M</td><td class='r'>$250M</td><td class='r'>$50M</td><td class='r'>N/A</td><td class='r'>N/A</td></tr></table>",
   "choices": [
    "Peet’s Coffee should do nothing; the stores are performing really well",
    "Peet’s Coffee has a poor outlook in Florida and should pull out altogether",
-   "Peet’s Coffee needs to research reasons for its slow performance in Florida compared",
-   "Peet’s Coffee should invest in Florida, but monitor the category closely as it seems",
-   "Peet’s Coffee has great potential and should heavily invest in Florida by building more"
+   "Peet’s Coffee needs to research the reasons for its slow performance in Florida (compared to how the rest of the specialty-coffee category is doing) before deciding",
+   "Peet’s Coffee should invest in Florida, but monitor the category closely as Floridians may not like specialty coffee as much as other areas of the US",
+   "Peet’s Coffee has great potential and should heavily invest in Florida by building more stores"
   ],
   "a": 2,
   "why": "Seg 8. February 18 Lecture, part 1, 36:37. Correct answer: Since the CDI exceeds 100 and BDI falls below 100, Peet’s Coffee should research the reason why they are performing poorly. This means that the category itself is doing very well in Florida, but the Peet’s Coffee brand is not performing as well. In this scenario, Peet’s Coffee needs to learn the reasons for their poor performance in the category before deciding to build more stores or divest. Incorrect answers: Peet’s Coffee’s should invest if both the BDI and CDI exceed 100. Since the BDI does not exceed 100, Peet’s Coffee does not have a great outlook and needs to do more research before deciding to invest more in Florida. Peet’s Coffee should invest but monitor the category closely if the BDI exceeds 100 but the CDI does not exceed 100. Since the CDI does exceed 100 but the BDI does not, Peet’s Coffee does not need to monitor the category (since its performing well) and instead needs to learn why its brand is performing poorly. To have a poor outlook in Florida, both the CDI and BDI need to fall below 100. Since the CDI exceeds 100, that means the category does well in Florida and Peet’s Coffee underperforms, which means that Peet’s Coffee shouldn’t necessarily pull out of Florida but should instead research why they are performing poorly. The Florida stores are performing poorly in the category, so Peet’s Coffee should decide whether it’s worth to invest or divest by doing more research, not by doing nothing.",
@@ -4266,13 +4263,13 @@ const TESTBANK=[
  {
   "ch": "ch11",
   "src": "T",
-  "q": "Coca-Cola is analyzing brand sales and overall soda category performance in New York. Their findings show a Category Development Index (CDI) of 86 and a Brand Development Index (BDI) of 129. Given these insights, what strategic actions should Coca-Cola take in New York? substantial portion of their money there since soda is in such high demand in this market state instead the reasons why",
+  "q": "Coca-Cola is analyzing brand sales and overall soda category performance in New York. Their findings show a Category Development Index (CDI) of 86 and a Brand Development Index (BDI) of 129. Given these insights, what strategic actions should Coca-Cola take in New York?",
   "choices": [
    "There is nothing Coca-Cola can do",
-   "Coca-Cola has great potential in the New York market, and they should invest a",
-   "There is a poor outlook for Coca-Cola in New York so they should expand in another",
+   "Coca-Cola has great potential in the New York market, and they should invest a substantial portion of their money there since soda is in such high demand in this market",
+   "There is a poor outlook for Coca-Cola in New York so they should expand in another state instead",
    "Coca-Cola should invest but monitor the soda category sales closely in this market",
-   "Coca-Cola has a poor performance in the New York market, and they should research"
+   "Coca-Cola has a poor performance in the New York market, and they should research the reasons why"
   ],
   "a": 3,
   "why": "Seg #8. February 13, part #2, 4:28. Correct answer: Coca-Cola should invest but monitor the soda category sales closely. When BDI is over 100 but CDI is less than 100, a company should invest but monitor category closely. Incorrect answers: because the CDI is less than 100, New York should not be considered a market where soda is in high demand. Because BDI is higher than 100, Coca-Cola is doing well in New York so the answers where Coca-Cola has a poor outlook or performance do not apply.",
@@ -4881,12 +4878,12 @@ const TESTBANK=[
  {
   "ch": "ch20",
   "src": "L",
-  "q": "Tito's is reviewing their salesforce for the next year and need to compare their current amount of salespeople against the optimal amount given their business need. Current # of Salespeople 205; # Customers 22,000; Call Frequency 18 times per year; Average Length of a Call 30 minutes per call; Average Amount of Selling Time per Salesperson 1,200 hours per year. Based on this data and using the workload method, what should Tito's do with its salesforce in the new year and why?",
+  "q": "Tito’s is reviewing their salesforce for the next year and needs to compare their current number of salespeople against the optimal amount. Based on this data and the workload method, what should Tito’s do with its salesforce and why? <table class='dtable'><tr><th>Input</th><th class='r'>Value</th></tr><tr><td>Current # of Salespeople</td><td class='r'>205</td></tr><tr><td># Customers</td><td class='r'>22,000</td></tr><tr><td>Call Frequency</td><td class='r'>18 / year</td></tr><tr><td>Avg. Length of a Call</td><td class='r'>30 minutes</td></tr><tr><td>Selling Time per Salesperson</td><td class='r'>1,200 hrs / year</td></tr></table>",
   "choices": [
    "Decrease the amount of salespeople; currently overstaffed",
    "Keep the same amount of salespeople; currently staffed just right",
    "Hire more salespeople; currently understaffed",
-   "Outsource their salesforce; the amount of customers is above what they can handle",
+   "Outsource their salesforce; the number of customers is above what they can handle",
    "There is not enough information to decide"
   ],
   "a": 0,
