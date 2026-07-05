@@ -453,16 +453,16 @@ const TESTBANK=[
  {
   "ch": "ch11",
   "src": "T",
-  "q": "Figure 11-1 represents the stages of the product life cycle. What does the curve labeled Y represent?",
+  "q": "The product life cycle is graphed with two curves plotted across its four stages (Introduction → Growth → Maturity → Decline). One curve is total industry sales revenue, which rises, peaks at maturity, then falls. What does the OTHER curve on the graph represent?",
   "choices": [
    "total fixed costs",
    "total industry profit",
    "total research and development costs",
-   "total industry sales revenue",
-   "total variable costs"
+   "total variable costs",
+   "total market share"
   ],
-  "a": 3,
-  "why": "The two curves shown represent total industry sales revenue (X) and total industry profit (Y). See Figure 11-1.",
+  "a": 1,
+  "why": "The product life cycle plots two curves: total industry SALES REVENUE and total industry PROFIT. Industry profit rises during the growth stage and peaks EARLIER than sales revenue (which peaks at maturity); both then decline. The cost curves (fixed/variable/R&D) are not what the PLC graph shows. (Reworded from textbook Figure 11-1, which referenced a curve by label — no figure is needed here.)",
   "ref": "p. 302"
  },
  {
