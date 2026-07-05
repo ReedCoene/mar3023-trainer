@@ -3401,7 +3401,7 @@ const TESTBANK=[
    "generic",
    "secondary"
   ],
-  "a": 0,
+  "a": 2,
   "why": "Advertising and promotion expenditures in the introduction stage are often made to stimulate primary demand, the desire for the product class rather than for a specific brand, since there are few competitors with the same product. As more competitors launch their own products and the product progresses along its life cycle, company attention is focused on creating selective demand, the preference for a specific brand.",
   "ref": ""
  },
