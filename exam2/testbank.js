@@ -166,7 +166,7 @@ const TESTBANK=[
   "ref": "p. 340"
  },
  {
-  "ch": "ch10",
+  "ch": "ch11",
   "src": "L",
   "q": "A new product “Candy Vault” has entered the market. This product allows you to stock it with candy, then it uses a combination of voice and facial recognition to identify the Halloween trick-or-treaters who approach it. Then, if they are one of the approved neighbors, it will open and offer them a piece of candy. But if not, it will open to display a scary face accompanied with screams and will take the trick-or-treater’s scared photo, to post on social media. Most people are skeptical about this new technology and don’t want to purchase. But Woody is a Harvard grad and very venturesome. He’s done enough research and thinks that it would really benefit him and so wants to purchase it even though he would be one of the first to buy. Woody and people like him are considered which stage of adopters?",
   "choices": [
@@ -3436,7 +3436,7 @@ const TESTBANK=[
   "ref": ""
  },
  {
-  "ch": "ch10",
+  "ch": "ch11",
   "src": "T",
   "q": "When Apple introduced the Apple II personal computer in 1977, industry analysts predicted that very few would be sold. While relatively few in number, early consumers were young, highly educated, adventuresome, and well-informed. Marketers at IBM and Compaq were encouraged because other less adventurous consumers, like businesspeople, would likely adopt personal computers later. Based on the diffusion of innovation concept, those very first buyers of personal computers were",
   "choices": [
