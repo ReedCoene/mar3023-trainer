@@ -70,6 +70,7 @@ const LESSONS = {
       "<b>Brand Equity</b> = added value a name gives a product. <b>4 components:</b> Awareness, Associations, Perceived Quality, Loyalty.",
       "<b>Line extension</b> = new variant in the SAME category (new flavor/size). <b>Category extension</b> = brand enters a DIFFERENT category.",
       "<b>Packaging functions:</b> contain/protect, facilitate use, communicate, fit channel needs. A <b>product manager</b> is also called a <b>brand manager</b>.",
+      "<b>Consumer-brand relationships &amp; Brand community:</b> a <b>brand community</b> = consumers building relationships <i>with each other</i> because of shared loyalty/interest in the same brand (two strangers bonding over Trader Joe's bags = brand community). A <b>consumer-brand relationship</b> is between one consumer and the brand itself.",
       "<b>Emerging brand concepts:</b> a <b>brand community</b> is when customers build relationships <i>with each other</i> out of shared loyalty to/interest in the same brand (Harley owners; a Trader Joe's superfan group) — it deepens loyalty and turns customers into advocates. Related: <b>consumer–brand relationships</b>."
     ]}
     ,{ h:"🔍 Deep-dive: niche facts & exam traps", items:[
@@ -117,7 +118,8 @@ const LESSONS = {
       "<b>Complexity</b> — how hard to understand/use (higher = slower).",
       "<b>Compatibility</b> — how well it fits existing habits/values (works on your phone, etc.).",
       "<b>Risk</b> — perceived downside (a Q&A addressing virus/safety fears reduces Risk).",
-      "<b>Match-the-factor questions:</b> address fears = Risk · WOM/observe = Communicability · beat rivals = Relative Advantage · fits current life = Compatibility."
+      "<b>Match-the-factor questions:</b> address fears = Risk · WOM/observe = Communicability · beat rivals = Relative Advantage · fits current life = Compatibility.",
+      "<b>TRAP:</b> <b>Scalability</b> is NOT one of the five diffusion factors — it's a managerial concern, not a consumer-adoption factor. (Also not factors: brand loyalty, price.)"
     ]}
     ,{ h:"🔍 Deep-dive: niche facts & exam traps", items:[
       "<b>Innovation-term distractors:</b> the course's official levels are ONLY <b>continuous → dynamically continuous → discontinuous.</b> ‘Radical,’ ‘disruptive,’ ‘discrete,’ ‘a jump in innovation,’ ‘somewhat continuous’ are decoys — real-sounding, but not the framework's term. <b>Me-too innovation</b> = copying a rival's new product. <b>Viral marketing</b> (spreads by sharing/word-of-mouth) and <b>ambush marketing</b> (marketing around an event you did NOT pay to sponsor) also show up as choices.",
@@ -175,7 +177,9 @@ const LESSONS = {
     ,{ h:"🔍 Deep-dive: niche facts & exam traps", items:[
       "<b>The 4 I's — with the fix for each:</b> <b>Intangibility</b> (can't touch → add tangible cues/mascot: Geico Gecko) · <b>Inconsistency</b> (quality varies → standardize with training/process) · <b>Inseparability</b> (made &amp; used together → involve the customer) · <b>Inventory</b> (can't stockpile; <b>idle production capacity</b> is lost → off-peak pricing, manage capacity).",
       "<b>Search vs Experience vs Credence qualities (know examples):</b> <b>Search</b> properties (color, size, style) can be judged <i>before</i> buying — clothing, jewelry. <b>Experience</b> properties are judged <i>during/after</i> — restaurants, child care, a haircut. <b>Credence</b> properties are hard to judge <i>even after</i>, by specialists — medical diagnoses, legal/financial advice. More credence = more perceived risk.",
-      "<b>Classifying services (textbook Ch 12):</b> by <b>delivery</b> — people-based (unskilled/skilled/professional) vs equipment-based; and by <b>ownership</b> — for-profit, nonprofit, or government-sponsored. The <b>service continuum</b> runs goods-dominant → service-dominant (salt = pure good; teaching = pure service).",
+      "<b>Classifying services (textbook Ch 12):</b> by <b>delivery</b> — people-<i>delivered</i> (unskilled/skilled/professional) vs <b>equipment-delivered</b> (ATMs, taxis, airlines, movie theaters, self-checkout); and by <b>ownership</b> — for-profit, nonprofit, or government-sponsored. The <b>service continuum</b> runs goods-dominant → service-dominant (salt = pure good; teaching = pure service).",
+      "<b>Industrial (business) services:</b> among business products, <i>services</i> are intangible support activities firms buy — e.g. <b>photocopier maintenance</b>, consulting, repair. (A tractor or syringes = goods, not services.)",
+      "<b>Inventory carrying cost of a service</b> = the cost of paying idle people/equipment. It's LOW where providers work mostly on commission or with little idle equipment (a <b>hair salon</b>, real-estate agency) and HIGH where expensive capacity sits idle (airlines, hospitals).",
       "<b>RATER</b> service-quality dimensions: <b>R</b>eliability, <b>A</b>ssurance, <b>T</b>angibles, <b>E</b>mpathy, <b>R</b>esponsiveness. <b>Extended gap model — 4 gaps:</b> Knowledge (mgmt misreads wants) → Standards (specs don't match) → <b>Delivery</b> (staff don't perform set standards) → Communications (promises ≠ delivery).",
       "<b>Disney service recovery matrix</b> = severity × responsibility: low/low = <b>Empathy</b>; low severity + firm's fault = <b>Fix it!</b>; high severity + not their fault = <b>Hero</b>; high/high = <b>Red Carpet</b>.",
       "<b>The 3 'audit' tools (don't confuse them):</b> <b>Customer contact audit</b> = a <b>flowchart</b> of every touchpoint where a customer interacts with the service (booking → check-in → checkout). <b>Service blueprint</b> = an <i>expanded</i> contact audit that adds all employee actions and treats the service as an ‘experience.’ <b>Gap analysis / service audit</b> = comparing customer <i>expectations</i> vs the <i>actual</i> experience (e.g. a restaurant's pay-the-bill questionnaire).",
@@ -192,7 +196,8 @@ const LESSONS = {
       "<b>The 5 promotional-mix elements:</b> <b>Advertising, Personal Selling, Sales Promotion, Public Relations, Direct Marketing.</b>",
       "<b>Mass selling</b> (reaches groups) = advertising, sales promotion, public relations (+ publicity, a form of PR). <b>Personal selling</b> is customized/one-to-one — <b>least</b> suited to mass selling.",
       "<b>Nontraditional (\"other\") IMC tools:</b> Sponsorships, Product Placements, Infomercials, Branded Entertainment (+ guerrilla marketing, influencer marketing).",
-      "Distinguish them: <b>Product placement</b> = brand shown within content; <b>Branded entertainment</b> = brand woven into/creating the content; <b>Sponsorship</b> = paying to attach your brand to an event/venue; <b>Guerrilla</b> = unconventional low-cost surprise tactics."
+      "Distinguish them: <b>Product placement</b> = brand shown within content; <b>Branded entertainment</b> = brand woven into/creating the content; <b>Sponsorship</b> = paying to attach your brand to an event/venue; <b>Guerrilla (guerilla) marketing</b> = unconventional, low-cost, surprise tactics — the budget-friendly attention-grab (Jenny the emerging designer's stunt).",
+      "<b>Influencer marketing tiers:</b> <b>Micro-influencers</b> = small audiences but more relatable/authentic engagement (Sephora's #SephoraSquad deliberately used them) vs mega/celebrity influencers = huge reach, less trust. Influencer marketing is based on <b>personal influence</b> as a behavioral concept."
     ]},
     { h:"The Communication Process", items:[
       "<b>Source</b> (has info) → <b>encodes</b> a <b>message</b> → sent through a <b>channel/medium</b> → <b>receiver</b> <b>decodes</b> and <b>responds</b> → <b>feedback</b> returns to the source. <b>Noise</b> can distort any step.",
@@ -243,7 +248,8 @@ const LESSONS = {
       "<b>Reach</b> = # of target consumers exposed at least once. <b>Frequency</b> = average # of exposures per person. <b>Media mix</b> = the array of media used. Advertisers mix media to <b>maximize exposure while minimizing cost</b>.",
       "<b>Traditional media:</b> TV, radio, newspaper, magazine, outdoor. TV types include network, cable, <b>spot</b> (local slots sold after national ads), and <b>syndicated</b> (local stations lease reruns).",
       "<b>New/digital media:</b> <b>Search</b> (pay to top a query), <b>Display</b> (pay for your ad to \"appear\" on another site's page), Social, Email, Mobile.",
-      "<b>Digital &amp; social-media metrics:</b> <b>Impressions</b> = number of times an ad is served. <b>Visitors</b> = total people who visit a site/page in a period; <b>Unique visitors</b> = number of <i>different</i> individuals (each counted once). <b>Customer engagement rate</b> = total customer <b>actions</b> (likes, comments, shares, clicks) ÷ total impressions. Apps like TikTok use AI to track views/comments/searches and personalize what you're shown."
+      "<b>Digital &amp; social-media metrics:</b> <b>Impressions</b> = number of times an ad is served. <b>Visitors</b> = total people who visit a site/page in a period; <b>Unique visitors</b> = number of <i>different</i> individuals (each counted once). <b>Engagement</b> = the degree and depth of brand-focused interactions a customer chooses to perform; <b>engagement rate</b> = total customer <b>actions</b> (likes, comments, shares, clicks) ÷ total impressions. <b>Cost-per-action (CPA)</b> = the metric that ties ad cost directly to a RESULT (a click, signup, or sale) — the tightest cost-to-outcome measure. Apps like TikTok use AI to track views/comments/searches and personalize what you're shown.",
+      "<b>Social proof</b> = the theory that when people see others doing something (buying, liking, queuing), they assume it's correct and follow — why testimonials, review counts, and 'bestseller' tags work. <b>Reinforcement advertising</b> (\"we haven't changed that great taste\") reassures current users they made the right choice."
     ]},
     { h:"Timing & Media Efficiency (COMPUTATIONAL)", items:[
       "<b>Timing strategies:</b> <b>Continuous</b> (steady all year), <b>Pulsing</b> (year-round with upticks at key times), <b>Flighting</b> (on-then-off bursts).",
@@ -284,7 +290,7 @@ const LESSONS = {
       "<b>2. Pre-Approach</b> — <b>research</b> the prospect, set call goals, and <b>prepare &amp; practice</b> the presentation. (Planning an absurd-then-reasonable pitch while practicing = pre-approach.)",
       "<b>3. Approach</b> — the <b>first face-to-face meeting</b>: make a good impression, build rapport (bowing &amp; handing a card with both hands in Japan happens here).",
       "<b>4. Presentation</b> — deliver content, use visual aids/demos, handle objections; converts a prospect into a customer.",
-      "<b>5. Close</b> — summarize benefits, ask for the sale, confirm.",
+      "<b>5. Close</b> — summarize benefits, ask for the sale, confirm. <b>Closing techniques:</b> <b>trial close</b> (ask for a small decision — 'which color?'), <b>assumptive close</b> (act as if they've decided — 'when should we deliver?'), <b>urgency close</b> ('the price goes up Monday'). These are all types of <i>closes/closing</i>.",
       "<b>6. Follow-Up</b> — ensure delivery/satisfaction, pursue add-on sales, sustain the relationship."
     ]},
     { h:"Presentation Formats", items:[
@@ -296,7 +302,8 @@ const LESSONS = {
       "<b>Adaptive selling</b> (need-satisfaction / marketing orientation) — determine the customer's needs/perceptions, then tailor the solution; \"listen more than you talk.\""
     ]},
     { h:"Ch 21 · Salesforce Management & Workload (COMPUTATIONAL)", items:[
-      "<b>Sales plan:</b> set objectives → make-or-buy → <b>organize the salesforce</b> → size it.",
+      "<b>Sales plan:</b> set objectives → make-or-buy → <b>organize the salesforce</b> → size it. <b>Sales-objective types:</b> <b>output-related</b> (dollars/units sold), <b>input-related</b> (# of calls made), and <b>behaviorally related</b> (specific to each salesperson: product knowledge, customer service, selling &amp; communication skills).",
+      "<b>Research nugget Cooke tests:</b> studies indicate a salesperson's <b>genetic predisposition</b> can influence sales performance (some selling traits are partly innate).",
       "<b>Organize by:</b> <b>Region</b>, <b>Product Line</b> (different reps for different product lines — Boeing splits by line of jets), or <b>Type of Account</b>.",
       "<span class='formula'>NS = (NC × CF × CL) ÷ AST</span> — # salespeople = (# customers × call frequency/yr × call length) ÷ annual selling time per rep.",
       "<b>Trap:</b> convert call length to <b>HOURS</b> first (30 min = 0.5, 90 min = 1.5).",

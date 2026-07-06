@@ -751,7 +751,7 @@ const TESTBANK=[
   "ref": "L10A 27:00, N46"
  },
  {
-  "ch": "ch10",
+  "ch": "ch11",
   "src": "L",
   "q": "Sarah recently went to a park to have a picnic and noticed that a nearby group of girls had bags and food from Trader Joe’s. Sarah loves shopping at Trader Joe’s, therefore, she went over to say hi and offer some extra food. They talked for a while about how much they each like Trader Joe’s and exchange numbers to have a picnic together in the future. What marketing concept are Sarah and her new friends demonstrating?",
   "choices": [
@@ -4081,7 +4081,7 @@ const TESTBANK=[
   "ref": ""
  },
  {
-  "ch": "ch12",
+  "ch": "ch19",
   "src": "T",
   "q": "The degree and depth of brand-focused interactions a customer chooses to perform online with his or her social network is referred to as customer",
   "choices": [
