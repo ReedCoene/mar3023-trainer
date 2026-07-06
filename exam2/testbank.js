@@ -686,7 +686,7 @@ const TESTBANK=[
    "advertising",
    "sales promotion"
   ],
-  "a": 1,
+  "a": 4,
   "why": "Luke’s is using sampling, which is a form of consumer or “pull” sales promotions, designed to provide a short-term increase in the products that are sampled. This is not an example of personal selling because there is no sales associate trying to make a sale.",
   "ref": "L11A 11:20, N50"
  },
@@ -1556,7 +1556,7 @@ const TESTBANK=[
    "Uniform",
    "Flighting"
   ],
-  "a": 0,
+  "a": 4,
   "why": "The answer is Flighting because the product is seasonal, and a flighting schedule describes advertising only in certain seasons. The answer is not continuous because this is advertising continuously, which is for nonseasonal/staple products. The answer is not pulsing because it combines high and low amounts of advertising during the year, but Daniel only runs ads in November and December. The answer is not blitzing because that requires pushing during a certain time and then stopping. Uniform is not an advertising scheduling strategy.",
   "ref": "L14B 39:15, N54"
  },
