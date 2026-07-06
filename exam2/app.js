@@ -908,6 +908,13 @@ function renderGotchas(main){
      <tr><td><b>Vector sales rep</b> <i>(lecture-only term)</i></td><td>Not directly</td><td>Trains a RETAILER'S staff to sell the manufacturer's product</td></tr></table>
      <p class="tip">Fast test: "Does this person actually complete a sale, or just support/prep the ground for one?"</p>`);
 
+  sec("📋 Account Management Policy Grid",
+    `<p>Firms group their customer accounts into a 2×2 grid based on: <b>(1) the account's level of opportunity</b> (high/low potential) and <b>(2) the firm's competitive sales position</b> for that account (strong/weak). Where an account lands decides how much sales effort it gets.</p>
+     <table class="dtable"><tr><th></th><th>Strong competitive position</th><th>Weak competitive position</th></tr>
+     <tr><td><b>High opportunity</b></td><td>✅ <b>High</b> level of sales calls — invest to retain &amp; build the account.</td><td>More calls IF there's a real chance of building a strong position; otherwise deprioritize.</td></tr>
+     <tr><td><b>Low opportunity</b></td><td>Maintain with lower call frequency.</td><td>Shift to low-cost/no-personal-touch: <b>telemarketing, email, or direct mail</b> instead of in-person calls.</td></tr></table>
+     <p class="tip">The exam's tested example: <b>high opportunity + strong competitive position → high level of sales calls</b> (invest/retain/build). Low-opportunity, weak-position accounts get pushed to telemarketing/direct mail, not face-to-face visits.</p>`);
+
   sec("📺 The 4 Types of TV Advertising",
     `<ul><li><b>Network</b> — bought directly for national programming (a slot during a first-run episode).</li>
      <li><b>Spot</b> — leftover national slots resold, at a discount, to LOCAL advertisers by the local station. <b>Trap:</b> the SHOW can be huge/national (Survivor) — what matters is that the ADVERTISER is small/local (a Gainesville scooter dealer).</li>
