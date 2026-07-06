@@ -71,7 +71,17 @@ const LESSONS = {
       "<b>Line extension</b> = new variant in the SAME category (new flavor/size). <b>Category extension</b> = brand enters a DIFFERENT category.",
       "<b>Packaging functions:</b> contain/protect, facilitate use, communicate, fit channel needs. A <b>product manager</b> is also called a <b>brand manager</b>.",
       "<b>Consumer-brand relationships &amp; Brand community:</b> a <b>brand community</b> = consumers building relationships <i>with each other</i> because of shared loyalty/interest in the same brand (two strangers bonding over Trader Joe's bags = brand community). A <b>consumer-brand relationship</b> is between one consumer and the brand itself.",
-      "<b>Emerging brand concepts:</b> a <b>brand community</b> is when customers build relationships <i>with each other</i> out of shared loyalty to/interest in the same brand (Harley owners; a Trader Joe's superfan group) — it deepens loyalty and turns customers into advocates. Related: <b>consumer–brand relationships</b>."
+      "<b>Emerging brand concepts:</b> a <b>brand community</b> is when customers build relationships <i>with each other</i> out of shared loyalty to/interest in the same brand (Harley owners; a Trader Joe's superfan group) — it deepens loyalty and turns customers into advocates. Related: <b>consumer–brand relationships</b>.",
+      "<b>Branding strategies — side-by-side, so you stop mixing them up:</b>"
+      +"<table class='dtable'><tr><th>Strategy</th><th>How many brand names / whose?</th><th>Example</th></tr>"
+      +"<tr><td><b>Family / Multiproduct</b></td><td>ONE name, on ALL your products</td><td>Nike on every shoe</td></tr>"
+      +"<tr><td><b>Multibranding</b></td><td>MANY different names, all yours</td><td>Nestlé: KitKat, Nespresso</td></tr>"
+      +"<tr><td><b>Private label / private branding</b></td><td>Made for a RETAILER, sold only there — not your name</td><td>Walmart Great Value, Kirkland</td></tr>"
+      +"<tr><td><b>Co-branding</b></td><td>TWO brands, together, on ONE product</td><td>Doritos Locos Tacos</td></tr>"
+      +"<tr><td><b>Subbranding</b></td><td>Your main name + a NEW spinoff name for one line</td><td>Toyota → Lexus; Gatorade → Bolt24</td></tr>"
+      +"<tr><td><b>Line extension</b></td><td>Same brand, SAME category, new variant</td><td>Gatorade → new flavor</td></tr>"
+      +"<tr><td><b>Category extension</b></td><td>Same brand, DIFFERENT category</td><td>Canon cameras → Canon printers</td></tr></table>"
+      +"<p class='tip'>Fast test: ask \"how many names, and whose are they?\" One name/everything=family; many names/all yours=multibranding; retailer's name=private label; two names together=co-branding; your name+a spinoff=subbranding.</p>"
     ]}
     ,{ h:"🔍 Deep-dive: niche facts & exam traps", items:[
       "<b>More branding &amp; product terms tested as answer choices:</b> <b>Subbranding</b> = pairing a parent brand with a subordinate one for a specific line (Marriott → Courtyard by Marriott). <b>Consumer products</b> (convenience/shopping/specialty/unsought) vs <b>business / B2B products</b> — bought for a firm's own operations (e.g. <b>support products</b>, supplies), which have <b>derived demand</b> (their demand flows from demand for something else). Real-but-usually-WRONG distractors to recognize: <b>demarketing</b> (deliberately discouraging demand), <b>creeping featurism / feature bloat</b> (piling on features until usability suffers), <b>product constellation</b> (a set of products that together signal a social role).",
@@ -290,7 +300,18 @@ const LESSONS = {
       "<b>Order getting</b> = sells in the conventional/creative sense: identifies prospects, informs, <b>persuades</b>, closes, follows up — needed for complex/technical products with many options. Can also be <b>inside</b> (a car salesperson on the lot) or <b>outside</b> (an IBM rep visiting clients). <b>Outside order getters</b> often work 50+ hrs/week, and only ~34% of their time is actual selling (vs. leads/admin/travel/training). A single outside sales call costs ~$500 — much more than <b>outbound telemarketing</b> (phone) or <b>virtual selling</b> (online), which run $20–25 — explaining their growing popularity.",
       "<b>Customer sales support</b> (helps order getters, doesn't sell directly): <b>Missionary salesperson</b> = promotes &amp; introduces new products but does <b>NOT</b> directly solicit orders (pharma reps encouraging doctors to prescribe — actual sales flow through wholesalers/pharmacists). <b>Sales engineer</b> = technical expert who helps identify/solve customer problems (chemicals, heavy equipment) but often doesn't close the sale himself. <b>Team selling</b> = a cross-functional team sells to one major account.",
       "<b>Vector sales representative</b> (lecture term, not in the textbook) — works FOR the manufacturer, but their job is to go INTO retail stores and train the retailer's own staff on how to sell/showcase the manufacturer's products (features, benefits, display tips). The goal is 'pulling' product out of the retail store after the retailer has already bought it from the manufacturer (lecture's Reebok-rep example; also the Cora/TrailBlaze question).",
-      "Common positions by size: retail sales &gt; manufacturer's reps &gt; insurance/financial/real-estate &gt; sales engineers."
+      "Common positions by size: retail sales &gt; manufacturer's reps &gt; insurance/financial/real-estate &gt; sales engineers.",
+      "<b>Sales &amp; support personnel — side-by-side, so you stop mixing them up:</b>"
+      +"<table class='dtable'><tr><th>Type</th><th>Actually sells?</th><th>Job</th></tr>"
+      +"<tr><td><b>Outside order taker</b></td><td>Barely</td><td>Visits customers, restocks shelves, arranges displays (Frito-Lay rep)</td></tr>"
+      +"<tr><td><b>Inside order taker</b></td><td>Barely</td><td>Desk/counter, answers Qs, completes transactions; often <b>inbound</b> telemarketing (customer calls in)</td></tr>"
+      +"<tr><td><b>Order getter</b> (in/outside)</td><td>YES — creative selling</td><td>Persuades, closes, follows up (car salesperson, IBM rep)</td></tr>"
+      +"<tr><td><b>Missionary salesperson</b></td><td>NO — never takes orders</td><td>Promotes/educates only (pharma rep pushing doctors to prescribe)</td></tr>"
+      +"<tr><td><b>Sales engineer</b></td><td>Rarely closes</td><td>Technical expert solving problems (chemicals, heavy equipment)</td></tr>"
+      +"<tr><td><b>Outbound telemarketer</b></td><td>YES</td><td>The COMPANY calls the customer by phone</td></tr>"
+      +"<tr><td><b>Team selling</b></td><td>YES</td><td>A whole cross-functional team sells one major account</td></tr>"
+      +"<tr><td><b>Vector sales rep</b> (lecture term)</td><td>Not directly</td><td>Trains a RETAILER'S staff to sell the manufacturer's product</td></tr></table>"
+      +"<p class='tip'>Fast test: \"Does this person actually complete a sale, or just support/prep the ground for one?\" Takes/completes existing orders=order taking; persuades &amp; closes=order getting; never solicits an order at all=missionary; technical helper, not the closer=sales engineer.</p>"
     ]},
     { h:"The Selling Process — 6 Stages", items:[
       "<b>1. Prospecting</b> — find leads and <b>qualify</b> them into prospects: establish <b>need/want</b>, ascertain <b>ability to purchase</b>, and determine <b>purchase authority</b> (who can actually decide). Missing the decision-maker check = neglecting <i>purchase authority</i>.",
