@@ -921,6 +921,21 @@ function renderGotchas(main){
      <li><b>Cable</b> — cable-only channels (ESPN, HGTV, Golf Channel), more niche-targeted.</li>
      <li><b>Syndicated</b> — local stations LEASE the rights to air reruns of a show that already finished its network run (an old "Friends" rerun on a local Fox affiliate).</li></ul>`);
 
+  sec("🗣️ The Communication Process — every element, defined",
+    `<p>Communication requires 6 elements, flowing in order: <b>Source → Encoding → Message (via a Channel) → Decoding → Receiver → Response/Feedback</b>. <b>Noise</b> can distort any step along the way.</p>
+     <table class="dtable"><tr><th>Element</th><th>Definition</th></tr>
+     <tr><td><b>Source</b></td><td>The company or person who has information to convey.</td></tr>
+     <tr><td><b>Encoding</b></td><td>The SENDER transforms an idea into a set of symbols (words, images, sounds) — i.e. writing the ad.</td></tr>
+     <tr><td><b>Message</b></td><td>The information sent — the encoded content itself.</td></tr>
+     <tr><td><b>Channel</b></td><td>The means the message travels through — a salesperson, advertising media, PR tools.</td></tr>
+     <tr><td><b>Decoding</b></td><td>The RECEIVER interprets the symbols back into an idea, based on their own <b>field of experience</b> (attitudes, values, beliefs).</td></tr>
+     <tr><td><b>Receiver</b></td><td>The consumer(s) who read, hear, or see the message.</td></tr>
+     <tr><td><b>Response</b></td><td>The impact the message had on the receiver's knowledge, attitudes, or behavior.</td></tr>
+     <tr><td><b>Feedback</b></td><td>The SENDER's interpretation of that response — closes the loop back to the source.</td></tr>
+     <tr><td><b>Noise</b></td><td>Anything that distorts or interferes with the message at any step (bad translation, wrong channel, distraction).</td></tr>
+     <tr><td><b>Field of experience</b></td><td>The shared understanding/knowledge sender and receiver both bring — communication only works where these overlap (KFC's "finger-lickin' good" mistranslating into Chinese as "eat your fingers off" = a field-of-experience failure).</td></tr></table>
+     <p class="tip">Fast test: who ENCODES = the source (the company). Who DECODES = the receiver (the consumer). A salesperson explaining benefits = encoding; the customer deciding what it means to them = decoding.</p>`);
+
   sec("👥 Source Type — the full Personal/Impersonal × Marketer-Controlled/Independent grid",
     `<p>Every message source can be placed on 2 axes: is it <b>Personal</b> (a specific individual) or <b>Impersonal</b> (mass/media)? And is it <b>Marketer-Controlled</b> (the company created/paid for it) or <b>Independent</b> (outside the company's control)?</p>
      <table class="dtable"><tr><th></th><th>Marketer-Controlled</th><th>Independent</th></tr>
