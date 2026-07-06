@@ -137,7 +137,9 @@ const ARCHETYPES = [
   ["📱 Digital ad form", /display advertising|search advertising|social media ad|mobile ad|email advertis/i],
   ["🧑‍💼 Selling-process stage", /prospecting|pre-?approach|approach stage|presentation|close|follow-?up|selling process/i],
   ["🎭 Canned presentation format", /door-in-the-face|foot-in-the-door|ingratiation|adaptive selling|canned/i],
-  ["🏢 Salesforce organization / type", /type of account|product line.*salesforce|regional.*salesforce|missionary|order (taker|getter)|sales engineer/i],
+  ["🏢 Salesforce organization", /organiz.*salesforce|type of account|product line.*salesforce|regional.*salesforce|account management policy/i],
+  ["🧑‍💼 Sales personnel type (missionary/order taking/etc)", /missionary|order (taker|getter|taking|getting)|sales engineer|telemarketing|team selling|vector sales/i],
+  ["🏷️ Branding strategy (family/multi/private-label/co-brand/subbrand)", /family brand|multibrand|multiple branding|private label|private brand|co-brand|subbrand|national brand|generic brand/i],
   ["🏷️ Brand equity / extension", /brand equity|line extension|category extension|brand loyalty|awareness.*association/i]
 ];
 function archetypeOf(q){
