@@ -1076,7 +1076,7 @@ const TESTBANK=[
    "manufacturing sales representative",
    "buyer"
   ],
-  "a": 3,
+  "a": 2,
   "why": "Cora is a vector sales representative because she works for the manufacturing company but her job consists of going to retail stores to show employees how best to sell the manufacturers products. Her job is to get those products out of the retail store after they buy from the manufacturer. Her job is analogous to that of Laurie in the Reebok video shown in class.",
   "ref": "L16A 29:05, N60"
  },
