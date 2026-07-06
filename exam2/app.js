@@ -716,28 +716,60 @@ const DRILLS = {
   },
 
   mam(){
+    const mode=pick(["preference","raiseRating","raiseImportance"]);
     const you=pick(["Lululemon","Nike","Gymshark","Alo","Vuori"]);
-    const rivals=shuffle(["Nike","Adidas","Under Armour","Puma"].filter(b=>b!==you)).slice(0,2);
-    const brands=[you,...rivals];
+    const rivals=shuffle(["Nike","Adidas","Under Armour","Puma"].filter(b=>b!==you)).slice(0,mode==="preference"?2:2);
+    const brands=mode==="preference"?shuffle([you,...rivals]):[you,...rivals];
     const attrs=shuffle(["Cost","Comfort","Design","Durability","Style"]).slice(0,4);
     const imp=attrs.map(()=>rint(3,9));
     const bel=brands.map(()=>attrs.map(()=>rint(3,9)));
-    const totals=brands.map(row=>0);
     const totalOf=i=>attrs.reduce((s,_,j)=>s+bel[i][j]*imp[j],0);
-    // strategy: raise ONE of your ratings to 10; find the attribute giving the biggest gain
-    const gains=attrs.map((_,j)=> (10-bel[0][j])*imp[j] );
-    const bestAttr=gains.indexOf(Math.max(...gains));
-    const choices=attrs.map(a=>"Increase "+you+"'s "+a+" rating");
-    const answerIdx=bestAttr;
+    const totals=brands.map((_,i)=>totalOf(i));
     let header=`<tr><th>Attribute (imp)</th>${brands.map(b=>`<th class="r">${b}</th>`).join("")}</tr>`;
     let body=attrs.map((at,j)=>`<tr><td>${at} (${imp[j]})</td>${brands.map((_,i)=>`<td class="r">${bel[i][j]}</td>`).join("")}</tr>`).join("");
-    const prompt=`<p>Using the multi-attribute model, which single strategy gives <b>${you}</b> the biggest gain (raise one rating to 10)?</p>
-      <table class="dtable">${header}${body}</table>`;
-    const work=attrs.map((a,j)=>`<p>${a}: (10 − ${bel[0][j]}) × ${imp[j]} = <b>${gains[j]}</b></p>`).join("");
-    const solution=`<p>Gain from raising a rating to 10 = (10 − current) × importance:</p>${work}
-      <p>Biggest gain → <b>Increase ${you}'s ${attrs[bestAttr]} rating</b> (+${gains[bestAttr]}).</p>
-      <p class="tip">Raising a RATING helps only your brand; raising an IMPORTANCE weight helps every brand.</p>`;
-    return {title:"Multi-Attribute Model", prompt, choices, answerIdx, solution};
+    const table=`<table class="dtable">${header}${body}</table>`;
+
+    if(mode==="preference"){
+      // Step 1-2: just compute totals, highest wins
+      const best=totals.indexOf(Math.max(...totals));
+      const choices=brands.slice();
+      const prompt=`<p>Using the multi-attribute model (rating × importance, summed per brand), which brand does the consumer prefer?</p>${table}`;
+      const work=brands.map((b,i)=>`<p>${b} = ${attrs.map((_,j)=>`${bel[i][j]}×${imp[j]}`).join(" + ")} = <b>${totals[i]}</b></p>`).join("");
+      const solution=`<p>Score each brand = Σ(rating × importance):</p>${work}<p>Highest score wins → <b>${brands[best]}</b>.</p>`;
+      return {title:"Multi-Attribute Model — Preference", prompt, choices, answerIdx:best, solution};
+    }
+    if(mode==="raiseRating"){
+      // Step 3a: raise ONE of your ratings to 10; only helps you
+      const gains=attrs.map((_,j)=>(10-bel[0][j])*imp[j]);
+      const bestAttr=gains.indexOf(Math.max(...gains));
+      const choices=attrs.map(a=>"Increase "+you+"'s "+a+" rating");
+      const prompt=`<p>Using the multi-attribute model, which single strategy gives <b>${you}</b> the biggest gain (raise one RATING to 10)?</p>${table}`;
+      const work=attrs.map((a,j)=>`<p>${a}: (10 − ${bel[0][j]}) × ${imp[j]} = <b>${gains[j]}</b></p>`).join("");
+      const solution=`<p>Gain from raising a rating to 10 = (10 − current) × importance — this ONLY affects ${you}, not rivals:</p>${work}
+        <p>Biggest gain → <b>Increase ${you}'s ${attrs[bestAttr]} rating</b> (+${gains[bestAttr]}).</p>
+        <p class="tip">Raising a RATING helps only your brand; raising an IMPORTANCE weight helps every brand.</p>`;
+      return {title:"Multi-Attribute Model — Raise a Rating", prompt, choices, answerIdx:bestAttr, solution};
+    }
+    // raiseImportance: Step 3b: raise ONE importance weight to 10; helps whoever rates highest on it — check the RELATIVE gain to you
+    const relGain=attrs.map((_,j)=>{
+      const deltaImp=10-imp[j];
+      const yourGain=bel[0][j]*deltaImp;
+      const rivalGains=brands.slice(1).map((_,i)=>bel[i+1][j]*deltaImp);
+      return yourGain - Math.max(...rivalGains); // relative advantage over the toughest rival
+    });
+    const bestAttr=relGain.indexOf(Math.max(...relGain));
+    const choices=attrs.map(a=>"Increase the importance of "+a);
+    const prompt=`<p>Using the multi-attribute model, which strategy gives <b>${you}</b> the biggest RELATIVE gain over its competitors (raise one IMPORTANCE weight to 10)? (Assume the weight is maximally effective.)</p>${table}`;
+    const work=attrs.map((a,j)=>{
+      const deltaImp=10-imp[j];
+      const yourGain=bel[0][j]*deltaImp;
+      const rivalStr=brands.slice(1).map((b,i)=>`${b}: ${bel[i+1][j]}×${deltaImp}=${bel[i+1][j]*deltaImp}`).join(", ");
+      return `<p>${a}: ${you} gains ${bel[0][j]}×${deltaImp}=<b>${yourGain}</b>; rivals gain ${rivalStr}</p>`;
+    }).join("");
+    const solution=`<p>Raising an IMPORTANCE weight helps EVERY brand that has that attribute — so compare who gains MORE:</p>${work}
+      <p>Biggest gain relative to the toughest rival → <b>Increase the importance of ${attrs[bestAttr]}</b>.</p>
+      <p class="tip">Trap: the biggest gain for you isn't automatically the best choice if a rival gains even more on that same attribute.</p>`;
+    return {title:"Multi-Attribute Model — Raise Importance", prompt, choices, answerIdx:bestAttr, solution};
   }
 };
 
