@@ -314,7 +314,8 @@ const LESSONS = {
     ]},
     { h:"Ch 21 · Salesforce Management & Workload (COMPUTATIONAL)", items:[
       "<b>Sales plan:</b> set objectives → make-or-buy → <b>organize the salesforce</b> → size it. <b>Sales-objective types:</b> <b>output-related</b> (dollars/units sold), <b>input-related</b> (# of calls made), and <b>behaviorally related</b> (specific to each salesperson: product knowledge, customer service, selling &amp; communication skills).",
-      "<b>Research nugget Cooke tests:</b> studies indicate a salesperson's <b>genetic predisposition</b> can influence sales performance (some selling traits are partly innate).",
+      "<b>Research nugget Cooke tests:</b> studies indicate a salesperson's <b>genetic predisposition</b> can influence sales performance (some selling traits are partly innate) — this research is also where the <b>customer vs. sales orientation</b> distinction comes from.",
+      "<b>Customer orientation vs. Sales orientation (the notion/mindset questions):</b> <b>Customer orientation</b> = \"I try to align customers who have problems with products that solve them\" — aims for mutual satisfaction and a long-term relationship. <b>Sales orientation</b> = \"I try to sell customers all I can, even if it's more than a wise customer should buy\" — motivated by one's <i>own</i> short-term interest, not the customer's.",
       "<b>Organize by:</b> <b>Region</b>, <b>Product Line</b> (different reps for different product lines — Boeing splits by line of jets), or <b>Type of Account</b>.",
       "<span class='formula'>NS = (NC × CF × CL) ÷ AST</span> — # salespeople = (# customers × call frequency/yr × call length) ÷ annual selling time per rep.",
       "<b>Trap:</b> convert call length to <b>HOURS</b> first (30 min = 0.5, 90 min = 1.5).",

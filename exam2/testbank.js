@@ -4571,7 +4571,7 @@ const TESTBANK=[
    "customer",
    "cognitive"
   ],
-  "a": 3,
+  "a": 2,
   "why": "A salesperson who is guided by the notion, “I try to sell customers all I can to convince them to buy, even if I think it is more than a wise customer should buy,” has a sales orientation. The motivation is to meet one’s own short-term interests and not necessarily those of the customer. See Marketing Matters.",
   "ref": ""
  },
