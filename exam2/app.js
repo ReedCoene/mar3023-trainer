@@ -885,6 +885,17 @@ function renderGotchas(main){
   main.appendChild(el("p","sub","The tricky, frequently-tested, and 'random' stuff your classmates warned about — consolidated for the final push."));
   function sec(title, html){ const s=el("div","lesson-sec"); s.innerHTML="<h2>"+title+"</h2>"+html; main.appendChild(s); }
 
+  sec("🪜 Every Multi-Stage Process — Side-by-Side <span class='gtag'>VERY COMMON</span>",
+    `<p>This exam has SIX different named sequences of stages. They get mixed up constantly because several sound alike (especially <b>Adoption Process</b> vs <b>Hierarchy of Effects</b> — both are 5 steps starting with "Awareness," but they measure completely different things). Lay them side by side and you stop confusing them.</p>
+     <table class="dtable"><tr><th>Process</th><th>Stages (in order)</th><th>What it's measuring</th></tr>
+     <tr><td><b>Adoption Process</b> (Ch10, individual)</td><td>Awareness → <b>Interest</b> → Evaluation → Trial → Adoption</td><td>One PERSON deciding whether to adopt a NEW product. "Interest" = motivated to learn more, not yet comparing.</td></tr>
+     <tr><td><b>Hierarchy of Effects</b> (Ch18, promotion)</td><td>Awareness → <b>Knowledge</b> → Liking → Intention/Preference → Action/Purchase</td><td>How ADVERTISING moves a MARKET toward buying. Used to find the biggest % drop-off (ratio) and target that stage.</td></tr>
+     <tr><td><b>Product Life Cycle</b> (Ch11)</td><td>Introduction → Growth → Maturity → Decline</td><td>A PRODUCT'S sales over time; pairs with adopter categories (Innovators→Laggards) and ad goals (Inform→Persuade→Remind).</td></tr>
+     <tr><td><b>New-Product Development Process</b> (Ch10, 7 stages)</td><td>New-Product Strategy → Idea Generation → Screening &amp; Evaluation → Business Analysis → Prototype Development → Market Testing → Commercialization</td><td>How a COMPANY builds a new product before it ever reaches a customer.</td></tr>
+     <tr><td><b>Personal Selling Process</b> (Ch20, 6 stages)</td><td>Prospecting → Pre-Approach → Approach → Presentation → Close → Follow-Up</td><td>How a SALESPERSON moves one prospect through a sale.</td></tr>
+     <tr><td><b>Extended Gap Model</b> (Ch12, 4 gaps)</td><td>Knowledge Gap → Standards Gap → Delivery Gap → Communications Gap</td><td>Where a SERVICE FIRM'S internal process breaks down between what customers want and what they get.</td></tr></table>
+     <p class="tip">Fast disambiguator: <b>ONE consumer</b> deciding on a NEW product = Adoption Process. <b>A whole market</b> responding to ADS = Hierarchy of Effects. <b>A product's</b> sales over years = PLC. <b>A company</b> building the product = NPD process. <b>A salesperson</b> working a deal = Selling Process. <b>A service firm's</b> internal breakdown = Gap Model.</p>`);
+
   sec("🏷️ Branding Strategies <span class='gtag'>VERY COMMON</span>",
     `<table class="dtable"><tr><th>Strategy</th><th>How many names / whose?</th><th>Example</th></tr>
      <tr><td><b>Family / Multiproduct</b></td><td>ONE name, on ALL your products</td><td>Nike on every shoe</td></tr>
