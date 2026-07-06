@@ -2171,7 +2171,7 @@ const TESTBANK=[
    "network",
    "syndicated"
   ],
-  "a": 3,
+  "a": 2,
   "why": "Spot ads are network TV ads (currently running series) that did not sell. So this ad space is being sold by local Network stations at reduced price. Making them attractive to local advertisers and any advertiser looking for a bargain.",
   "ref": "L16A 16:40, N57"
  },
