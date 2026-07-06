@@ -716,7 +716,7 @@ const DRILLS = {
   },
 
   mam(){
-    const mode=pick(["preference","raiseRating","raiseImportance"]);
+    const mode=pick(["preference","raiseRating","raiseImportance","mixedStrategy"]);
     const you=pick(["Lululemon","Nike","Gymshark","Alo","Vuori"]);
     const rivals=shuffle(["Nike","Adidas","Under Armour","Puma"].filter(b=>b!==you)).slice(0,mode==="preference"?2:2);
     const brands=mode==="preference"?shuffle([you,...rivals]):[you,...rivals];
@@ -750,26 +750,61 @@ const DRILLS = {
         <p class="tip">Raising a RATING helps only your brand; raising an IMPORTANCE weight helps every brand.</p>`;
       return {title:"Multi-Attribute Model — Raise a Rating", prompt, choices, answerIdx:bestAttr, solution};
     }
-    // raiseImportance: Step 3b: raise ONE importance weight to 10; helps whoever rates highest on it — check the RELATIVE gain to you
-    const relGain=attrs.map((_,j)=>{
+    if(mode==="raiseImportance"){
+      // Step 3b: raise ONE importance weight to 10; helps whoever rates highest on it — check the RELATIVE gain to you
+      const relGain=attrs.map((_,j)=>{
+        const deltaImp=10-imp[j];
+        const yourGain=bel[0][j]*deltaImp;
+        const rivalGains=brands.slice(1).map((_,i)=>bel[i+1][j]*deltaImp);
+        return yourGain - Math.max(...rivalGains); // relative advantage over the toughest rival
+      });
+      const bestAttr=relGain.indexOf(Math.max(...relGain));
+      const choices=attrs.map(a=>"Increase the importance of "+a);
+      const prompt=`<p>Using the multi-attribute model, which strategy gives <b>${you}</b> the biggest RELATIVE gain over its competitors (raise one IMPORTANCE weight to 10)? (Assume the weight is maximally effective.)</p>${table}`;
+      const work=attrs.map((a,j)=>{
+        const deltaImp=10-imp[j];
+        const yourGain=bel[0][j]*deltaImp;
+        const rivalStr=brands.slice(1).map((b,i)=>`${b}: ${bel[i+1][j]}×${deltaImp}=${bel[i+1][j]*deltaImp}`).join(", ");
+        return `<p>${a}: ${you} gains ${bel[0][j]}×${deltaImp}=<b>${yourGain}</b>; rivals gain ${rivalStr}</p>`;
+      }).join("");
+      const solution=`<p>Raising an IMPORTANCE weight helps EVERY brand that has that attribute — so compare who gains MORE:</p>${work}
+        <p>Biggest gain relative to the toughest rival → <b>Increase the importance of ${attrs[bestAttr]}</b>.</p>
+        <p class="tip">Trap: the biggest gain for you isn't automatically the best choice if a rival gains even more on that same attribute.</p>`;
+      return {title:"Multi-Attribute Model — Raise Importance", prompt, choices, answerIdx:bestAttr, solution};
+    }
+    // mixedStrategy: the REAL exam pattern (Align/Samsung/Shein) — choices mix "raise a RATING" and
+    // "raise an IMPORTANCE" options together; must compare relative gain across BOTH families to find the true best.
+    const ratingOpts=attrs.map((a,j)=>{
+      const gain=(10-bel[0][j])*imp[j]; // only affects you, so relative gain = raw gain
+      return {label:"Increase "+you+"'s "+a+" rating", gain, kind:"rating", attr:a};
+    });
+    const impOpts=attrs.map((a,j)=>{
       const deltaImp=10-imp[j];
       const yourGain=bel[0][j]*deltaImp;
       const rivalGains=brands.slice(1).map((_,i)=>bel[i+1][j]*deltaImp);
-      return yourGain - Math.max(...rivalGains); // relative advantage over the toughest rival
+      const relGain=yourGain-Math.max(...rivalGains);
+      return {label:"Increase the importance of "+a, gain:relGain, kind:"importance", attr:a};
     });
-    const bestAttr=relGain.indexOf(Math.max(...relGain));
-    const choices=attrs.map(a=>"Increase the importance of "+a);
-    const prompt=`<p>Using the multi-attribute model, which strategy gives <b>${you}</b> the biggest RELATIVE gain over its competitors (raise one IMPORTANCE weight to 10)? (Assume the weight is maximally effective.)</p>${table}`;
-    const work=attrs.map((a,j)=>{
-      const deltaImp=10-imp[j];
-      const yourGain=bel[0][j]*deltaImp;
-      const rivalStr=brands.slice(1).map((b,i)=>`${b}: ${bel[i+1][j]}×${deltaImp}=${bel[i+1][j]*deltaImp}`).join(", ");
-      return `<p>${a}: ${you} gains ${bel[0][j]}×${deltaImp}=<b>${yourGain}</b>; rivals gain ${rivalStr}</p>`;
+    const pool=shuffle([...ratingOpts,...impOpts]).slice(0,4);
+    if(!pool.some(o=>o.kind==="rating")) pool[0]=pick(ratingOpts);
+    if(!pool.some(o=>o.kind==="importance")) pool[1]=pick(impOpts);
+    const best=pool.reduce((a,b)=>b.gain>a.gain?b:a);
+    const choices=pool.map(o=>o.label);
+    const answerIdx=pool.indexOf(best);
+    const prompt=`<p>Using the multi-attribute model, which strategy gives <b>${you}</b> the biggest advantage? (Assume any change is maximally effective — raised to 10.)</p>${table}`;
+    const work=pool.map(o=>{
+      if(o.kind==="rating"){
+        const j=attrs.indexOf(o.attr);
+        return `<p><i>${o.label}</i> (RATING — only affects ${you}): (10 − ${bel[0][j]}) × ${imp[j]} = <b>${o.gain}</b></p>`;
+      }
+      const j=attrs.indexOf(o.attr); const deltaImp=10-imp[j];
+      const rivalStr=brands.slice(1).map((b,i)=>`${b} +${bel[i+1][j]*deltaImp}`).join(", ");
+      return `<p><i>${o.label}</i> (IMPORTANCE — affects everyone): ${you} +${bel[0][j]*deltaImp}, but ${rivalStr} → relative gain <b>${o.gain}</b></p>`;
     }).join("");
-    const solution=`<p>Raising an IMPORTANCE weight helps EVERY brand that has that attribute — so compare who gains MORE:</p>${work}
-      <p>Biggest gain relative to the toughest rival → <b>Increase the importance of ${attrs[bestAttr]}</b>.</p>
-      <p class="tip">Trap: the biggest gain for you isn't automatically the best choice if a rival gains even more on that same attribute.</p>`;
-    return {title:"Multi-Attribute Model — Raise Importance", prompt, choices, answerIdx:bestAttr, solution};
+    const solution=`<p>Two families of moves exist: raising a RATING helps only your own brand (gain = (10−rating)×importance); raising an IMPORTANCE weight helps every brand with that attribute, so you must net out the toughest rival's gain too. Compare all options on equal footing (their true relative gain):</p>${work}
+      <p>Biggest true gain → <b>${best.label}</b> (+${best.gain}).</p>
+      <p class="tip">Don't just grab the biggest raw number — an importance strategy's raw gain can be inflated by a rival gaining even more on that same attribute.</p>`;
+    return {title:"Multi-Attribute Model — Rating vs. Importance", prompt, choices, answerIdx, solution};
   }
 };
 
