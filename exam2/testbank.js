@@ -46,7 +46,7 @@ const TESTBANK=[
   "ref": "p. 323"
  },
  {
-  "ch": "ch12",
+  "ch": "ch18",
   "src": "T",
   "q": "A social media influencer’s number of followers is often attributed to his or her perceived________, knowledgeability, authenticity, and reliability in providing relevant content to his or her audience.",
   "choices": [
@@ -286,7 +286,7 @@ const TESTBANK=[
   "ref": "L9B 37:22, N44"
  },
  {
-  "ch": "ch12",
+  "ch": "ch20",
   "src": "T",
   "q": "One type of sales objective is________, which is typically specific for each salesperson and includes his or her product knowledge, customer service, and selling and communication skills.",
   "choices": [
@@ -466,7 +466,7 @@ const TESTBANK=[
   "ref": "p. 302"
  },
  {
-  "ch": "ch12",
+  "ch": "ch20",
   "src": "T",
   "q": "John works for American Greetings. His job description includes these responsibilities: (1) stock and arrange point-of-purchase displays of present customers—60 percent of his workweek and (2) receive orders from customers and complete the transactions—40 percent of his workweek. John is primarily engaged in which type of selling?",
   "choices": [
@@ -596,7 +596,7 @@ const TESTBANK=[
    "a radical invention",
    "a brand extension"
   ],
-  "a": 2,
+  "a": 3,
   "why": "Successful organizations view newness and innovation in their products at three levels. The lowest level, which usually involves the least risk, is a product line extension. This is an incremental improvement of an existing product line the company already sells. At the next level is a significant jump in innovation or technology or a brand extension involving putting an established brand name on a new product in an unfamiliar market. The third and highest level of innovation involves a radical invention, a truly revolutionary new product.",
   "ref": "p. 281"
  },
@@ -1306,7 +1306,7 @@ const TESTBANK=[
   "ref": "L12A 34:12, N46"
  },
  {
-  "ch": "ch12",
+  "ch": "ch19",
   "src": "T",
   "q": "A paid advertisement for the Texas Department of Economic Development—Tourism Division invited readers of a magazine to mail in a postage-paid reply card that was included with the ad, visit the state’s website, or use a toll-free number to request more information about vacation destinations in Texas. The primary purpose of this ad was",
   "choices": [
@@ -2251,7 +2251,7 @@ const TESTBANK=[
   "ref": "L13B 48:28, N49"
  },
  {
-  "ch": "ch12",
+  "ch": "ch18",
   "src": "T",
   "q": "Dunkin’ partnered with Charli D’Amelio, one of TikTok’s most followed stars who is known for her dance moves. Charli has posted about her favorite Dunkin’ products on her social media accounts, and Dunkin’ named her favorite coffee drink “The Charli” on its menu and even offered customers the chance to win a virtual hangout with Charli. This is an example of Dunkin’ using",
   "choices": [
@@ -2266,7 +2266,7 @@ const TESTBANK=[
   "ref": "p. 573"
  },
  {
-  "ch": "ch12",
+  "ch": "ch19",
   "src": "T",
   "q": "Connected devices and streaming services create addressable advertising, which means advertisers can",
   "choices": [
@@ -2756,7 +2756,7 @@ const TESTBANK=[
    "Disney shows “Empathy” by saying they are sorry but not doing anything about it as the problem severity is low, and the company responsibility is low.",
    "Disney “Fixes It” and replaces the sandwich with the salad along with a coupon for a free ice cream, as the problem severity is low and company responsibility is high."
   ],
-  "a": 1,
+  "a": 4,
   "why": "Segment #10, February 21 st Part 2, 42:19 Correct Answer: Receiving a sandwich instead of a salad is not a severe issue (low severity), and because the Disney restaurant is responsible for this mistake, Disney would “Fix It” to recover their service error. Incorrect Answers: Because the severity is low but the company is fully responsible for the mistake, Hero, Red Carpet, and Empathy would not be appropriate strategies. The other “Fixes It” response states the problem has high severity and low company responsibility, which both are incorrect..",
   "ref": ""
  },
@@ -4111,7 +4111,7 @@ const TESTBANK=[
   "ref": ""
  },
  {
-  "ch": "ch12",
+  "ch": "ch18",
   "src": "T",
   "q": "A testimonial ad for a First Alert carbon monoxide (CO) detector features parents who are discussing the dangers of carbon monoxide poisoning and how purchasing and using the advertised product can avert disaster. Such advertisements use",
   "choices": [
@@ -4966,7 +4966,7 @@ const TESTBANK=[
   "ref": ""
  },
  {
-  "ch": "ch12",
+  "ch": "ch20",
   "src": "T",
   "q": "When using an account management policy grid, an account would receive a high level of sales calls if the account opportunity level assessment is",
   "choices": [
