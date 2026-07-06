@@ -293,13 +293,22 @@ const LESSONS = {
       "<b>5. Close</b> — summarize benefits, ask for the sale, confirm. <b>Closing techniques:</b> <b>trial close</b> (ask for a small decision — 'which color?'), <b>assumptive close</b> (act as if they've decided — 'when should we deliver?'), <b>urgency close</b> ('the price goes up Monday'). These are all types of <i>closes/closing</i>.",
       "<b>6. Follow-Up</b> — ensure delivery/satisfaction, pursue add-on sales, sustain the relationship."
     ]},
-    { h:"Presentation Formats", items:[
-      "<b>Canned</b> formats (scripted):",
-      "• <b>Ingratiation</b> — complimenting/flattering the buyer.",
-      "• <b>Foot-in-the-door</b> — start with a <b>small</b> ask, build to a bigger one.",
-      "• <b>Door-in-the-face</b> — start with an <b>absurd/large</b> ask, then follow with the (real) smaller one (ask for 50M units to make 2M palatable).",
-      "• <b>Outlined</b> — a flexible checklist of points.",
-      "<b>Adaptive selling</b> (need-satisfaction / marketing orientation) — determine the customer's needs/perceptions, then tailor the solution; \"listen more than you talk.\""
+    { h:"Presentation Formats — the FULL family (this is the part people skip)", items:[
+      "There are <b>3 major presentation formats</b>. The first two put the <b>salesperson in control</b>; the third flips it to the <b>customer</b>. Know which family each question belongs to — that's the whole trick.",
+      "<b>① Stimulus-Response format</b> — the salesperson tries appeal after appeal hoping to 'hit the right button.' Example: a McDonald's counter clerk asking 'fries with that?' — this specific tactic is called <b>suggestive selling</b>. Fine for simple/low-stakes sales, but not for complex products.",
+      "<b>② Formula Selling format</b> — the presentation is delivered in an accurate, step-by-step, thorough way. Its most common version is the <b>canned sales presentation</b> — a <b>memorized, standardized script given to every prospect</b> (think Kirby vacuum door-to-door reps). Pro: guarantees thoroughness, good for novice reps. Con: no flexibility, no real feedback from the buyer.",
+      "<b>The CANNED sub-family (lecture) — 4 named techniques, all still 'salesperson talks, buyer listens':</b>",
+      "• <b>Ingratiation</b> — win favor by <b>complimenting/flattering</b> the buyer before the ask.",
+      "• <b>Foot-in-the-door</b> — start with a <b>small, easy</b> ask, then escalate to the bigger ask you actually wanted.",
+      "• <b>Door-in-the-face</b> — start with a <b>huge/absurd</b> ask (expected to be refused), then the real, smaller ask looks reasonable by comparison (Nina asks for a huge pet first, or 'ask for 50M units so 2M looks small').",
+      "• <b>Outlined</b> — a <b>loose checklist</b> of key talking points instead of a word-for-word script — more flexible than a fully canned pitch, but still salesperson-led (Sofia/Microsoft-presentation questions).",
+      "<b>③ Need-Satisfaction format</b> — the OPPOSITE approach: the salesperson <b>probes and listens</b> first to identify the prospect's needs, THEN tailors the pitch to those needs. This is the format most consistent with the <b>marketing concept</b> (customer-first, relationship-building) — 'listen more than you talk.'",
+      "<b>The 2 selling STYLES inside need-satisfaction (a favorite exam pairing):</b> <b>Adaptive selling</b> = adjusting the presentation on the fly — knowing WHEN to offer a solution vs. WHEN to keep asking questions (used by AT&T, Gillette, insurance/brokerage reps). <b>Consultative selling</b> = focuses on <b>problem identification</b> — the rep acts as an expert diagnosing the customer's problem, often producing a novel/customized solution (common in B2B — IBM, Xerox). This enables <b>upselling</b> (pitch a higher-end option) and <b>cross-selling</b> (pitch a complementary product).",
+      "<b>TRAP:</b> the answer to 'two styles of the need-satisfaction format' is always <b>adaptive selling + consultative selling</b> — never canned, suggestive, confrontational, or outlined selling (those all belong to the OTHER two formats)."
+    ]},
+    { h:"Handling Objections & Closing", items:[
+      "Objections are excuses for not buying — valid or not, they do <b>not</b> end the sale. <b>6 techniques to handle them:</b> <b>(1) Acknowledge &amp; convert</b> — use the objection itself as a reason to buy ('the price is high BECAUSE we use the finest materials'). <b>(2) Postpone</b> — promise to address it later in the pitch. <b>(3) Agree &amp; neutralize</b> — agree, then show it's outweighed by other benefits. <b>(4) Accept</b> — when it's valid, let them air it and probe further. <b>(5) Denial</b> — firmly refute a false/misinformed objection. <b>(6) Ignore</b> — when it's just stalling and not a real concern.",
+      "<b>3 closing techniques</b> once the buyer seems ready: <b>Trial close</b> = ask them to decide a small aspect ('blue or gray?'). <b>Assumptive close</b> = ask about delivery/financing AS IF the sale is already final. <b>Urgency close</b> = reference timeliness to prompt action now ('financing ends next week') — must be truthful or it's unethical."
     ]},
     { h:"Ch 21 · Salesforce Management & Workload (COMPUTATIONAL)", items:[
       "<b>Sales plan:</b> set objectives → make-or-buy → <b>organize the salesforce</b> → size it. <b>Sales-objective types:</b> <b>output-related</b> (dollars/units sold), <b>input-related</b> (# of calls made), and <b>behaviorally related</b> (specific to each salesperson: product knowledge, customer service, selling &amp; communication skills).",
