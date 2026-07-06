@@ -2906,7 +2906,7 @@ const TESTBANK=[
    "Prospects are more likely than qualified prospects to become customers.",
    "There are generally more qualified prospects than prospects."
   ],
-  "a": 0,
+  "a": 1,
   "why": "Book p611. A qualified prospect wants the product, is the decision maker, and has the ability to buy it whereas a prospect is a customer who wants or needs the product.",
   "ref": ""
  },
