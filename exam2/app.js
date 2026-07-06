@@ -885,66 +885,71 @@ function renderGotchas(main){
   main.appendChild(el("p","sub","The tricky, frequently-tested, and 'random' stuff your classmates warned about — consolidated for the final push."));
   function sec(title, html){ const s=el("div","lesson-sec"); s.innerHTML="<h2>"+title+"</h2>"+html; main.appendChild(s); }
 
-  sec("🧑‍🤝‍🧑 DMU / Buying-Center Roles <span class='gtag'>VERY COMMON</span>",
-    `<table class="dtable"><tr><th>Role</th><th>Trigger words in the scenario</th></tr>
-     <tr><td>Information Gatherer</td><td>researches, looks up, collects info, reads reviews</td></tr>
-     <tr><td>Influencer</td><td>recommends, advises, "should pick X", technical input, voices an opinion</td></tr>
-     <tr><td>Decider / Decision Maker</td><td>decides, chooses, final say / authority</td></tr>
-     <tr><td>Purchaser / Buyer (Purchasing Agent)</td><td>buys, pays, places the order, signs the contract</td></tr>
-     <tr><td>User</td><td>uses it, will use, on the production line</td></tr>
-     <tr><td>Gatekeeper <i>(org only)</i></td><td>screens, controls what reaches the boss, front-desk, assistant</td></tr></table>
-     <ul><li><b>Trap 1:</b> relaying info ≠ influencing → that's still just the <b>Gatherer</b>.</li>
-     <li><b>Trap 2:</b> the Decider ≠ the Purchaser (one <i>chooses</i>, one <i>pays</i>).</li>
-     <li><b>Trap 3:</b> one person = multiple roles → answers are often combos ("I, III & IV"). Tag <i>every</i> role each person plays.</li></ul>`);
+  sec("🏷️ Branding Strategies <span class='gtag'>VERY COMMON</span>",
+    `<table class="dtable"><tr><th>Strategy</th><th>How many names / whose?</th><th>Example</th></tr>
+     <tr><td><b>Family / Multiproduct</b></td><td>ONE name, on ALL your products</td><td>Nike on every shoe</td></tr>
+     <tr><td><b>Multibranding</b></td><td>MANY different names, all yours</td><td>Nestlé: KitKat, Nespresso</td></tr>
+     <tr><td><b>Private label</b></td><td>Made for a RETAILER, sold only there</td><td>Walmart Great Value, Kirkland</td></tr>
+     <tr><td><b>Co-branding</b></td><td>TWO brands together on ONE product</td><td>Doritos Locos Tacos</td></tr>
+     <tr><td><b>Subbranding</b></td><td>Your name + a NEW spinoff name for one line</td><td>Toyota → Lexus; Gatorade → Bolt24</td></tr>
+     <tr><td><b>Line extension</b></td><td>Same brand, SAME category, new variant</td><td>Gatorade → new flavor</td></tr>
+     <tr><td><b>Category extension</b></td><td>Same brand, DIFFERENT category</td><td>Canon cameras → Canon printers</td></tr></table>
+     <p class="tip">Fast test: "how many names, and whose?" One name/everything=family; many names/all yours=multibranding; retailer's name=private label; two names together=co-branding; your name+a spinoff=subbranding.</p>`);
 
-  sec("🧰 The 4 Utilities — how to tell them apart",
-    `<ul><li><b>Form</b> = the product is <b>made / transformed / customized</b> (manufacturing, HelloFresh pre-portioning, custom boots).</li>
-     <li><b>Place</b> = available <b>WHERE</b> you are (vending machine, ATM at a gas station, convenient location).</li>
-     <li><b>Time</b> = available <b>WHEN</b> you want it (24-hr store, fast delivery, prepay & skip the line).</li>
-     <li><b>Possession</b> = made <b>easy to OBTAIN / PAY for</b> (credit, financing, layaway, delivery).</li></ul>
-     <p class="tip">Ask: Made it? = Form · Where? = Place · When/fast? = Time · Easy to buy/own? = Possession.</p>`);
+  sec("🧑‍💼 Sales & Support Personnel Types <span class='gtag'>VERY COMMON</span>",
+    `<table class="dtable"><tr><th>Type</th><th>Actually sells?</th><th>Job</th></tr>
+     <tr><td><b>Outside order taker</b></td><td>Barely</td><td>Visits customers, restocks shelves, arranges displays (Frito-Lay rep)</td></tr>
+     <tr><td><b>Inside order taker</b></td><td>Barely</td><td>Desk/counter, answers Qs; often <b>inbound</b> telemarketing (customer calls in)</td></tr>
+     <tr><td><b>Order getter</b></td><td>YES — creative selling</td><td>Persuades, closes, follows up (car salesperson, IBM rep)</td></tr>
+     <tr><td><b>Missionary salesperson</b></td><td>NO — never takes orders</td><td>Promotes/educates only (pharma rep → doctors)</td></tr>
+     <tr><td><b>Sales engineer</b></td><td>Rarely closes</td><td>Technical expert solving problems (chemicals, equipment)</td></tr>
+     <tr><td><b>Outbound telemarketer</b></td><td>YES</td><td>The COMPANY calls the customer</td></tr>
+     <tr><td><b>Team selling</b></td><td>YES</td><td>A whole cross-functional team sells one major account</td></tr>
+     <tr><td><b>Vector sales rep</b> <i>(lecture-only term)</i></td><td>Not directly</td><td>Trains a RETAILER'S staff to sell the manufacturer's product</td></tr></table>
+     <p class="tip">Fast test: "Does this person actually complete a sale, or just support/prep the ground for one?"</p>`);
 
-  sec("🎯 Segmentation & Market-Product Strategies",
-    `<ul><li>Markets are <b>heterogeneous</b> (varied needs) → you segment into <b>homogeneous</b> clusters. Markets <i>evolve toward heterogeneity</i> over time.</li></ul>
-     <table class="dtable"><tr><th>Offer…</th><th>…to…</th><th>= Strategy</th></tr>
-     <tr><td>one product</td><td>one segment</td><td>Concentration (niche)</td></tr>
-     <tr><td>one product</td><td>multiple segments</td><td>same offering to several groups</td></tr>
-     <tr><td>multiple products</td><td>multiple segments</td><td><b>Multisegment</b> (Gap's brands; P&G's Luvs vs Pampers)</td></tr>
-     <tr><td>a custom product</td><td>each individual</td><td><b>Mass Customization</b> (Custom Foot, Nike By You)</td></tr></table>
-     <ul><li><b>4 criteria:</b> Measurability, Reachability, Profitability, <b>Differential Response</b> (the key).</li>
-     <li><b>Majority fallacy</b> = blindly chasing the largest segment. <b>80/20:</b> ~80% of sales from ~20% of customers (heavy half).</li></ul>`);
+  sec("📺 The 4 Types of TV Advertising",
+    `<ul><li><b>Network</b> — bought directly for national programming (a slot during a first-run episode).</li>
+     <li><b>Spot</b> — leftover national slots resold, at a discount, to LOCAL advertisers by the local station. <b>Trap:</b> the SHOW can be huge/national (Survivor) — what matters is that the ADVERTISER is small/local (a Gainesville scooter dealer).</li>
+     <li><b>Cable</b> — cable-only channels (ESPN, HGTV, Golf Channel), more niche-targeted.</li>
+     <li><b>Syndicated</b> — local stations LEASE the rights to air reruns of a show that already finished its network run (an old "Friends" rerun on a local Fox affiliate).</li></ul>`);
 
-  sec("🎂 Generations — birth years & nicknames",
-    `<table class="dtable"><tr><th>Generation</th><th class="r">Born</th><th>Nickname</th></tr>
-     <tr><td>Baby Boomers</td><td class="r">1946–1964</td><td>the post-WWII "boom"</td></tr>
-     <tr><td>Gen X</td><td class="r">1965–1980</td><td><b>the "baby BUST"</b> (birth rates fell)</td></tr>
-     <tr><td>Millennials (Gen Y)</td><td class="r">1981–1996</td><td><b>"echo boom" / "baby boomlet"</b></td></tr>
-     <tr><td>Gen Z</td><td class="r">1997–~2012</td><td>—</td></tr></table>
-     <p class="tip">Boom → Bust (X) → Echo-boom (Millennials). Gen Z & Millennials pay more for sustainable/ethical brands.</p>`);
-
-  sec("⚖️ Niche Ethics Concepts (the ones nobody studies)",
+  sec("🧭 Two 'Which Type of Demand/Selling Mindset' Traps",
     `<ul>
-     <li><b>Astroturfing</b> = faking <i>grassroots</i> support — a company manufactures fake "consumer" enthusiasm/reviews so paid promotion looks organic. (Named after AstroTurf = fake grass.)</li>
-     <li><b>Sockpuppets</b> = fake online identities one person/company uses to post those fake reviews/comments.</li>
-     <li><b>Native advertising</b> = a paid ad <i>disguised</i> as normal editorial content (a "Presented by Brand" article).</li>
-     <li><b>Product placement</b> = paying to feature a product in shows/movies; the dilemma is <i>hidden persuasive intent</i>.</li>
-     <li><b>Greenwashing</b> = false/exaggerated <i>environmental</i> claims. <b>Pinkwashing</b> = overstated <i>cause/charity</i> contribution (e.g., token breast-cancer donations).</li>
-     <li><b>Cause marketing</b> = tying purchases to a charitable cause (Warby Parker). <b>Social entrepreneurship</b> = cause first, profit second.</li>
-     <li><b>Caveat emptor</b> = "let the buyer beware" (the OLD doctrine, before consumer protection).</li>
-     <li><b>Consumer Bill of Rights</b> (Kennedy, 1962): right to <b>safety, be informed, choose, be heard</b>. (Rooted in <b>moral idealism</b>.)</li>
-     <li><b>Economic espionage</b> = clandestine collection of a competitor's trade secrets (trespassing, hacking, dumpster-diving) — but NOT just violating a noncompete.</li>
-     <li><b>Whistle-blower</b> = an employee who reports their employer's wrongdoing.</li></ul>`);
+     <li><b>Primary → Selective demand (PLC shift):</b> Introduction = build <b>PRIMARY</b> demand (the whole category — "buy electric cars"). Growth (competitors flood in) = build <b>SELECTIVE</b> demand (your brand specifically — "buy OUR electric car"). <i>Secondary, generic, derived</i> are NOT the right terms here.</li>
+     <li><b>Customer orientation vs. Sales orientation:</b> Customer orientation = "align customers with products that solve their problems" (mutual, long-term). Sales orientation = "sell them all I can, even more than a wise customer should buy" (one's own short-term interest). The "even if it's more than they should buy" wording ALWAYS = <b>sales</b> orientation, not customer.</li></ul>`);
 
-  sec("⚡ Other 'Random' Facts He Likes",
+  sec("💲 Pricing & Presentation Formats at a Glance",
+    `<ul><li><b>Skimming</b> (HIGH intro price, recover R&D costs, early adopters aren't price-sensitive) vs <b>Penetration</b> (LOW intro price, build volume fast, discourage rivals) — the 2 most common Introduction-stage pricing strategies.</li>
+     <li><b>3 presentation formats:</b> Stimulus-Response (try appeal after appeal — "fries with that?" = suggestive selling) → Formula Selling (canned/scripted; sub-types: Ingratiation, Foot-in-the-door, Door-in-the-face, Outlined) → Need-Satisfaction (LISTEN first, then tailor — splits into <b>Adaptive selling</b> [adjust on the fly] and <b>Consultative selling</b> [expert problem-diagnosis, common in B2B]).</li>
+     <li><b>Trap:</b> "two selling styles of need-satisfaction" = ALWAYS adaptive + consultative — never canned/suggestive/outlined.</li></ul>`);
+
+  sec("🔍 Search vs. Experience vs. Credence Qualities",
+    `<ul><li><b>Search</b> — judged BEFORE buying (color, size, style) — clothing, jewelry.</li>
+     <li><b>Experience</b> — judged DURING/AFTER — restaurants, child care, a haircut.</li>
+     <li><b>Credence</b> — hard to judge even AFTER, by non-specialists — medical diagnoses, legal/financial advice. More credence = more perceived risk.</li></ul>`);
+
+  sec("📊 BDI × CDI — the action grid",
+    `<table class="dtable"><tr><th></th><th>CDI HIGH (category thrives)</th><th>CDI LOW (category weak)</th></tr>
+     <tr><td><b>BDI HIGH</b> (brand thrives)</td><td>✅ Invest &amp; build</td><td>🐄 Maintain / harvest</td></tr>
+     <tr><td><b>BDI LOW</b> (brand lags)</td><td>🔎 Research WHY you lag (Peet's, Target)</td><td>❌ Reduce / pull out</td></tr></table>`);
+
+  sec("🛟 Service Recovery (Disney) & the Gap Model",
+    `<table class="dtable"><tr><th></th><th>Low responsibility</th><th>High responsibility (firm's fault)</th></tr>
+     <tr><td><b>Low severity</b></td><td>Empathy</td><td>Fix it!</td></tr>
+     <tr><td><b>High severity</b></td><td>Hero</td><td>Red Carpet</td></tr></table>
+     <ul><li><b>Knowledge gap</b> = mgmt misreads what customers want. <b>Standards gap</b> = specs don't match. <b>Delivery gap</b> = standards ARE set/communicated but staff fail to perform them (the trap: don't confuse this with Knowledge). <b>Communications gap</b> = promises ≠ delivery.</li></ul>`);
+
+  sec("⚡ Quick-Fire Traps",
     `<ul>
-     <li><b>Fastest-growing US ethnicities:</b> Hispanic/Latino (~17%, largest) & Asian-American.</li>
-     <li><b>Multi-screen:</b> Meshing (related, ~14%) · Stacking (unrelated, ~22%) · <b>Shifting</b> (sequential, ~65% = biggest opportunity).</li>
-     <li><b>Three screens of advertising:</b> TV, Computer, Mobile (+ possible tablet).</li>
-     <li><b>NPS:</b> Promoters 9–10, Passives 7–8, Detractors 0–6; NPS = %P − %D.</li>
-     <li><b>Satisfaction:</b> P&lt;E sad, P=E ok, P&gt;E delight. <b>Cognitive dissonance</b> = buyer's remorse.</li>
-     <li><b>Macro lifestyle trends:</b> Fantasy Adventure, Being Alive, 99 Lives, Cashing Out.</li>
-     <li><b>Acts:</b> Sherman→monopolies · Robinson-Patman→price discrimination · Lanham→trademarks · FTC→false ads · FDA→food/drug · CPSC→product safety.</li>
-     <li><b>Income:</b> Gross → Disposable (after tax) → Discretionary (after necessities).</li></ul>`);
+     <li><b>Scalability is NOT one of the 5 diffusion factors</b> (real 5: Relative Advantage, Communicability, Complexity, Compatibility, Risk) — it's a managerial concern, not a consumer-adoption factor.</li>
+     <li><b>Defective products is NOT a packaging/environmental challenge</b> (real ones: solid-waste growth, landfill shortage, material composition/disposal, recycling).</li>
+     <li><b>FTC rule:</b> a product may be labeled "new" for only <b>6 months</b>.</li>
+     <li><b>4 institutional-ad types:</b> Advocacy (states a position) · Pioneering institutional (announces what a company is/does) · Competitive institutional (one product CLASS vs another — "got milk?") · Reminder institutional (keeps the org's name up).</li>
+     <li><b>Subliminal stimuli — 3 types:</b> Ambiguous (multiple interpretations) · Embedded (hidden but meant to be processed, even the NBC peacock) · Truly subliminal (below conscious threshold, flashed too fast).</li>
+     <li><b>MAM message strategy trap:</b> raising a RATING helps only your brand; raising an IMPORTANCE weight helps EVERY brand with that attribute — always check your gain <i>relative to the toughest rival</i>, not the raw number.</li>
+     <li><b>Push vs Pull:</b> Push = to the trade/retailers (allowances, dealer contests, co-op ads). Pull = to consumers (coupons, deals, premiums, contests=SKILL, sweepstakes=CHANCE).</li>
+     <li><b>Digital metrics:</b> Unique visitors = different individuals, each counted once. Engagement rate = actions ÷ impressions. CPA (cost-per-action) ties ad cost directly to a result (click/signup/sale) — the tightest cost-to-outcome measure.</li></ul>`);
 
   const q=el("button","btn","Drill the Facts deck →"); q.onclick=()=>go("facts"); main.appendChild(q);
 }
