@@ -948,8 +948,24 @@ function renderGotchas(main){
      <li><b>4 institutional-ad types:</b> Advocacy (states a position) · Pioneering institutional (announces what a company is/does) · Competitive institutional (one product CLASS vs another — "got milk?") · Reminder institutional (keeps the org's name up).</li>
      <li><b>Subliminal stimuli — 3 types:</b> Ambiguous (multiple interpretations) · Embedded (hidden but meant to be processed, even the NBC peacock) · Truly subliminal (below conscious threshold, flashed too fast).</li>
      <li><b>MAM message strategy trap:</b> raising a RATING helps only your brand; raising an IMPORTANCE weight helps EVERY brand with that attribute — always check your gain <i>relative to the toughest rival</i>, not the raw number.</li>
-     <li><b>Push vs Pull:</b> Push = to the trade/retailers (allowances, dealer contests, co-op ads). Pull = to consumers (coupons, deals, premiums, contests=SKILL, sweepstakes=CHANCE).</li>
      <li><b>Digital metrics:</b> Unique visitors = different individuals, each counted once. Engagement rate = actions ÷ impressions. CPA (cost-per-action) ties ad cost directly to a result (click/signup/sale) — the tightest cost-to-outcome measure.</li></ul>`);
+
+  sec("💸 Push vs. Pull — every promotion type, defined",
+    `<p><b>Pull</b> = aimed at CONSUMERS, to make them demand the product (pulling it through the channel). <b>Push</b> = aimed at the TRADE/retailers, to get them to stock &amp; promote it (pushing it down the channel).</p>
+     <table class="dtable"><tr><th>PULL (to consumers)</th><th>What it actually is</th></tr>
+     <tr><td><b>Coupon</b></td><td>A discounted PRICE at the register — encourages trial.</td></tr>
+     <tr><td><b>Deal</b></td><td>A short-term price cut (e.g. "buy one get one") — builds trial fast or retaliates against a competitor's move.</td></tr>
+     <tr><td><b>Premium</b></td><td>Free or discounted MERCHANDISE given <i>with</i> a purchase (a toy in a Happy Meal). If the price charged just covers the item's cost, it's "self-liquidating."</td></tr>
+     <tr><td><b>Rebate</b></td><td>CASH BACK after the sale, based on proof of purchase (mail-in/submit a receipt) — unlike a coupon/deal, you pay full price up front and get money back later.</td></tr>
+     <tr><td><b>Sample</b></td><td>A free trial-size give-away so you can try the product with zero risk.</td></tr>
+     <tr><td><b>Contest</b></td><td>Win by SKILL/creativity (photo, essay, recipe contest).</td></tr>
+     <tr><td><b>Sweepstakes</b></td><td>Win by pure CHANCE — just enter, no skill needed.</td></tr>
+     <tr><td><b>POP display</b></td><td>An in-store display that grabs attention and drives impulse buys.</td></tr></table>
+     <table class="dtable"><tr><th>PUSH (to the trade)</th><th>What it actually is</th></tr>
+     <tr><td><b>Trade/dealer allowance</b></td><td>A discount or payment TO the retailer for stocking, displaying, or promoting the product.</td></tr>
+     <tr><td><b>Dealer contest</b></td><td>A contest FOR retailers/their salespeople (not consumers) — incentivizes them to push more of your product.</td></tr>
+     <tr><td><b>Cooperative (co-op) advertising</b></td><td>The manufacturer and retailer SPLIT the cost of local ads for the product.</td></tr>
+     <tr><td><b>Training of distributors</b></td><td>Manufacturer trains the retailer's own staff to sell the product (this is the <b>vector sales rep</b>'s job).</td></tr></table>`);
 
   const q=el("button","btn","Drill the Facts deck →"); q.onclick=()=>go("facts"); main.appendChild(q);
 }
