@@ -885,6 +885,35 @@ function renderGotchas(main){
   main.appendChild(el("p","sub","The tricky, frequently-tested, and 'random' stuff your classmates warned about — consolidated for the final push."));
   function sec(title, html){ const s=el("div","lesson-sec"); s.innerHTML="<h2>"+title+"</h2>"+html; main.appendChild(s); }
 
+  sec("🧱 3–4 Levels of Product / Service <span class='gtag'>VERY COMMON</span>",
+    `<table class="dtable"><tr><th>Level</th><th>What it means</th><th>Example</th></tr>
+     <tr><td><b>Core</b></td><td>The basic reason the customer buys — the core want/job. If this fails, satisfaction collapses.</td><td>Mack's burger joint runs out of burgers → customers are upset (core benefit unmet)</td></tr>
+     <tr><td><b>Expected</b></td><td>What the buyer ASSUMES comes standard, based on past experience.</td><td>Cambell expects the Contemporary Resort's monorail — she's experienced it every visit</td></tr>
+     <tr><td><b>Augmented</b></td><td>Above-and-beyond extras that DELIGHT and aren't standard.</td><td>Johnny's fast-food bag plays a surprise song</td></tr>
+     <tr><td><b>Potential</b></td><td>Everything that COULD someday be added — not yet delivered.</td><td>Future features a company might add later</td></tr></table>
+     <p class="tip">TRAP: a feature moves levels over time — a delighter today (Amazon one-click = augmented) becomes standard tomorrow (now expected). Read the scenario for whether it's a first-time surprise (augmented) or something the customer has come to rely on (expected).</p>`);
+
+  sec("🅰️ The 4 I's of Services <span class='gtag'>VERY COMMON</span>",
+    `<table class="dtable"><tr><th>The "I"</th><th>The problem</th><th>The fix</th></tr>
+     <tr><td><b>Intangibility</b></td><td>Can't touch/see it before buying</td><td>Add tangible cues — a mascot/spokesperson personifies the service (Geico Gecko, AT&amp;T's Lily)</td></tr>
+     <tr><td><b>Inconsistency</b></td><td>Quality varies by who/when/where it's delivered</td><td><b>Standardize</b> — training, a consistent process (a masterclass for makeup artists)</td></tr>
+     <tr><td><b>Inseparability</b></td><td>Produced &amp; consumed at the same time; provider is part of it</td><td><b>Involve the customer</b> — real-time feedback, self-service, customer participation</td></tr>
+     <tr><td><b>Inventory</b></td><td>Can't stockpile a service; idle capacity is lost forever</td><td>Off-peak pricing, yield/capacity management</td></tr></table>
+     <p class="tip">TRAP: a scenario that fixes BOTH standardized training AND customer feedback resolves Inconsistency <i>&amp;</i> Inseparability together — a common combo answer.</p>`);
+
+  sec("💡 The 3 Levels of Innovation <span class='gtag'>VERY COMMON</span>",
+    `<table class="dtable"><tr><th>Level</th><th>How much must the consumer learn?</th><th>Example</th></tr>
+     <tr><td><b>Continuous</b></td><td>NO new behavior — minor tweak</td><td>A new toothpaste flavor</td></tr>
+     <tr><td><b>Dynamically Continuous</b></td><td>SOME learning, but the basic use is unchanged</td><td>Electric toothbrush, AirPods, Face-ID vs fingerprint</td></tr>
+     <tr><td><b>Discontinuous</b></td><td>ALL-NEW behavior, learned from the ground up</td><td>The first car; the first passenger spaceflight</td></tr></table>
+     <p class="tip">TRAP: "me-too innovation" (copying a competitor, e.g. Pepsi copying Coca-Cola Freestyle) is a DIFFERENT concept from the 3 levels above — don't confuse it with dynamically continuous.</p>`);
+
+  sec("📦 Product Item vs. Line vs. Mix <span class='gtag'>VERY COMMON</span>",
+    `<ul><li><b>Product Item</b> = ONE specific product, identified by its SKU (Stock Keeping Unit).</li>
+     <li><b>Product Line</b> = a group of CLOSELY RELATED items (all of a company's laptops).</li>
+     <li><b>Product Mix</b> = the SET OF ALL product lines a company sells.</li></ul>
+     <p class="tip">TRAP: a company with SEVERAL different lines (travel laptops + design laptops + gaming laptops) is being asked about its <b>Product Mix</b>, not a single Product Line — "product mix" is the most commonly under-selected right answer here (ASUS, Bakor bakery).</p>`);
+
   sec("🪜 Every Multi-Stage Process — Side-by-Side <span class='gtag'>VERY COMMON</span>",
     `<p>This exam has SIX different named sequences of stages. They get mixed up constantly because several sound alike (especially <b>Adoption Process</b> vs <b>Hierarchy of Effects</b> — both are 5 steps starting with "Awareness," but they measure completely different things). Lay them side by side and you stop confusing them.</p>
      <table class="dtable"><tr><th>Process</th><th>Stages (in order)</th><th>What it's measuring</th></tr>
