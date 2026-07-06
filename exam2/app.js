@@ -921,6 +921,13 @@ function renderGotchas(main){
      <li><b>Cable</b> — cable-only channels (ESPN, HGTV, Golf Channel), more niche-targeted.</li>
      <li><b>Syndicated</b> — local stations LEASE the rights to air reruns of a show that already finished its network run (an old "Friends" rerun on a local Fox affiliate).</li></ul>`);
 
+  sec("👥 Source Type — the full Personal/Impersonal × Marketer-Controlled/Independent grid",
+    `<p>Every message source can be placed on 2 axes: is it <b>Personal</b> (a specific individual) or <b>Impersonal</b> (mass/media)? And is it <b>Marketer-Controlled</b> (the company created/paid for it) or <b>Independent</b> (outside the company's control)?</p>
+     <table class="dtable"><tr><th></th><th>Marketer-Controlled</th><th>Independent</th></tr>
+     <tr><td><b>Personal</b></td><td>A salesperson pitching you directly (personal selling)</td><td>✅ <b>Most trusted:</b> a friend's word-of-mouth (Ro-Jo), a customer product review, Winnie the Pooh raving to Eeyore</td></tr>
+     <tr><td><b>Impersonal</b></td><td>A paid TV/magazine/display ad — the company wrote &amp; paid for it</td><td>Publicity/news coverage — a magazine or news story about the product the company didn't pay for or control</td></tr></table>
+     <p class="tip">Fast test: "Did the COMPANY create/pay for this?" (Controlled vs Independent) + "Is it coming from ONE person, or a mass message?" (Personal vs Impersonal). Personal + Independent is the exam's favorite — it's the most credible/trusted quadrant.</p>`);
+
   sec("🧭 Two 'Which Type of Demand/Selling Mindset' Traps",
     `<ul>
      <li><b>Primary → Selective demand (PLC shift):</b> Introduction = build <b>PRIMARY</b> demand (the whole category — "buy electric cars"). Growth (competitors flood in) = build <b>SELECTIVE</b> demand (your brand specifically — "buy OUR electric car"). <i>Secondary, generic, derived</i> are NOT the right terms here.</li>
