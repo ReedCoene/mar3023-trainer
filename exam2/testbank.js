@@ -2681,7 +2681,7 @@ const TESTBANK=[
    "Straight commission",
    "Salary"
   ],
-  "a": 4,
+  "a": 0,
   "why": "Seg 12 Part 2, March 2, part 2, 48:34 Correct answer: The biweekly pay is a salary, and the portion of revenue received from a sale is commission.",
   "ref": ""
  },

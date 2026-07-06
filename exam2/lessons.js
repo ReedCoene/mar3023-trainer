@@ -319,7 +319,7 @@ const LESSONS = {
       "<span class='formula'>NS = (NC × CF × CL) ÷ AST</span> — # salespeople = (# customers × call frequency/yr × call length) ÷ annual selling time per rep.",
       "<b>Trap:</b> convert call length to <b>HOURS</b> first (30 min = 0.5, 90 min = 1.5).",
       "<b>Worked:</b> (15,000 × 20 × 0.5) ÷ 1,200 = 150,000/1,200 = <b>125</b> salespeople.",
-      "<b>Compensation:</b> Salary, Straight Commission, or Combination (salary + commission/bonus)."
+      "<b>Compensation plans — tell them apart:</b> <b>Straight salary</b> = fixed pay only, no performance-based pay. <b>Straight commission</b> = pay is ENTIRELY a % of sales/revenue, no fixed base. <b>Salary + commission</b> = fixed base pay PLUS a % of each sale's revenue (Carrie's Car Shop: biweekly pay = salary, % of sale revenue = commission). <b>Salary + bonus</b> = fixed base pay plus a lump-sum reward for hitting a specific goal/quota (not tied to a % of each individual sale)."
     ]},
     { h:"Ch 21 · Evaluating Salespeople (COMPUTATIONAL)", items:[
       "<span class='formula'>Conversion Rate = # sales ÷ # calls</span>",
