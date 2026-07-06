@@ -858,7 +858,7 @@ const TESTBANK=[
  {
   "ch": "ch18",
   "src": "L",
-  "q": "Riot Games, the creators of League of Legends and Valorant, have launched a new game recently and they want to know what the goal of their promotional efforts should be. Above is a graph of the hierarchy of effects consumer breakdown with each bar representing the % of market they have at each step of the funnel. In which stage does League of Legend’s new game have the biggest customer loss, and what is that ratio rounded to the nearest hundredth?",
+  "q": "Riot Games, the creators of League of Legends and Valorant, have launched a new game recently and they want to know what the goal of their promotional efforts should be. Below is the hierarchy of effects consumer breakdown, with each value representing the % of market remaining at each step of the funnel. <table class='dtable'><tr><th>Potential Market</th><th class='r'>Awareness</th><th class='r'>Knowledge</th><th class='r'>Liking</th><th class='r'>Intention</th><th class='r'>Action</th></tr><tr><td>100%</td><td class='r'>95%</td><td class='r'>85%</td><td class='r'>60%</td><td class='r'>55%</td><td class='r'>40%</td></tr></table> In which stage does League of Legend’s new game have the biggest customer loss, and what is that ratio (prior ÷ current), rounded to the nearest hundredth?",
   "choices": [
    "Action; 1.38",
    "Liking; 1.38",
