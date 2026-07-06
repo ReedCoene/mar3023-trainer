@@ -167,7 +167,7 @@ const LESSONS = {
       "<b>Worked:</b> people hurt at a party the fraternity over-filled = high severity + their fault = <b>Red Carpet</b>. A 49¢→94¢ mischarge = low severity + firm's fault = <b>Fix it!</b>"
     ]},
     { h:"CLV & Customer Retention (COMPUTATIONAL)", items:[
-      "Customers get more profitable over time via: larger/more-frequent purchases, reduced operating costs, referrals, price premiums.",
+      "<b>Why retaining customers = higher profitability (memorize all 4 — a favorite 'all of the above' question):</b> (1) repeat customers <b>make larger &amp; more frequent purchases</b>, (2) they're often willing to <b>pay a price premium</b> (trust/convenience over price-shopping), (3) they <b>help reduce operating costs</b> (cheaper to serve — you already know their needs, less marketing spend needed to win them), and (4) satisfied customers <b>refer new people</b> (free word-of-mouth acquisition). All four reasons are true simultaneously — so 'all of the answers apply' is the correct choice whenever a question lists several of them (e.g. Emma's coffee shop).",
       "<span class='formula'>CLV = (visits/period) × ($ profit per visit) × (average lifetime) </span> — the class version. It's based on <b>profit</b>, not revenue.",
       "<b>Worked:</b> $5 profit/bottle × 3.6 bottles/mo × 12 × 5 yrs = <b>$1,080</b>. Simple gym version: (Monthly spend × 12) × years = (80×12)×5 = <b>$4,800</b>.",
       "This <b>over-estimates</b> CLV because it assumes customers stay the whole average lifetime and ignores defection and net-present-value of future money.",
