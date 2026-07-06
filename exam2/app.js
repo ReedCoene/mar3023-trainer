@@ -936,6 +936,14 @@ function renderGotchas(main){
      <li><b>Experience</b> — judged DURING/AFTER — restaurants, child care, a haircut.</li>
      <li><b>Credence</b> — hard to judge even AFTER, by non-specialists — medical diagnoses, legal/financial advice. More credence = more perceived risk.</li></ul>`);
 
+  sec("🌱 The 5 Factors Influencing Rate of Diffusion",
+    `<ul><li><b>Relative Advantage</b> — how much BETTER the new product is vs. what already exists.</li>
+     <li><b>Communicability</b> — how easily the benefits can be OBSERVED and described to others (word-of-mouth, visibility).</li>
+     <li><b>Complexity</b> — how hard the product is to understand or use (higher complexity = slower adoption).</li>
+     <li><b>Compatibility</b> — how well it fits a consumer's EXISTING habits, values, and past experiences.</li>
+     <li><b>Risk</b> — the perceived downside of adopting it (financial, social, physical, or psychological).</li></ul>
+     <p class="tip">Match-the-factor: addressing safety/virus fears = Risk · word-of-mouth/observability = Communicability · beating rivals on performance = Relative Advantage · fitting your current phone/devices = Compatibility. <b>Scalability, brand loyalty, and price are NOT among the 5</b> — common wrong-answer traps.</p>`);
+
   sec("📊 BDI × CDI — the action grid",
     `<table class="dtable"><tr><th></th><th>CDI HIGH (category thrives)</th><th>CDI LOW (category weak)</th></tr>
      <tr><td><b>BDI HIGH</b> (brand thrives)</td><td>✅ Invest &amp; build</td><td>🐄 Maintain / harvest</td></tr>
@@ -973,6 +981,14 @@ function renderGotchas(main){
      <tr><td><b>Dealer contest</b></td><td>A contest FOR retailers/their salespeople (not consumers) — incentivizes them to push more of your product.</td></tr>
      <tr><td><b>Cooperative (co-op) advertising</b></td><td>The manufacturer and retailer SPLIT the cost of local ads for the product.</td></tr>
      <tr><td><b>Training of distributors</b></td><td>Manufacturer trains the retailer's own staff to sell the product (this is the <b>vector sales rep</b>'s job).</td></tr></table>`);
+
+  sec("🎲 Random 'Why Is This Even Marketing' Trivia",
+    `<p>Dr. Cooke likes throwing in pure memorization facts that barely feel like marketing — but they ARE fair game. Here's the one hiding in the noteshells for this exam:</p>
+     <table class="dtable"><tr><th>% of ad budget spent on…</th><th>1980</th><th>1988</th><th>1996</th><th>2007</th></tr>
+     <tr><td><b>Advertising</b></td><td>43%</td><td>32%</td><td>27%</td><td>26%</td></tr>
+     <tr><td><b>Sales Promotion — Consumer</b></td><td>23%</td><td>24%</td><td>25%</td><td>14%</td></tr>
+     <tr><td><b>Sales Promotion — Trade</b></td><td>34%</td><td>44%</td><td>48%</td><td>60%</td></tr></table>
+     <p class="tip">The trend to remember even if you forget exact numbers: <b>advertising's share steadily SHRANK</b> while <b>trade sales promotion steadily GREW</b> — by 2007 trade promotion (60%) was easily the biggest slice. That shift is WHY sales promotion "increased" (growing retailer power, more promotion sensitivity, ad clutter, accountability, short-term focus).</p>`);
 
   const q=el("button","btn","Drill the Facts deck →"); q.onclick=()=>go("facts"); main.appendChild(q);
 }
