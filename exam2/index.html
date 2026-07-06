@@ -333,7 +333,7 @@ h1,h2,h3{line-height:1.25;color:#fff}
    but a static site can't truly hide its files. Good enough for
    a study group — don't treat it as real security. */
 (function(){
-  var KEY="mar3023_unlocked", VER="202607055", APP=["data.js","practice.js","testbank.js","study.js","lessons.js","app.js"];
+  var KEY="mar3023_unlocked", VER="202607056", APP=["data.js","practice.js","testbank.js","study.js","lessons.js","app.js"];
   function loadSeq(list,done){ (function next(i){ if(i>=list.length) return done&&done(); var s=document.createElement("script"); s.src=list[i]+"?v="+VER; s.onload=function(){next(i+1);}; document.body.appendChild(s); })(0); }
   function unlock(){ var g=document.getElementById("gate"); if(g) g.style.display="none"; loadSeq(APP); }
   function tryUnlock(){

@@ -961,6 +961,20 @@ function renderGotchas(main){
      <li><b>Cable</b> — cable-only channels (ESPN, HGTV, Golf Channel), more niche-targeted.</li>
      <li><b>Syndicated</b> — local stations LEASE the rights to air reruns of a show that already finished its network run (an old "Friends" rerun on a local Fox affiliate).</li></ul>`);
 
+  sec("🎬 Pretests vs. Posttests — every method, defined",
+    `<p>Ad evaluation happens at two points: <b>Pretests</b> (BEFORE the ad runs — do we have the right message?) and <b>Posttests</b> (AFTER it runs — did it actually work?).</p>
+     <table class="dtable"><tr><th>PRETEST</th><th>What it actually is</th></tr>
+     <tr><td><b>Portfolio test</b></td><td>The test ad is HIDDEN among other ads/stories in a portfolio; consumers read through it, then rate it (e.g. "very informative" to "not very informative").</td></tr>
+     <tr><td><b>Jury test</b></td><td>A panel rates the ad copy directly — how much they liked it, attention, attractiveness. Unlike portfolio, the ad is NOT hidden among others.</td></tr>
+     <tr><td><b>Theater test</b></td><td>The MOST sophisticated pretest — consumers watch a real TV show/movie with the test commercial mixed in, and register reactions live (handheld devices) or after (questionnaire).</td></tr></table>
+     <table class="dtable"><tr><th>POSTTEST</th><th>What it actually is</th></tr>
+     <tr><td><b>Aided recall</b></td><td>Shown the ad, asked if they remember it. The <b>Starch test</b> uses this — measures noted / associated / read-any / read-most.</td></tr>
+     <tr><td><b>Unaided recall</b></td><td>NO prompting at all — "what ads do you remember seeing yesterday?" The hardest recall test to pass.</td></tr>
+     <tr><td><b>Attitude test</b></td><td>Measures whether attitudes toward the product changed after the campaign ran.</td></tr>
+     <tr><td><b>Inquiry test</b></td><td>Offers extra info/samples/premiums to readers/viewers — whichever ad generates the MOST inquiries is presumed most effective.</td></tr>
+     <tr><td><b>Sales test</b></td><td>Controlled experiments or consumer purchase tests measuring actual RETAIL SALES lift from the ad (checkout-scanner data).</td></tr></table>
+     <p class="tip">Fast test: BEFORE it airs = pretest (portfolio/jury/theater). AFTER it airs = posttest (aided/unaided recall, attitude, inquiry, sales). Starch = aided recall specifically.</p>`);
+
   sec("🗣️ The Communication Process — every element, defined",
     `<p>Communication requires 6 elements, flowing in order: <b>Source → Encoding → Message (via a Channel) → Decoding → Receiver → Response/Feedback</b>. <b>Noise</b> can distort any step along the way.</p>
      <table class="dtable"><tr><th>Element</th><th>Definition</th></tr>
