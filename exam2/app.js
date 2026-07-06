@@ -956,6 +956,15 @@ function renderGotchas(main){
      <tr><td><b>BDI HIGH</b> (brand thrives)</td><td>✅ Invest &amp; build</td><td>🐄 Maintain / harvest</td></tr>
      <tr><td><b>BDI LOW</b> (brand lags)</td><td>🔎 Research WHY you lag (Peet's, Target)</td><td>❌ Reduce / pull out</td></tr></table>`);
 
+  sec("⭐ The 5 Service Quality Dimensions (RATER)",
+    `<table class="dtable"><tr><th>Dimension</th><th>Definition</th><th>Airline example</th></tr>
+     <tr><td><b>R</b>eliability</td><td>Ability to perform the promised service dependably and accurately</td><td>Is my flight on time?</td></tr>
+     <tr><td><b>A</b>ssurance</td><td>Knowledge and courtesy of employees, and their ability to convey trust and confidence</td><td>Are the pilots/flight attendants knowledgeable about their jobs?</td></tr>
+     <tr><td><b>T</b>angibles</td><td>Appearance of physical facilities, equipment, personnel, and communication materials</td><td>Are the gate, plane, and baggage area clean?</td></tr>
+     <tr><td><b>E</b>mpathy</td><td>Caring, individualized attention provided to customers</td><td>Do they know about my special seating/meal/baggage needs?</td></tr>
+     <tr><td><b>R</b>esponsiveness</td><td>Willingness to help customers and provide prompt service</td><td>Are the flight attendants willing to answer my questions?</td></tr></table>
+     <p class="tip">Mnemonic: <b>RATER</b>. Tangibles = the only PHYSICAL/visible one; the other 4 are about staff behavior/attitude.</p>`);
+
   sec("🛟 Service Recovery (Disney) & the Gap Model",
     `<table class="dtable"><tr><th></th><th>Low responsibility</th><th>High responsibility (firm's fault)</th></tr>
      <tr><td><b>Low severity</b></td><td>Empathy</td><td>Fix it!</td></tr>
